@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000312" formatVersion="1.0">
+  <Project id="JPST000312" pxid="PXD007602" createdDate="2017-08-31" modifiedDate="2017-08-31" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Phospho-site of BIG3</Title>
+    <Description>To assure the phosphorylation of BIG3 by PKA, in vitro kinase assay to BIG3 fragments was done and phosphorylation site was detected  by mass spectrometer.</Description>
+    <AnnouncementDate>2018-08-31</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01061" ontologyName="S-carboxymethyl-L-cysteine" value="Carboxymethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaya Ono</Name>
+    <Affiliation>National Cancer Center Research Institute</Affiliation>
+    <PrincipalInvestigator>Masaya Ono</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>phosphorylation</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000501892">
+      <Name>T56-KT-5-S1208-PKA-12-27-13.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000665">
+          <title>T56-KT-5-S1208-PKA-12-27-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501893">
+      <Name>T56-KT-5-S1208-PKA-12-27-13.wiff.mtd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000665">
+          <title>T56-KT-5-S1208-PKA-12-27-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501894">
+      <Name>T56-KT-5-S1208-PKA-12-27-13.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000665">
+          <title>T56-KT-5-S1208-PKA-12-27-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501895">
+      <Name>T56-KT-5-S1208-PKA-12-27-13.txt</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000501896">
+      <Name>T56-KT-5-S1208-PKA-12-27-13.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501897">
+      <Name>T56-KT-S305-Peptide-PKA-5-10-18-13.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000666">
+          <title>T56-KT-S305-Peptide-PKA-5-10-18-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501898">
+      <Name>T56-KT-S305-Peptide-PKA-5-10-18-13.wiff.mtd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000666">
+          <title>T56-KT-S305-Peptide-PKA-5-10-18-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501899">
+      <Name>T56-KT-S305-Peptide-PKA-5-10-18-13.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000666">
+          <title>T56-KT-S305-Peptide-PKA-5-10-18-13</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000147">
+          <title>Ono_Whole</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000143">
+          <title>Ono_tryp</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000145">
+          <title>Ono_MS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501900">
+      <Name>T56-KT-S305-Peptide-PKA-5-10-18-13.txt</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000501901">
+      <Name>T56-KT-S305-Peptide-PKA-5-10-18-13.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

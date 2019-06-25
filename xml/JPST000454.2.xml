@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000454" formatVersion="1.0">
+  <Project id="JPST000454" pxid="PXD010411" createdDate="2018-09-10" modifiedDate="2018-09-10" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Acetylation of p73 in 293T cell</Title>
+    <Description>293T cells ectopically expressing FLAG-tagged p73 were treated with AGK2 and p73 was immunoprecipitated. The precipitants were resuspended in deacetylation buffer (50 mM Tris-HCl pH 8.0, 140 mM NaCl, 2 mM MgCl 2 ) and incubated with recombinant SIRT2 protein (10 U). The reaction was terminated by boiling with SDS sample buffer and acetylation levels were determined by immunoblotting.</Description>
+    <AnnouncementDate>2018-09-10</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Lumi Negishi</Name>
+    <Affiliation>the University of Tokyo</Affiliation>
+    <PrincipalInvestigator>Tetsu Akiyama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>p73, Acetylation,  SIRT2,  293T</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000531562">
+      <Name>140306iwa_Hayashi1_65min_TOP20_4ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001069">
+          <title>p73 in 293T cells</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000298">
+          <title>p73 IP &#62; SDS-PAGE &#62; LC/MSMS</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">SDS-PAGE (8%), Anti-FLAG IP (FLAG tagged p73)</protein>
+          <peptide replicate=""/>
+          <note>Gel band including p73 was excised and stained with CBB.&#10;After in-gel tryptic digestion, subjected to LC/MSMS analysis.  </note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000251">
+          <title>Human_acetK</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000247">
+          <title>Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000531563">
+      <Name>140306iwa_Hayashi1_65min_TOP20_4ul.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000531564">
+      <Name>140306iwa_Hayashi1_65min_TOP20_4ul.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software_setting>
+        <Setting id="W0000000226">
+          <database>uniprot Homo Sapiens</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>1</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol>10</tol>
+          <tol_unit>ppm</tol_unit>
+          <itol>0.6</itol>
+          <fdr_psm/>
+          <fdr_peptide>0.05</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

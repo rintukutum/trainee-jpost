@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000587" formatVersion="1.0">
+  <Project id="JPST000587" pxid="PXD013583" createdDate="2019-05-15" modifiedDate="2019-05-15" mode="partial" type="Mass spectrometry">
+    <Title>SCLC LCNEC FFPE LMD</Title>
+    <Description>Small-cell lung carcinoma (SCLC) and large-cell neuroendocrine lung carcinoma (LCNEC) are high-grade lung neuroendocrine tumors (NET). However, comparative protein expression within SCLC and LCNEC remains unclear. Here, protein expression profiles were obtained via mass spectrometry-based proteomic analysis.</Description>
+    <AnnouncementDate>2019-05-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00216" ontologyName="N6-formyl-L-lysine" value="Formyl (K)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Toshihide Nishimura</Name>
+    <Affiliation>St. Marianna University School of Medicine</Affiliation>
+    <PrincipalInvestigator>Toshihide Nishimura</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>lung cancer, FFPE tissues, laser-microdissection, exploratory LC/MS analysis</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000547328">
+      <Name>SMU003_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547329">
+      <Name>SMU003_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547330">
+      <Name>SMU003_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547331">
+      <Name>SMU005_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547332">
+      <Name>SMU005_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547333">
+      <Name>SMU005_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001411">
+          <title>SCLC LCNEC FFPE LMD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547334">
+      <Name>SMU006_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001412">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547335">
+      <Name>SMU006_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001412">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547336">
+      <Name>SMU006_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001412">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This samp is cancerous cells obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547337">
+      <Name>SMU007_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001413">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547338">
+      <Name>SMU007_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001413">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547339">
+      <Name>SMU007_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001413">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547340">
+      <Name>SMU008_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001414">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547341">
+      <Name>SMU008_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001414">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547342">
+      <Name>SMU008_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001414">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547343">
+      <Name>SMU009_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001415">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547344">
+      <Name>SMU009_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001415">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547345">
+      <Name>SMU009_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001415">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:5409">lung small cell carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547346">
+      <Name>SMU036_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001416">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547347">
+      <Name>SMU036_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001416">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547348">
+      <Name>SMU036_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001416">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547349">
+      <Name>SMU037_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001417">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547350">
+      <Name>SMU037_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001417">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547351">
+      <Name>SMU037_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001417">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547352">
+      <Name>SMU038_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001418">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547353">
+      <Name>SMU038_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001418">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547354">
+      <Name>SMU038_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001418">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547355">
+      <Name>SMU042_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001419">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547356">
+      <Name>SMU042_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001419">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547357">
+      <Name>SMU042_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001419">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547358">
+      <Name>SMU043_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001420">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547359">
+      <Name>SMU043_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001420">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547360">
+      <Name>SMU043_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001420">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547361">
+      <Name>SMU044_T01_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001421">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547362">
+      <Name>SMU044_T01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001421">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547363">
+      <Name>SMU044_T01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001421">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="UBERON:0002048">lung</celltype>
+          <disease id="DOID:0050872">large cell neuroendocrine carcinoma</disease>
+          <note>This sample  is cancerous cells  obtained by laser-microdissection.</note>
+          <title>SCLC LCNEC FFPE LMD</title>
+        </Sample>
+        <Fractionation id="F0000000403">
+          <title>LMD Liquid Tissue Reverse phase </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Liquid Tissue </protein>
+          <peptide replicate="">Reverse phase </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000356">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Proteins were extracted and digested with trypsin using Liquid Tissue® MS Protein Prep kits (OncoPlex Diagnostics Inc., Rockville, MD, USA) according to the manufacturer’s protocol:  Prieto DA, Hood BL, Darfler MM, Guiel TG, Lucas DA, Conrads TP, et al. Liquid Tissue™: proteomic profiling of formalin-fixed tissues. BioTechniques 2005;38:S32-5.</note>
+          <variableModification id="MOD:00216" name="N6-formyl-L-lysine">Formyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000343">
+          <title>MS-based proteomic Analysis of cancerous cells laser-micrdissected from FFPE tissue specimens of small-cell lung cancinoma and large-cell neudoendocrine lung carinoma</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000547364">
+      <Name>Search Results Summary SCLC_LCNEC.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

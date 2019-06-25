@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000398" formatVersion="1.0">
+  <Project id="JPST000398" pxid="PXD009147" createdDate="2018-03-06" modifiedDate="2018-11-05" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Osterix propionylated peptide identification</Title>
+    <Description>Propionylated peptides derived from over-expressed HA-tagged osterix in HEK293T cells were identified.</Description>
+    <AnnouncementDate>2018-11-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:01398" ontologyName="N6-propanoyl-L-lysine" value="Propionyl (K)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Norie Araki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>osterix, propionylation</Keywords>
+    <PubMed>
+      <PubMedId>30026585</PubMedId>
+      <PubMedInfo>Fukuda M, Yoshizawa T, Karim MF, Sobuz SU, Korogi W, Kobayasi D, Okanishi H, Tasaki M, Ono K, Sawa T, Sato Y, Chirifu M, Masuda T, Nakamura T, Tanoue H, Nakashima K, Kobashigawa Y, Morioka H, Bober E, Ohtsuki S, Yamagata Y, Ando Y, Oike Y, Araki N, Takeda S, Mizuta H, Yamagata K SIRT7 has a critical role in bone formation by regulating lysine acylation of SP7/Osterix. Nat Commun. 2018 Jul 19;9(1):2833</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000514954">
+      <Name>OSX_NaProp.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000981">
+          <title>Osterix propionylated peptides identification </title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note>HEK293T cells were transfected using the JetPRIME transfection reagent (Polyplus) with 3×HA-OSX expression plasmid (pEx3.1Osx), followed by treatment with 50 mM Na-propionate for 16 hours, 10 mM nicotinamide (NAM) for 24 hours. The cells were lysed in IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 0.2% NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA and EDTA-free protease inhibitor cocktail (Nacalai Tesque)), and were disrupted by sonication with two 30-sec pulses at an interval of 30 seconds at 4°C (Bioruptor UCD-300, CosmoBio). Soluble fractions were separated by centrifugation at 15,000 rpm for 10 min at 4°C. </note>
+        </Sample>
+        <Fractionation id="F0000000232">
+          <title>HA-IP</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Immuno-precipitation (IP) by anti-hemagglutinin (HA) tag antibody </protein>
+          <peptide replicate=""/>
+          <note>HEK293T cell lysate was mixed with 40 µL HA tag antibody beads (Wako) and stirred for 15 hours at 4°C. After washing with IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 1 % NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA). Then proteins were eluted with 0.1 M Glycine-HCl (pH 2.0) buffer and neutralized with 10 µL of 0.5 M Tris-HCl (pH 7.4) and 1.5 M NaCl.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000209">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>In-solution digestion using Trypsin/LysC Acetyl Propionyl mouse</title>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01398" name="N6-propanoyl-L-lysine">Propionyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000213">
+          <title>DDA_Orbitrap Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514955">
+      <Name>OSX_NAM_Prop.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000981">
+          <title>Osterix propionylated peptides identification </title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note>HEK293T cells were transfected using the JetPRIME transfection reagent (Polyplus) with 3×HA-OSX expression plasmid (pEx3.1Osx), followed by treatment with 50 mM Na-propionate for 16 hours, 10 mM nicotinamide (NAM) for 24 hours. The cells were lysed in IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 0.2% NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA and EDTA-free protease inhibitor cocktail (Nacalai Tesque)), and were disrupted by sonication with two 30-sec pulses at an interval of 30 seconds at 4°C (Bioruptor UCD-300, CosmoBio). Soluble fractions were separated by centrifugation at 15,000 rpm for 10 min at 4°C. </note>
+        </Sample>
+        <Fractionation id="F0000000234">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Immuno-precipitation (IP) by anti-hemagglutinin (HA) tag antibody </protein>
+          <peptide replicate=""/>
+          <note>HEK293T cell lysate containing six milligram protein was mixed with 40 µL HA tag antibody beads (Wako) and stirred for 15 hours at 4°C. After washing with IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 1 % NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA). Then proteins were eluted with 0.1 M Glycine-HCl (pH 2.0) buffer and neutralized with 100 mM Tris-HCl (pH 8.0) and 200 mM NaCl. Finally eluted sample were treated with 1x SDS sample buffer (100 mM Tris-HCl pH 6.8, 4% SDS, 20% glycerol and 0.2% bromophenol blue) and heat for 5 minute at 95 ºC.</note>
+          <title>HA-IP and SDS-PAGE for in-gel trypsin digestion</title>
+          <protein fraction="1" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000210">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <title>Trypsin DTT IAA Acetyl Propionyl Mouse</title>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01398" name="N6-propanoyl-L-lysine">Propionyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000213">
+          <title>DDA_Orbitrap Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514956">
+      <Name>Inclusion_list_OSX_NAM_Prop.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000981">
+          <title>Osterix propionylated peptides identification </title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note>HEK293T cells were transfected using the JetPRIME transfection reagent (Polyplus) with 3×HA-OSX expression plasmid (pEx3.1Osx), followed by treatment with 50 mM Na-propionate for 16 hours, 10 mM nicotinamide (NAM) for 24 hours. The cells were lysed in IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 0.2% NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA and EDTA-free protease inhibitor cocktail (Nacalai Tesque)), and were disrupted by sonication with two 30-sec pulses at an interval of 30 seconds at 4°C (Bioruptor UCD-300, CosmoBio). Soluble fractions were separated by centrifugation at 15,000 rpm for 10 min at 4°C. </note>
+        </Sample>
+        <Fractionation id="F0000000234">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Immuno-precipitation (IP) by anti-hemagglutinin (HA) tag antibody </protein>
+          <peptide replicate=""/>
+          <note>HEK293T cell lysate containing six milligram protein was mixed with 40 µL HA tag antibody beads (Wako) and stirred for 15 hours at 4°C. After washing with IP buffer (20 mM Tris-HCl (pH 7.4), 200 mM NaCl, 2.5 mM MgCl2, 1 % NP-40, 1 mM PMSF, 10 mM NAM, 1 µM TSA). Then proteins were eluted with 0.1 M Glycine-HCl (pH 2.0) buffer and neutralized with 100 mM Tris-HCl (pH 8.0) and 200 mM NaCl. Finally eluted sample were treated with 1x SDS sample buffer (100 mM Tris-HCl pH 6.8, 4% SDS, 20% glycerol and 0.2% bromophenol blue) and heat for 5 minute at 95 ºC.</note>
+          <title>HA-IP and SDS-PAGE for in-gel trypsin digestion</title>
+          <protein fraction="1" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000210">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <title>Trypsin DTT IAA Acetyl Propionyl Mouse</title>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01398" name="N6-propanoyl-L-lysine">Propionyl (K)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000214">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note>Targeted mass mode was used for the identification of OSX propionylated peptides. Targeted mass (m/z): 529.8029, 560.7973, 572.9647, 620.8126, 703.6846, 744.908.</note>
+          <title>DDA_Orbitrap Fusion_Targeted Mass Mode</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514957">
+      <Name>OSX_NaProp.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000514958">
+      <Name>Inclusion_list_OSX_NAM_Prop.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000514959">
+      <Name>OSX_NAM_Prop.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000514960">
+      <Name>Inclusion_list_OSX_NAM_Prop.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>Proteome Discoverer</Software>
+    </File>
+    <File id="f_0000514961">
+      <Name>OSX_NAM_Prop.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>Proteome Discoverer</Software>
+    </File>
+    <File id="f_0000514962">
+      <Name>OSX_NaProp.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>Proteome Discoverer</Software>
+    </File>
+    <File id="f_0000515131">
+      <Name>SDS-PAGE image for in-gel identification of OSX proK peptides.tif</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000515132">
+      <Name>File relationship.xlsx</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

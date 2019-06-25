@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000405" formatVersion="1.0">
+  <Project id="JPST000405" pxid="PXD009170" createdDate="2018-03-12" modifiedDate="2018-04-06" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>PRM of DMXAA-treated Raw264.7 secretome</Title>
+    <Description>Raw264.7 cells were cultured in serum-free DMEM containing DMSO or DMXAA for 4 h, and the conditioned media were collected. The precipitated proteins were directly digested with trypsin/Lys-C mix. Three biological replicates of the samples were individually prepared and analyzed by targeted LC-MS/MS using parallel reaction monitoring (PRM).</Description>
+    <AnnouncementDate>2018-04-04</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Q Exactive Plus"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>PRM, secretome, DMXAA</Keywords>
+    <PubMed>
+      <PubMedId>29618514</PubMedId>
+      <PubMedInfo>Motani K, Kosako H Activation of stimulator of interferon genes (STING) induces ADAM17-mediated shedding of the immune semaphorin SEMA4D. J Biol Chem. 2018 Apr 4;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000515158">
+      <Name>101_prm_motani_secretome_1_minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000985">
+          <title>Raw-secretome-DMSO</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515159">
+      <Name>103_prm_motani_secretome_3_minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000985">
+          <title>Raw-secretome-DMSO</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515160">
+      <Name>105_prm_motani_secretome_5_minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000985">
+          <title>Raw-secretome-DMSO</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515161">
+      <Name>107_prm_motani_secretome_2_plus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000986">
+          <title>Raw-secretome-DMXAA</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515162">
+      <Name>109_prm_motani_secretome_4_plus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000986">
+          <title>Raw-secretome-DMXAA</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515163">
+      <Name>111_prm_motani_secretome_6_plus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000986">
+          <title>Raw-secretome-DMXAA</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000235">macrophage</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000235">
+          <title>secretome</title>
+          <subcellular replicate="3">Other organelle</subcellular>
+          <protein fraction="1" replicate="1">methanol/chloroform precipitation</protein>
+          <peptide>GL-Tip SDB</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000211">
+          <title>Trypsin/Lys-C mix</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000216">
+          <title>QE-PRM</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000515164">
+      <Name>171028_motani_secretome_PRM.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>PinPoint 1.4</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

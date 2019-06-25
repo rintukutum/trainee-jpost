@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000303" formatVersion="1.0">
+  <Project id="JPST000303" pxid="PXD007521" createdDate="2017-08-21" modifiedDate="2017-08-21" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>RNA pull-down assay</Title>
+    <Description>To detect RNA binidng proteins bound with SynGAP 3'UTR, the biotinylated RNA probe was generated, and the bands were detected by silver staining.</Description>
+    <AnnouncementDate>2018-08-21</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Satoshi Yokoi</Name>
+    <Affiliation>Department of Neurology, Nagoya University</Affiliation>
+    <PrincipalInvestigator>Satoshi Yokoi</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>SynGAP, RNA, mouse</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000501230">
+      <Name>150820_1_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501231">
+      <Name>150820_1_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501232">
+      <Name>150820_2_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501233">
+      <Name>150820_2_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501234">
+      <Name>150820_3_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501235">
+      <Name>150820_3_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501236">
+      <Name>150820_4_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501237">
+      <Name>150820_4_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501238">
+      <Name>150820_5_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501239">
+      <Name>150820_5_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501240">
+      <Name>150820_6_5uL_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501241">
+      <Name>150820_6_5uL_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000606">
+          <title>RNA pull-down assay</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000530">primary neuron</celltype>
+          <disease id="DOID:9255">frontotemporal dementia</disease>
+          <note>RNA pull-down assay using biotinylated RNA probe of SynGAP 3'UTR to confirm the RNA binidng proteins.</note>
+        </Sample>
+        <Fractionation id="F0000000155">
+          <title>RNA pull-down assay</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Immunoprecipitation with streptavidin beads, SDS-PAGE (5-20% gradient)</protein>
+          <peptide replicate="">gel extraction with alkylation</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000153">
+          <title>RNA pull-down assay</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000152">
+          <title>RNA pull-down assay</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501242">
+      <Name>150820_1 - SwissProt_Mouse (F034336).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501243">
+      <Name>150820_2 - SwissProt_Mouse (F034338).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501244">
+      <Name>150820_3 - SwissProt_Mouse (F034340).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501245">
+      <Name>150820_4 - SwissProt_Mouse (F034342).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501246">
+      <Name>150820_5 - SwissProt_Mouse (F034344).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000501247">
+      <Name>150820_6 - SwissProt_Mouse (F034346).dat-pride.xml.gz</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,4019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000516" formatVersion="1.0">
+  <Project id="JPST000516" pxid="PXD011615" createdDate="2018-11-06" modifiedDate="2018-11-06" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Sven ES, SDS-PAGE </Title>
+    <Description>MS based secretome analyses of Strongyloides venezuelensis, a gastrointestinal parasite of rats that is widely used as a laboratory model and is known to produce both soluble and insoluble (adhesive) secretions during its parasitic stages. </Description>
+    <AnnouncementDate>2018-11-08</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="75913" value="Strongyloides venezuelensis"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000604" value="LCMS-IT-TOF"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Taisei Kikuchi</Name>
+    <Affiliation>University of Miyazaki</Affiliation>
+    <PrincipalInvestigator>Taisei Kikuchi</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>secretome, E/S, helminth</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000539823">
+      <Name>20131216_20131211_Juan_No.15.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539824">
+      <Name>20131216_20131211_Juan_No.16.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539825">
+      <Name>20131216_20131211_Juan_No.17.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539826">
+      <Name>20131216_20131211_Juan_No.18.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539827">
+      <Name>20131216_20131211_Juan_No.19.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539828">
+      <Name>20131216_20131211_Juan_No.20.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539829">
+      <Name>20131216_20131211_Juan_No.21.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539830">
+      <Name>20131217_20131211_Juan_No.22.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539831">
+      <Name>20131217_20131211_Juan_No.23.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539832">
+      <Name>20131217_20131211_Juan_No.24.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539833">
+      <Name>20131217_20131211_Juan_No.25.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539834">
+      <Name>20131217_20131211_Juan_No.26.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539835">
+      <Name>20131218_20131211_Juan_No.22.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539836">
+      <Name>20131218_20131211_Juan_No.23.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539837">
+      <Name>20131218_20131211_Juan_No.24.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539838">
+      <Name>20131218_20131211_Juan_No.25.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539839">
+      <Name>20131218_20131211_Juan_No.26.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539840">
+      <Name>20131218_20131211_Juan_No.27.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539841">
+      <Name>20131218_20131211_Juan_No.28.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539842">
+      <Name>20131218_20131211_Juan_No.29.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539843">
+      <Name>20131218_20131211_Juan_No.30.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539844">
+      <Name>20131218_20131211_Juan_No.31.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539845">
+      <Name>20131218_20131211_Juan_No.32.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539846">
+      <Name>20131218_20131211_Juan_No.33.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539847">
+      <Name>20131218_20131211_Juan_No.34.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539848">
+      <Name>20131218_20131211_Juan_No.35.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539849">
+      <Name>20131218_20131211_Juan_No.36.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539850">
+      <Name>20131218_20131211_Juan_No.37.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539851">
+      <Name>20131218_20131211_Juan_No.38.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539852">
+      <Name>20131218_20131211_Juan_No.39.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539853">
+      <Name>20131218_20131211_Juan_No.40.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539854">
+      <Name>20131218_20131211_Juan_No.41.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539855">
+      <Name>20131218_20131211_Juan_No.42.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539856">
+      <Name>20131219_20131211_Juan_No.49.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539857">
+      <Name>20131219_20131211_Juan_No.50.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539858">
+      <Name>20131219_20131211_Juan_No.51.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539859">
+      <Name>20131219_20131211_Juan_No.52.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001202">
+          <title>Sven-Pf-solubleES</title>
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-soluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539860">
+      <Name>20131216_20131211_Juan_No.1.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539861">
+      <Name>20131216_20131211_Juan_No.2.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539862">
+      <Name>20131216_20131211_Juan_No.3.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539863">
+      <Name>20131216_20131211_Juan_No.4.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539864">
+      <Name>20131216_20131211_Juan_No.5.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539865">
+      <Name>20131216_20131211_Juan_No.6.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539866">
+      <Name>20131216_20131211_Juan_No.7.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539867">
+      <Name>20131216_20131211_Juan_No.8.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539868">
+      <Name>20131216_20131211_Juan_No.9.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539869">
+      <Name>20131216_20131211_Juan_No.10.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539870">
+      <Name>20131216_20131211_Juan_No.11.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539871">
+      <Name>20131213_20131211_Juan_No.12.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539872">
+      <Name>20131213_20131211_Juan_No.13.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539873">
+      <Name>20131213_20131211_Juan_No.14.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539874">
+      <Name>20131218_20131211_Juan_No.45.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539875">
+      <Name>20131218_20131211_Juan_No.46.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539876">
+      <Name>20131218_20131211_Juan_No.47.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539877">
+      <Name>20131219_20131211_Juan_No.48.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539878">
+      <Name>20131213_20131211_Juan_No.43.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539879">
+      <Name>20131213_20131211_Juan_No.44.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539880">
+      <Name>20140109_juan_No.1.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539881">
+      <Name>20140109_juan_No.2.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539882">
+      <Name>20140109_Juan_No.3.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539883">
+      <Name>20140109_Juan_No.4.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539884">
+      <Name>20140109_Juan_No.5.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539885">
+      <Name>20140109_Juan_No.6.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539886">
+      <Name>20140109_Juan_No.7.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539887">
+      <Name>20140109_Juan_No.8.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539888">
+      <Name>20140109_Juan_No.9.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539889">
+      <Name>20140109_Juan_No.10.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539890">
+      <Name>20140109_Juan_No.11.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539891">
+      <Name>20140109_Juan_No.12.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539892">
+      <Name>20140109_Juan_No.13.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539893">
+      <Name>20140109_Juan_No.14.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539894">
+      <Name>20140109_Juan_No.15.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539895">
+      <Name>20140109_Juan_No.16.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539896">
+      <Name>20140109_Juan_No.17.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539897">
+      <Name>20140109_Juan_No.18.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539898">
+      <Name>20140109_Juan_No.19.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539899">
+      <Name>20140109_Juan_No.20.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539900">
+      <Name>20140109_Juan_No.21.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539901">
+      <Name>20140109_Juan_No.22.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539902">
+      <Name>20140109_Juan_No.23.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539903">
+      <Name>20140109_Juan_No.24.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539904">
+      <Name>20140109_Juan_No.25.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539905">
+      <Name>20140109_Juan_No.26.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539906">
+      <Name>20140109_Juan_No.27.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539907">
+      <Name>20140109_Juan_No.28.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539909">
+      <Name>Pfs.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000539910">
+      <Name>Pfi_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000539911">
+      <Name>Pfi_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000539912">
+      <Name>Pfi_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000539913">
+      <Name>iL3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000539914">
+      <Name>20140312_20140226Juan_No.29.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539915">
+      <Name>20140312_20140226Juan_No.30.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539916">
+      <Name>20140312_20140226Juan_No.31.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539917">
+      <Name>20140312_20140226Juan_No.32.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539918">
+      <Name>20140312_20140226Juan_No.33.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539919">
+      <Name>20140312_20140226Juan_No.34.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539920">
+      <Name>20140312_20140226Juan_No.35.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539921">
+      <Name>20140312_20140226Juan_No.36.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539922">
+      <Name>20140312_20140226Juan_No.37.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539923">
+      <Name>20140312_20140226Juan_No.38.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539924">
+      <Name>20140313_20140226Juan_No.39.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539925">
+      <Name>20140313_20140226Juan_No.40.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539926">
+      <Name>20140313_20140226Juan_No.41.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539927">
+      <Name>20140313_20140226Juan_No.42.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539928">
+      <Name>20140313_20140226Juan_No.43.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539929">
+      <Name>20140313_20140226Juan_No.44.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539930">
+      <Name>20140313_20140226Juan_No.45.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539931">
+      <Name>20140313_20140226Juan_No.46.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001204">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Secretion of Strongyloides venezuelensis induced infective larvae.</note>
+          <title>Sven-iL3-inducedES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539932">
+      <Name>20131211_Juan_No.53.lcd</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001203">
+          <species id="75913">Strongyloides venezuelensis</species>
+          <tissue id="">(none)</tissue>
+          <celltype/>
+          <disease/>
+          <note>Hydro-insoluble fractions of secretion of Strongyloides venezuelensis parasitic females.</note>
+          <title>Sven-Pf-insolubleES</title>
+        </Sample>
+        <Fractionation id="F0000000349">
+          <title>ES</title>
+          <subcellular/>
+          <protein>SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000300">
+          <title>SvenES</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000289">
+          <title>SMZ-IT-TOF</title>
+          <instrument id="MS:1000604">LCMS-IT-TOF</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

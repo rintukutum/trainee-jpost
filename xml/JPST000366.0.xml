@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000366" formatVersion="1.0">
+  <Project id="JPST000366" pxid="PXD008315" createdDate="2017-11-27" modifiedDate="2019-04-19" mode="partial" type="Mass spectrometry">
+    <Title>Maize_Proteome_TK01</Title>
+    <Description>Proteomic analysis of the negative effect of plant-derived smoke on maize growth.</Description>
+    <AnnouncementDate>2019-04-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="4577" value="Zea mays"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002417" value="Orbitrap Fusion ETD"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hisateru YAMAGUCHI</Name>
+    <Affiliation>Institute for Comprehensive Medical Science, FUJITA HEALTH UNIVERSITY.</Affiliation>
+    <PrincipalInvestigator>Setsuko Komatsu</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>maize, LFQ</Keywords>
+    <PubMed>
+      <PubMedId>30875914</PubMedId>
+      <PubMedInfo>Aslam MM, Rehman S, Khatoon A, Jamil M, Yamaguchi H, Hitachi K, Tsuchida K, Li X, Sunohara Y, Matsumoto H, Komatsu S Molecular Responses of Maize Shoot to a Plant Derived Smoke Solution. Int J Mol Sci. 2019 Mar 15;20(6)</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000511741">
+      <Name>20170911_11_Komatsu_Cont01_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511742">
+      <Name>20170911_14_Komatsu_Cont02_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511743">
+      <Name>20170911_17_Komatsu_Cont03_1uL_130min_fail.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511744">
+      <Name>20170911_21_Komatsu_Sample01_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511745">
+      <Name>20170911_24_Komatsu_Sample02_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511746">
+      <Name>20170911_27_Komatsu_Sample03_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000904">
+          <title>Maize_proteomics_TK01</title>
+          <species id="4577">Zea mays</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000178">
+          <title>Viridiplantae</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="33090">Viridiplantae</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000511747">
+      <Name>20170911_Komatsu_Cont010203_1uL_130min.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000511748">
+      <Name>20170911_Komatsu_Sample010203_1uL_130min.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000511749">
+      <Name>20170915_Komatsu_Cont010203_vs_Sample010203_1uL_130min_ContrastHigh.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SequestHT</Software>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

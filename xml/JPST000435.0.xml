@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000435" formatVersion="1.0">
+  <Project id="JPST000435" pxid="PXD009986" createdDate="2018-05-31" modifiedDate="2018-09-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Reactive Metabolite-induced Protein Glutathionylation Mechanistically Accounts for Acetaminophen Hepatotoxicity</Title>
+    <Description>Although covalent protein binding is established as the pivotal event underpinning acetaminophen (APAP) toxicity, its mechanistic details remain unclear. In this study, we demonstrated that APAP induces widespread protein glutathionylation in a time-, dose- and bioactivation-dependent manner in HepaRG cells. Proteo-metabonomic mapping provided evidence that APAP-induced glutathionylation resulted in functional deficits in energy metabolism, elevations in oxidative stress and cytosolic calcium, as well as mitochondrial dysfunction that correlate strongly with the well-established toxicity features of APAP. We also provide novel evidence that APAP-induced glutathionylation of carnitine O-palmitoyltransferase 1 (CPT1) and voltage-dependent anion-selective channel protein 1 are respectively involved in inhibition of fatty acid β-oxidation and opening of the mitochondrial permeability transition pore. Importantly, we show that the inhibitory effect of CPT1 glutathionylation can be mitigated by PPARα induction, which provides a mechanistic explanation for the prophylactic effect of fibrates, which are PPARα ligands, against APAP toxicity. Finally, we suggest that APAP-induced protein glutathionylation likely occurs secondary to covalent binding, which is a previously unknown mechanism of glutathionylation, demonstrating that this post-translational modification is functionally implicated in drug-induced toxicity. </Description>
+    <AnnouncementDate>2018-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="ICAT"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>James Chan</Name>
+    <Affiliation>Skin Research Institute of Singapore</Affiliation>
+    <PrincipalInvestigator>Eric Chan Chun Yong</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Glutathionylation, proteomics, hepatotoxicity, drug induced toxicity, post-translational modification, proteo-metabolomics, HepaRG</Keywords>
+    <PubMed>
+      <PubMedId>30006487</PubMedId>
+      <PubMedInfo>Chan CY, Soh ACK, Kioh DYQ, Li J, Verma C, Koh SK, Beuerman RW, Zhou L, Chan ECY Reactive Metabolite-induced Protein Glutathionylation: a Potentially Novel Mechanism Underlying Acetaminophen Hepatotoxicity. Mol Cell Proteomics. 2018 Jul 13;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000521439">
+      <Name>30 mM APAP_24h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521440">
+      <Name>30 mM APAP_24h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521441">
+      <Name>30 mM APAP_24h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521442">
+      <Name>Veh ctrl_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521443">
+      <Name>Veh ctrl_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521444">
+      <Name>Veh ctrl_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521445">
+      <Name>0.5 mM APAP_3h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521446">
+      <Name>0.5 mM APAP_3h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521447">
+      <Name>0.5 mM APAP_3h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521448">
+      <Name>0.5 mM APAP+DEDC_3h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521449">
+      <Name>0.5 mM APAP+DEDC_3h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521450">
+      <Name>0.5 mM APAP+DEDC_3h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521451">
+      <Name>30 mM APAP_3h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521452">
+      <Name>30 mM APAP_3h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521453">
+      <Name>30 mM APAP_3h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521454">
+      <Name>30 mM APAP_6h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521455">
+      <Name>30 mM APAP_6h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521456">
+      <Name>30 mM APAP_6h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521457">
+      <Name>30 mM APAP_12h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521458">
+      <Name>30 mM APAP_12h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521459">
+      <Name>30 mM APAP_12h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521460">
+      <Name>30 mM APAP_24h_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521461">
+      <Name>30 mM APAP_24h_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521462">
+      <Name>30 mM APAP_24h_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521463">
+      <Name>Veh ctrl_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521464">
+      <Name>Veh ctrl_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521465">
+      <Name>Veh ctrl_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521466">
+      <Name>0.5 mM APAP_3h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521467">
+      <Name>0.5 mM APAP_3h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521468">
+      <Name>0.5 mM APAP_3h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521469">
+      <Name>0.5 mM APAP+DEDC_3h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521470">
+      <Name>0.5 mM APAP+DEDC_3h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521471">
+      <Name>0.5 mM APAP+DEDC_3h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521472">
+      <Name>30 mM APAP_3h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521473">
+      <Name>30 mM APAP_3h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521474">
+      <Name>30 mM APAP_3h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521475">
+      <Name>30 mM APAP_6h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521476">
+      <Name>30 mM APAP_6h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521477">
+      <Name>30 mM APAP_6h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521478">
+      <Name>30 mM APAP_12h_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521479">
+      <Name>30 mM APAP_12h_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521480">
+      <Name>30 mM APAP_12h_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001044">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease>hepatotoxicity</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000238">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <fixedModification id="ICAT" name="">ICAT</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000235">
+          <title>GluICAT HepaRG APAP toxicity</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521481">
+      <Name>30 mM APAP_24h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521482">
+      <Name>Veh ctrl_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521483">
+      <Name>Veh ctrl_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521484">
+      <Name>Veh ctrl_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521485">
+      <Name>0.5 mM APAP_3h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521486">
+      <Name>0.5 mM APAP_3h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521487">
+      <Name>0.5 mM APAP_3h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521488">
+      <Name>0.5 mM APAP+DEDC_3h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521489">
+      <Name>0.5 mM APAP+DEDC_3h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521490">
+      <Name>0.5 mM APAP+DEDC_3h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521491">
+      <Name>30 mM APAP_3h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521492">
+      <Name>30 mM APAP_3h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521493">
+      <Name>30 mM APAP_3h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521494">
+      <Name>30 mM APAP_6h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521495">
+      <Name>30 mM APAP_6h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521496">
+      <Name>30 mM APAP_6h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521497">
+      <Name>30 mM APAP_12h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521498">
+      <Name>30 mM APAP_12h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521499">
+      <Name>30 mM APAP_12h_3.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521500">
+      <Name>30 mM APAP_24h_1.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000521501">
+      <Name>30 mM APAP_24h_2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

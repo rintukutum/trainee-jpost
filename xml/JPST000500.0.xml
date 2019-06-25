@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000500" formatVersion="1.0">
+  <Project id="JPST000500" pxid="PXD012368" createdDate="2018-09-25" modifiedDate="2019-05-14" mode="partial" type="Mass spectrometry">
+    <Title>iPSC-HDF proteome</Title>
+    <Description>We analyzed iPSC (201B7) and HDF (HDF1388) by global whole proteome analysis. iTRAQ was used for relative quantification between the two cell types. We did biological triplicate analyses with technical triplicate analyses.</Description>
+    <AnnouncementDate>2019-05-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00684" ontologyName="deamidated L-asparagine" value="deamidated L-asparagine"/>
+      <PresetElement id="MOD:00685" ontologyName="deamidated L-glutamine" value="deamidated L-glutamine"/>
+      <PresetElement id="MOD:00420" ontologyName="2-pyrrolidone-5-carboxylic acid (Glu)" value="Glu-&#62;pyro-Glu (E)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+      <PresetElement id="MOD:00564" ontologyName="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry" value="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Iwasaki Mio</Name>
+    <Affiliation>Kyoto University</Affiliation>
+    <PrincipalInvestigator>Mio Iwasaki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>iTRAQ</Keywords>
+    <PubMed>
+      <PubMedId>31039306</PubMedId>
+      <PubMedInfo>Iwasaki M, Tabata T, Kawahara Y, Ishihama Y, Nakagawa M Removal of Interference MS/MS Spectra for Accurate Quantification in Isobaric Tag-Based Proteomics. J Proteome Res. 2019 May 6;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000532981">
+      <Name>170817mi-18-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532982">
+      <Name>170818-29-201B7-HDF1388-W9-8ug-CiRA2-GL8-DA-IS5L2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532983">
+      <Name>170128mi-26-201B7-HDF1388-W3-114-117-GL6-IS5M-DA.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532984">
+      <Name>170128mi-29-201B7-HDF1388-W3-114-117-GL6-IS5H-DA.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532985">
+      <Name>170221mi-03-201B7-HDF1388-W3-IS5M-GL7-CiRA1-DA.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532986">
+      <Name>170307mi-27-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532987">
+      <Name>170817mi-03-201B7-HDF1388-W2-8ug-CiRA1-GL7-DA-IS5L2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532988">
+      <Name>170817mi-15-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532989">
+      <Name>170817mi-18-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532990">
+      <Name>170818-29-201B7-HDF1388-W9-8ug-CiRA2-GL8-DA-IS5L2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532991">
+      <Name>170818-29-201B7-HDF1388-W9-8ug-CiRA2-GL8-DA-IS5L2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532992">
+      <Name>170128mi-26-201B7-HDF1388-W3-114-117-GL6-IS5M-DA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532993">
+      <Name>170128mi-26-201B7-HDF1388-W3-114-117-GL6-IS5M-DA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532994">
+      <Name>170128mi-29-201B7-HDF1388-W3-114-117-GL6-IS5H-DA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532995">
+      <Name>170128mi-29-201B7-HDF1388-W3-114-117-GL6-IS5H-DA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532996">
+      <Name>170221mi-03-201B7-HDF1388-W3-IS5M-GL7-CiRA1-DA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532997">
+      <Name>170221mi-03-201B7-HDF1388-W3-IS5M-GL7-CiRA1-DA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532998">
+      <Name>170307mi-27-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532999">
+      <Name>170307mi-27-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533000">
+      <Name>170817mi-03-201B7-HDF1388-W2-8ug-CiRA1-GL7-DA-IS5L2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533001">
+      <Name>170817mi-03-201B7-HDF1388-W2-8ug-CiRA1-GL7-DA-IS5L2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533002">
+      <Name>170817mi-15-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533003">
+      <Name>170817mi-15-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533004">
+      <Name>170817mi-18-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539498">
+      <Name>170307mi-13-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539499">
+      <Name>170307mi-13-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Enzyme_Mod id="E0000000285">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human proteome</title>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001127">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+          <title>Human Proteome</title>
+        </Sample>
+        <MS_mode id="M0000000310">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <title>Human proteome (iPS-HDF)</title>
+          <label id="2">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539504">
+      <Name>170307mi-13-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000541968">
+      <Name>170818-29-201B7-HDF1388-W9-8ug-CiRA2-GL8-DA-IS5L2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541969">
+      <Name>170128mi-26-201B7-HDF1388-W3-114-117-GL6-IS5M-DA.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541970">
+      <Name>170128mi-29-201B7-HDF1388-W3-114-117-GL6-IS5H-DA.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541971">
+      <Name>170221mi-03-201B7-HDF1388-W3-IS5M-GL7-CiRA1-DA.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541972">
+      <Name>170307mi-13-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541973">
+      <Name>170307mi-27-W2-201B7-HDF1388-114-117-GL7-CiRA1-DA-IS5MF.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541974">
+      <Name>170817mi-03-201B7-HDF1388-W2-8ug-CiRA1-GL7-DA-IS5L2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541975">
+      <Name>170817mi-15-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541976">
+      <Name>170817mi-18-201B7-HDF1388-W9-8ug-CiRA1-GL7-DA-IS5L2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

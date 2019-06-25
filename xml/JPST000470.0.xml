@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000470" formatVersion="1.0">
+  <Project id="JPST000470" pxid="PXD010681" createdDate="2018-08-03" modifiedDate="2018-08-04" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</Title>
+    <Description> In order to gain insight into how bacteria respond to manganese (II) and relate to oxidation, the shotgun proteomics approach was applied to a potential Mn (II) oxidizing Serratia marcescens strain cultivated in the absence and presence of Mn (II). The LG1 strain, which grew equally well in these two conditions, presented a set of proteins related to the cellular processes vital to its survival and proteins that ensured its good adaptation and tolerance to Mn (II). The multicopper oxidase CueO was identified, indicating its probable participation in the Mn (II) bio-oxidation, but its expression was not modulated by the presence of Mn (II).Through these findings, we reiterate the ability of LG1 to be applied successfully in the bioremediation of Mn (II) environments and the efficiency of the shotgun approach in obtaining the first total shotgun proteome of this specie.</Description>
+    <AnnouncementDate>2018-08-04</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="615" value="Serratia marcescens"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>France Anne Dias Ruas</Name>
+    <Affiliation>Universidade Federal de Ouro preto</Affiliation>
+    <PrincipalInvestigator>Pollyana Santos Queiroz</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Mn (II)-modulated proteins expression, Multicopper oxidase, Serratia marcescens  proteome</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000527105">
+      <Name>LG1B_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527106">
+      <Name>LG1C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527107">
+      <Name>LG1D.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527108">
+      <Name>LG1AMn.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527109">
+      <Name>LG1BMn.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527110">
+      <Name>LG1CMn.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001097">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <species id="615">Serratia marcescens</species>
+          <tissue id="BTO:0000284">organism form</tissue>
+          <celltype id="CL:0000000">cell</celltype>
+          <disease id="HP:0002719">Recurrent infections</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000311">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="2">Digestion in gel </protein>
+          <peptide fraction="2" replicate="2">Digestion in gel </peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000262">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="615">Serratia marcescens</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000259">
+          <title>Shotgun proteomics of Mn (II)-oxidizing Serratia marcescens</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527111">
+      <Name>LG1AMn.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527112">
+      <Name>LG1B_2.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527117">
+      <Name>LG1BMn.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527118">
+      <Name>LG1C.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527119">
+      <Name>LG1CMn.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527120">
+      <Name>LG1D.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000527121">
+      <Name>peptides_1_0_0.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000527122">
+      <Name>peptides_1_1_0.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000527123">
+      <Name>LG1AMn.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527124">
+      <Name>LG1B_2.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527125">
+      <Name>LG1BMn.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527126">
+      <Name>LG1C.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527127">
+      <Name>LG1CMn.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527128">
+      <Name>LG1D.mgf</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527129">
+      <Name>LG1AMn.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527130">
+      <Name>LG1B_2.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527131">
+      <Name>LG1BMn.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527132">
+      <Name>LG1C.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527133">
+      <Name>LG1CMn.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000527134">
+      <Name>LG1D.ms2</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

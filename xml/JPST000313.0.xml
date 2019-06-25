@@ -1,0 +1,2414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000313" formatVersion="1.0">
+  <Project id="JPST000313" pxid="PXD007626" doi="10.6019/PXD007626" createdDate="2017-08-31" modifiedDate="2017-09-01" mode="complete" type="Mass spectrometry" announced="true">
+    <Title>Discovery of glycoprotein biomarker candidates for lung cancer</Title>
+    <Description>Glycoproteomics Approach for Identifying Glycobiomarker Candidate Molecules for Tissue Type Classification of Non-small Cell Lung Carcinoma (Hirao et al., JPR 2014, PMID: 25244057). Re-searched original MS2 data using the latest database (UniprotKB) in 2017.</Description>
+    <AnnouncementDate>2018-09-01</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000189" value="Q-Tof Ultima"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="UNIMOD:170" ontologyName="Delta:H(1)N(-1)18O(1)" value="Delta:H(1)N(-1)18O(1) (N)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hiroyuki Kaji</Name>
+    <Affiliation>AIST</Affiliation>
+    <PrincipalInvestigator>Hisashi Narimatsu</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>cancer cell line, lectin, IGOT, biomarker, lung cancer</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000502332">
+      <Name>90403LuAdH358AAL4-01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502333">
+      <Name>90421H358-AAL+01-35g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502334">
+      <Name>90421H358-AAL+02-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502335">
+      <Name>90514H358-AAL4C+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502342">
+      <Name>90403LuAdH358AAL4-01-70g(F001989).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502343">
+      <Name>90421H358-AAL+01-35g(F001994).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502344">
+      <Name>90421H358-AAL+02-70g(F001995).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502345">
+      <Name>90514H358-AAL4C+01-70g(F001998).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502346">
+      <Name>90204ADLx1_AAL+01-140g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000668">
+          <title>Culture medium: LX1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502347">
+      <Name>90403LuSC-Lx1AAL4-01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000668">
+          <title>Culture medium: LX1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502348">
+      <Name>90204ADLx1_AAL+01-140g(F001982).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502349">
+      <Name>90403LuSC-Lx1AAL4-01-70g(F001990).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502350">
+      <Name>90204ADLx1_AAL+01-140g(F001982).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502351">
+      <Name>90403LuSC-Lx1AAL4-01-70g(F001990).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502352">
+      <Name>90204ScH524_AAL+01-140g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502353">
+      <Name>90402LuSC-H524AAL4-01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502354">
+      <Name>90417H524-2-AAL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502355">
+      <Name>90420H524-2-AAL+02-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502356">
+      <Name>90514H524-AAL4C+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502362">
+      <Name>90204ScH524_AAL+01-140g(F001983).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502363">
+      <Name>90402LuSC-H524AAL4-01-70g(F001985).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502364">
+      <Name>90417H524-2-AAL+01-70g(F001991).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502365">
+      <Name>90420H524-2-AAL+02-70g(F001992).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502366">
+      <Name>90514H524-AAL4C+01-70g(F001999).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502367">
+      <Name>90204ScH2171_AAL+01-140g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502368">
+      <Name>90402LuSC-H2171AAL4-01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502369">
+      <Name>90402LuSC-H2171AAL4-02-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502370">
+      <Name>90204ScH2171_AAL+01-140g(F001984).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502371">
+      <Name>90402LuSC-H2171AAL4-01-70g(F001986).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502372">
+      <Name>90402LuSC-H2171AAL4-02-70g(F001987).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502373">
+      <Name>90204ScH2171_AAL+01-140g(F001984).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502374">
+      <Name>90402LuSC-H2171AAL4-01-70g(F001986).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502375">
+      <Name>90402LuSC-H2171AAL4-02-70g(F001987).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502376">
+      <Name>90420H526-AAL+01-35g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502377">
+      <Name>90422H526-AAL+02-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502378">
+      <Name>90515H526-AAL4C+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502379">
+      <Name>90420H526-AAL+01-35g(F001993).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502380">
+      <Name>90422H526-AAL+02-70g(F001997).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502381">
+      <Name>90515H526-AAL4C+01-70g(F002001).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502382">
+      <Name>90420H526-AAL+01-35g(F001993).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502383">
+      <Name>90422H526-AAL+02-70g(F001997).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502384">
+      <Name>90515H526-AAL4C+01-70g(F002001).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502385">
+      <Name>90617Lx1-conA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000668">
+          <title>Culture medium: LX1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502386">
+      <Name>90617Lx1-conA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000668">
+          <title>Culture medium: LX1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502387">
+      <Name>90617Lx1-conA++01-70g(F002002).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502388">
+      <Name>90617Lx1-conA+01-70g(F002003).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502389">
+      <Name>90617Lx1-conA++01-70g(F002002).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502390">
+      <Name>90617Lx1-conA+01-70g(F002003).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502391">
+      <Name>90617Lx1-HHL+-01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000668">
+          <title>Culture medium: LX1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502392">
+      <Name>90617Lx1-HHL+-01-70g(F002004).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502393">
+      <Name>90617Lx1-HHL+-01-70g(F002004).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502394">
+      <Name>90618H358-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502395">
+      <Name>90618H358-HHL+01-70g(F002007).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502396">
+      <Name>90618H358-HHL+01-70g(F002007).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502397">
+      <Name>90624H2171-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502398">
+      <Name>90624H2171-HHL+01-70g(F002010).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502399">
+      <Name>90624H2171-HHL+01-70g(F002010).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502400">
+      <Name>90626H524-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502401">
+      <Name>90626H524-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502402">
+      <Name>90626H524-ConA++01-70g(F002011).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502403">
+      <Name>90626H524-ConA+01-70g(F002012).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502404">
+      <Name>90626H524-ConA++01-70g(F002011).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502405">
+      <Name>90626H524-ConA+01-70g(F002012).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502406">
+      <Name>90626H524-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502407">
+      <Name>90626H524-HHL+01-70g(F002013).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502408">
+      <Name>90626H524-HHL+01-70g(F002013).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502409">
+      <Name>90729H1975-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000672">
+          <title>Culture medium: H1975</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502410">
+      <Name>90729H1975-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000672">
+          <title>Culture medium: H1975</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502411">
+      <Name>90729H1975-ConA++01-70g(F002014).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502412">
+      <Name>90729H1975-ConA+01-70g(F002015).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502413">
+      <Name>90729H1975-ConA++01-70g(F002014).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502414">
+      <Name>90729H1975-ConA+01-70g(F002015).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502415">
+      <Name>90729H1975-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000672">
+          <title>Culture medium: H1975</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502416">
+      <Name>90729H1975-HHL+01-70g(F002016).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502417">
+      <Name>90729H1975-HHL+01-70g(F002016).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502418">
+      <Name>90730-H524-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502419">
+      <Name>90730-H524-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502420">
+      <Name>90730-H524-ConA++01-70g(F002017).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502421">
+      <Name>90730-H524-ConA+01-70g(F002018).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502422">
+      <Name>90730-H524-ConA++01-70g(F002017).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502423">
+      <Name>90730-H524-ConA+01-70g(F002018).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502424">
+      <Name>90730-H524-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000669">
+          <title>Culture medium: H524</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502425">
+      <Name>90730-H524-HHL+01-70g(F002019).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502426">
+      <Name>90730-H524-HHL+01-70g(F002019).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502427">
+      <Name>90731-H526-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502428">
+      <Name>90731-H526-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502429">
+      <Name>90731-H526-ConA++01-70g(F002020).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502430">
+      <Name>90731-H526-ConA+01-70g(F002021).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502431">
+      <Name>90731-H526-ConA++01-70g(F002020).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502432">
+      <Name>90731-H526-ConA+01-70g(F002021).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502433">
+      <Name>90731-H526-HHL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000671">
+          <title>Culture medium: H526</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000159">
+          <title>HHL-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin HHL column</peptide>
+          <note>Tryptic digest of medium proteins was applied to a lectin AAL-column, then, the through fraction was applied to a lectin HHL-column. After washing, glycopeptides were eluted with 0.2 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502434">
+      <Name>90731-H526-HHL+01-70g(F002022).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502435">
+      <Name>90731-H526-HHL+01-70g(F002022).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502442">
+      <Name>90421H1975-AAL+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000672">
+          <title>Culture medium: H1975</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502443">
+      <Name>90514H1975-AAL4C+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000672">
+          <title>Culture medium: H1975</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502444">
+      <Name>90421H1975-AAL+01-70g(F001996).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502445">
+      <Name>90514H1975-AAL4C+01-70g(F002000).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502446">
+      <Name>90421H1975-AAL+01-70g(F001996).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502447">
+      <Name>90514H1975-AAL4C+01-70g(F002000).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502448">
+      <Name>90618H358-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502449">
+      <Name>90618H358-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502450">
+      <Name>90618H358-ConA++01-70g(F002005).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502451">
+      <Name>90618H358-ConA+01-70g(F002006).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502452">
+      <Name>90618H358-ConA++01-70g(F002005).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502453">
+      <Name>90618H358-ConA+01-70g(F002006).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502454">
+      <Name>90624H2171-ConA++01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502455">
+      <Name>90624H2171-ConA+01-70g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000670">
+          <title>Culture medium: H2171</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung small cell carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000160">
+          <title>ConA-bound glycopeptides</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptide captured with a lectin ConA column</peptide>
+          <note>Tryptic digest of sample was applied to AAL column. The through fraction was reloaded to HHL column. The through fraction was reloaded to a lectin Con A column. After washing, glycopeptides were eluted with 0.2 or 0.5 M methyl mannoside. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502456">
+      <Name>90624H2171-ConA++01-70g(F002008).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502457">
+      <Name>90624H2171-ConA+01-70g(F002009).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502458">
+      <Name>90624H2171-ConA++01-70g(F002008).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502459">
+      <Name>90624H2171-ConA+01-70g(F002009).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000502461">
+      <Name>90403LuAdH358AAL4-01-70g(F001989).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502462">
+      <Name>90421H358-AAL+01-35g(F001994).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502463">
+      <Name>90421H358-AAL+02-70g(F001995).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502464">
+      <Name>90514H358-AAL4C+01-70g(F001998).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502465">
+      <Name>90204ScH524_AAL+01-140g(F001983).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502466">
+      <Name>90402LuSC-H524AAL4-01-70g(F001985).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502467">
+      <Name>90417H524-2-AAL+01-70g(F001991).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502468">
+      <Name>90420H524-2-AAL+02-70g(F001992).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502469">
+      <Name>90514H524-AAL4C+01-70g(F001999).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502484">
+      <Name>90204ADH358_AAL+01-140g.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000667">
+          <title>Culture medium, H358</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>Lung adenocarcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000158">
+          <title>AAL-bound glycopeptide</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate="">Glycopeptides captured with a lectin AAL column</peptide>
+          <note>Tryptic digest of S-reduced and alkylated proteins was applied to AAL column at room temperature or 4 degree C. After washing, glycpeptides were eluted with 5 mM fucose. The glycopeptides were treated with PNGase in oxigen-18-labeled water.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000155">
+          <title>Glycopeptide treated with PNGase in H2_18O</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:170" name="Delta:H(1)N(-1)18O(1)">Delta:H(1)N(-1)18O(1) (N)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000155">
+          <title>Micromass Q-TOF Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502485">
+      <Name>90204ADH358_AAL+01-140g(F002034).mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000502486">
+      <Name>90204ADH358_AAL+01-140g(F002034).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="8860409000">
+      <File id="f_0000502332" name="90403LuAdH358AAL4-01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502342" name="90403LuAdH358AAL4-01-70g(F001989).mzid" type="result"/>
+      <File id="f_0000502461" name="90403LuAdH358AAL4-01-70g(F001989).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="4493329292">
+      <File id="f_0000502333" name="90421H358-AAL+01-35g.raw.zip" type="raw"/>
+      <File id="f_0000502343" name="90421H358-AAL+01-35g(F001994).mzid" type="result"/>
+      <File id="f_0000502462" name="90421H358-AAL+01-35g(F001994).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3339109395">
+      <File id="f_0000502334" name="90421H358-AAL+02-70g.raw.zip" type="raw"/>
+      <File id="f_0000502344" name="90421H358-AAL+02-70g(F001995).mzid" type="result"/>
+      <File id="f_0000502463" name="90421H358-AAL+02-70g(F001995).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="2318754087">
+      <File id="f_0000502335" name="90514H358-AAL4C+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502345" name="90514H358-AAL4C+01-70g(F001998).mzid" type="result"/>
+      <File id="f_0000502464" name="90514H358-AAL4C+01-70g(F001998).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="7206989873">
+      <File id="f_0000502346" name="90204ADLx1_AAL+01-140g.raw.zip" type="raw"/>
+      <File id="f_0000502348" name="90204ADLx1_AAL+01-140g(F001982).mgf" type="peak"/>
+      <File id="f_0000502350" name="90204ADLx1_AAL+01-140g(F001982).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4091073398">
+      <File id="f_0000502347" name="90403LuSC-Lx1AAL4-01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502349" name="90403LuSC-Lx1AAL4-01-70g(F001990).mgf" type="peak"/>
+      <File id="f_0000502351" name="90403LuSC-Lx1AAL4-01-70g(F001990).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4732673569">
+      <File id="f_0000502352" name="90204ScH524_AAL+01-140g.raw.zip" type="raw"/>
+      <File id="f_0000502362" name="90204ScH524_AAL+01-140g(F001983).mzid" type="result"/>
+      <File id="f_0000502465" name="90204ScH524_AAL+01-140g(F001983).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="2740411995">
+      <File id="f_0000502353" name="90402LuSC-H524AAL4-01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502363" name="90402LuSC-H524AAL4-01-70g(F001985).mzid" type="result"/>
+      <File id="f_0000502466" name="90402LuSC-H524AAL4-01-70g(F001985).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="9767399270">
+      <File id="f_0000502354" name="90417H524-2-AAL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502364" name="90417H524-2-AAL+01-70g(F001991).mzid" type="result"/>
+      <File id="f_0000502467" name="90417H524-2-AAL+01-70g(F001991).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="1667713277">
+      <File id="f_0000502355" name="90420H524-2-AAL+02-70g.raw.zip" type="raw"/>
+      <File id="f_0000502365" name="90420H524-2-AAL+02-70g(F001992).mzid" type="result"/>
+      <File id="f_0000502468" name="90420H524-2-AAL+02-70g(F001992).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="6738161442">
+      <File id="f_0000502356" name="90514H524-AAL4C+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502366" name="90514H524-AAL4C+01-70g(F001999).mzid" type="result"/>
+      <File id="f_0000502469" name="90514H524-AAL4C+01-70g(F001999).mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="8342336511">
+      <File id="f_0000502367" name="90204ScH2171_AAL+01-140g.raw.zip" type="raw"/>
+      <File id="f_0000502370" name="90204ScH2171_AAL+01-140g(F001984).mgf" type="peak"/>
+      <File id="f_0000502373" name="90204ScH2171_AAL+01-140g(F001984).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7123128278">
+      <File id="f_0000502368" name="90402LuSC-H2171AAL4-01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502371" name="90402LuSC-H2171AAL4-01-70g(F001986).mgf" type="peak"/>
+      <File id="f_0000502374" name="90402LuSC-H2171AAL4-01-70g(F001986).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4867686026">
+      <File id="f_0000502369" name="90402LuSC-H2171AAL4-02-70g.raw.zip" type="raw"/>
+      <File id="f_0000502372" name="90402LuSC-H2171AAL4-02-70g(F001987).mgf" type="peak"/>
+      <File id="f_0000502375" name="90402LuSC-H2171AAL4-02-70g(F001987).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2761665099">
+      <File id="f_0000502376" name="90420H526-AAL+01-35g.raw.zip" type="raw"/>
+      <File id="f_0000502379" name="90420H526-AAL+01-35g(F001993).mgf" type="peak"/>
+      <File id="f_0000502382" name="90420H526-AAL+01-35g(F001993).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2150078914">
+      <File id="f_0000502377" name="90422H526-AAL+02-70g.raw.zip" type="raw"/>
+      <File id="f_0000502380" name="90422H526-AAL+02-70g(F001997).mgf" type="peak"/>
+      <File id="f_0000502383" name="90422H526-AAL+02-70g(F001997).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7743743215">
+      <File id="f_0000502378" name="90515H526-AAL4C+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502381" name="90515H526-AAL4C+01-70g(F002001).mgf" type="peak"/>
+      <File id="f_0000502384" name="90515H526-AAL4C+01-70g(F002001).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="6832020573">
+      <File id="f_0000502385" name="90617Lx1-conA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502387" name="90617Lx1-conA++01-70g(F002002).mgf" type="peak"/>
+      <File id="f_0000502389" name="90617Lx1-conA++01-70g(F002002).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9507162366">
+      <File id="f_0000502386" name="90617Lx1-conA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502388" name="90617Lx1-conA+01-70g(F002003).mgf" type="peak"/>
+      <File id="f_0000502390" name="90617Lx1-conA+01-70g(F002003).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="6946138601">
+      <File id="f_0000502391" name="90617Lx1-HHL+-01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502392" name="90617Lx1-HHL+-01-70g(F002004).mgf" type="peak"/>
+      <File id="f_0000502393" name="90617Lx1-HHL+-01-70g(F002004).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9963290134">
+      <File id="f_0000502394" name="90618H358-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502395" name="90618H358-HHL+01-70g(F002007).mgf" type="peak"/>
+      <File id="f_0000502396" name="90618H358-HHL+01-70g(F002007).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9167816582">
+      <File id="f_0000502397" name="90624H2171-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502398" name="90624H2171-HHL+01-70g(F002010).mgf" type="peak"/>
+      <File id="f_0000502399" name="90624H2171-HHL+01-70g(F002010).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="1240176755">
+      <File id="f_0000502400" name="90626H524-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502402" name="90626H524-ConA++01-70g(F002011).mgf" type="peak"/>
+      <File id="f_0000502404" name="90626H524-ConA++01-70g(F002011).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9881325758">
+      <File id="f_0000502401" name="90626H524-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502403" name="90626H524-ConA+01-70g(F002012).mgf" type="peak"/>
+      <File id="f_0000502405" name="90626H524-ConA+01-70g(F002012).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="5627655027">
+      <File id="f_0000502406" name="90626H524-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502407" name="90626H524-HHL+01-70g(F002013).mgf" type="peak"/>
+      <File id="f_0000502408" name="90626H524-HHL+01-70g(F002013).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3573990325">
+      <File id="f_0000502409" name="90729H1975-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502411" name="90729H1975-ConA++01-70g(F002014).mgf" type="peak"/>
+      <File id="f_0000502413" name="90729H1975-ConA++01-70g(F002014).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2598156527">
+      <File id="f_0000502410" name="90729H1975-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502412" name="90729H1975-ConA+01-70g(F002015).mgf" type="peak"/>
+      <File id="f_0000502414" name="90729H1975-ConA+01-70g(F002015).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7620765193">
+      <File id="f_0000502415" name="90729H1975-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502416" name="90729H1975-HHL+01-70g(F002016).mgf" type="peak"/>
+      <File id="f_0000502417" name="90729H1975-HHL+01-70g(F002016).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7367274212">
+      <File id="f_0000502418" name="90730-H524-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502420" name="90730-H524-ConA++01-70g(F002017).mgf" type="peak"/>
+      <File id="f_0000502422" name="90730-H524-ConA++01-70g(F002017).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="8663643157">
+      <File id="f_0000502419" name="90730-H524-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502421" name="90730-H524-ConA+01-70g(F002018).mgf" type="peak"/>
+      <File id="f_0000502423" name="90730-H524-ConA+01-70g(F002018).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2495834113">
+      <File id="f_0000502424" name="90730-H524-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502425" name="90730-H524-HHL+01-70g(F002019).mgf" type="peak"/>
+      <File id="f_0000502426" name="90730-H524-HHL+01-70g(F002019).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="5764694831">
+      <File id="f_0000502427" name="90731-H526-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502429" name="90731-H526-ConA++01-70g(F002020).mgf" type="peak"/>
+      <File id="f_0000502431" name="90731-H526-ConA++01-70g(F002020).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3983548165">
+      <File id="f_0000502428" name="90731-H526-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502430" name="90731-H526-ConA+01-70g(F002021).mgf" type="peak"/>
+      <File id="f_0000502432" name="90731-H526-ConA+01-70g(F002021).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3667960860">
+      <File id="f_0000502433" name="90731-H526-HHL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502434" name="90731-H526-HHL+01-70g(F002022).mgf" type="peak"/>
+      <File id="f_0000502435" name="90731-H526-HHL+01-70g(F002022).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2561218896">
+      <File id="f_0000502442" name="90421H1975-AAL+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502444" name="90421H1975-AAL+01-70g(F001996).mgf" type="peak"/>
+      <File id="f_0000502446" name="90421H1975-AAL+01-70g(F001996).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2769208950">
+      <File id="f_0000502443" name="90514H1975-AAL4C+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502445" name="90514H1975-AAL4C+01-70g(F002000).mgf" type="peak"/>
+      <File id="f_0000502447" name="90514H1975-AAL4C+01-70g(F002000).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9120238959">
+      <File id="f_0000502448" name="90618H358-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502450" name="90618H358-ConA++01-70g(F002005).mgf" type="peak"/>
+      <File id="f_0000502452" name="90618H358-ConA++01-70g(F002005).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="1786757056">
+      <File id="f_0000502449" name="90618H358-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502451" name="90618H358-ConA+01-70g(F002006).mgf" type="peak"/>
+      <File id="f_0000502453" name="90618H358-ConA+01-70g(F002006).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="6460817506">
+      <File id="f_0000502454" name="90624H2171-ConA++01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502456" name="90624H2171-ConA++01-70g(F002008).mgf" type="peak"/>
+      <File id="f_0000502458" name="90624H2171-ConA++01-70g(F002008).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="8632666254">
+      <File id="f_0000502455" name="90624H2171-ConA+01-70g.raw.zip" type="raw"/>
+      <File id="f_0000502457" name="90624H2171-ConA+01-70g(F002009).mgf" type="peak"/>
+      <File id="f_0000502459" name="90624H2171-ConA+01-70g(F002009).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2293512522">
+      <File id="f_0000502484" name="90204ADH358_AAL+01-140g.raw.zip" type="raw"/>
+      <File id="f_0000502485" name="90204ADH358_AAL+01-140g(F002034).mgf" type="peak"/>
+      <File id="f_0000502486" name="90204ADH358_AAL+01-140g(F002034).mzid" type="result"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000200" formatVersion="1.0">
+  <Project id="JPST000200" pxid="PXD005159" doi="10.6019/PXD005159" createdDate="2016-10-11" modifiedDate="2016-10-15" mode="complete" type="Mass spectrometry" announced="true">
+    <Title>HeLa standard shotgun DDA analysis using a two-meter C18 monolithic silica column</Title>
+    <Description>Human HeLa proteome analysis by a nanoLC-MS/MS system using a two-meter C18 monolithic silica column under shallow gradient conditions without pre-fractionation was performed in this project.&#xA;A hybrid quadrupole-orbitrap mass spectrometer (Thermo Q-Exactive) was used to analyze a tryptic digest of HeLa cells through this study. Identification results were filtered at 1% false discovery rate (FDR) thresholds by searching against a randomized decoy database using Mascot at peptide and protein levels.</Description>
+    <AnnouncementDate>2016-10-17</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01061" ontologyName="S-carboxymethyl-L-cysteine" value="Carboxymethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Saki Nambu</Name>
+    <Affiliation>Kyoto university</Affiliation>
+    <PrincipalInvestigator>Yasushi Ishihama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Monolithic silica column, HeLa cell</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000487371">
+      <Name>150211tk04-whole_2m8h-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000413">
+          <title>HeLa cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000089">
+          <title>None</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000094">
+          <title>Trypsin_LysC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000089">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Q Exactive</title>
+        </MS_mode>
+      </Profile>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000487372">
+      <Name>150211tk04-whole_2m8h-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000413">
+          <title>HeLa cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000089">
+          <title>None</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000094">
+          <title>Trypsin_LysC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000089">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Q Exactive</title>
+        </MS_mode>
+      </Profile>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000487373">
+      <Name>150211tk04-whole_2m8h-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000413">
+          <title>HeLa cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000089">
+          <title>None</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000094">
+          <title>Trypsin_LysC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000089">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Q Exactive</title>
+        </MS_mode>
+      </Profile>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000487374">
+      <Name>150211tk04-whole_2m8h-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000413">
+          <title>HeLa cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000089">
+          <title>None</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000094">
+          <title>Trypsin_LysC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000089">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Q Exactive</title>
+        </MS_mode>
+      </Profile>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000487375">
+      <Name>150211tk04-whole_2m8h-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000413">
+          <title>HeLa cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000089">
+          <title>None</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000094">
+          <title>Trypsin_LysC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000089">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Q Exactive</title>
+        </MS_mode>
+      </Profile>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000487381">
+      <Name>F032229.mztab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzTab</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000010">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>5</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.02</itol>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000487382">
+      <Name>F032227.mztab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzTab</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000010">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>5</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.02</itol>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000487383">
+      <Name>F032225.mztab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzTab</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000010">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>5</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.02</itol>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000487384">
+      <Name>F032224.mztab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzTab</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000010">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>5</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.02</itol>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000487385">
+      <Name>F032226.mztab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzTab</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000010">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>5</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.02</itol>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000487390">
+      <Name>Identified peptide list FDR1%.xlsx</Name>
+      <Type>other</Type>
+    </File>
+    <File id="f_0000487391">
+      <Name>Identified protein list FDR1%.xlsx</Name>
+      <Type>other</Type>
+    </File>
+    <File id="f_0000488714">
+      <Name>150211tk04-whole_2m8h-3.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000488715">
+      <Name>150211tk04-whole_2m8h-4.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000488716">
+      <Name>150211tk04-whole_2m8h-5.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000488717">
+      <Name>150211tk04-whole_2m8h-1.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000488718">
+      <Name>150211tk04-whole_2m8h-2.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="2820223903">
+      <File id="f_0000487371" name="150211tk04-whole_2m8h-3.raw" type="raw"/>
+      <File id="f_0000487382" name="F032227.mztab" type="result"/>
+      <File id="f_0000488714" name="150211tk04-whole_2m8h-3.wizd.mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5888288957">
+      <File id="f_0000487372" name="150211tk04-whole_2m8h-4.raw" type="raw"/>
+      <File id="f_0000487383" name="F032225.mztab" type="result"/>
+      <File id="f_0000488715" name="150211tk04-whole_2m8h-4.wizd.mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3313991379">
+      <File id="f_0000487373" name="150211tk04-whole_2m8h-5.raw" type="raw"/>
+      <File id="f_0000487385" name="F032226.mztab" type="result"/>
+      <File id="f_0000488716" name="150211tk04-whole_2m8h-5.wizd.mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="6309306400">
+      <File id="f_0000487374" name="150211tk04-whole_2m8h-1.raw" type="raw"/>
+      <File id="f_0000487384" name="F032224.mztab" type="result"/>
+      <File id="f_0000488717" name="150211tk04-whole_2m8h-1.wizd.mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5199731629">
+      <File id="f_0000487375" name="150211tk04-whole_2m8h-2.raw" type="raw"/>
+      <File id="f_0000487381" name="F032229.mztab" type="result"/>
+      <File id="f_0000488718" name="150211tk04-whole_2m8h-2.wizd.mgf" type="peak"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>

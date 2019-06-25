@@ -1,0 +1,1862 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000432" formatVersion="1.0">
+  <Project id="JPST000432" pxid="PXD009972" createdDate="2018-05-31" modifiedDate="2018-05-31" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Native peptides</Title>
+    <Description>Investigating the profile of normal urinary peptidome, and the peptidases involved in its generation is extremely important as it reflects the human normal physiology, and the incidence of any change can be used as an indicator for pathological processes occurred in vivo. Thus, in this study, we interested in the characterization of normal urinary peptidome as well as investigating the different catalytic enzymes which involved in urinary native peptide generation.</Description>
+    <AnnouncementDate>2018-05-31</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="none" value="none"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yoshitoshi Hirao</Name>
+    <Affiliation>Niigata University</Affiliation>
+    <PrincipalInvestigator>Tadashi Yamamoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>urine, native peptide</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000521164">
+      <Name>NP03_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521165">
+      <Name>NP03_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521166">
+      <Name>NP04_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521167">
+      <Name>NP04_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521168">
+      <Name>NP05_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521169">
+      <Name>NP05_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521170">
+      <Name>NP06_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521171">
+      <Name>NP06_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521172">
+      <Name>NP07_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521173">
+      <Name>NP07_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521174">
+      <Name>NP08_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521175">
+      <Name>NP08_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521176">
+      <Name>NP09_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521177">
+      <Name>NP09_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521178">
+      <Name>NP10_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521179">
+      <Name>NP10_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521180">
+      <Name>NP11_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521181">
+      <Name>NP11_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521182">
+      <Name>NP12_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521183">
+      <Name>NP12_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521184">
+      <Name>NP13_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521185">
+      <Name>NP13_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521186">
+      <Name>NP14_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521187">
+      <Name>NP14_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521188">
+      <Name>NP17_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521189">
+      <Name>NP17_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521190">
+      <Name>NP18_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521191">
+      <Name>NP18_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521192">
+      <Name>NP19_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521193">
+      <Name>NP19_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521194">
+      <Name>NP20_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521195">
+      <Name>NP20_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521196">
+      <Name>NP21_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521197">
+      <Name>NP21_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521198">
+      <Name>NP22_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521199">
+      <Name>NP22_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521200">
+      <Name>NP23_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521201">
+      <Name>NP23_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521202">
+      <Name>NP24_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521203">
+      <Name>NP24_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521204">
+      <Name>NP25_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521205">
+      <Name>NP25_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521206">
+      <Name>NP26_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521207">
+      <Name>NP26_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521208">
+      <Name>NP27_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521209">
+      <Name>NP27_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521210">
+      <Name>NP28_HCDETD_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521211">
+      <Name>NP28_HCDETD_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001043">
+          <title>Healthy volunteers</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000256">
+          <title>native peptide</title>
+          <subcellular/>
+          <protein fraction="0">none</protein>
+          <peptide>C18</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000237">
+          <title>No tryptic</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="none" name="">none</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000234">
+          <title>HCDETD</title>
+          <instrument>Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521212">
+      <Name>healthy_native_merge_all_24_samples.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

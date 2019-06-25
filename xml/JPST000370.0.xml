@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000370" formatVersion="1.0">
+  <Project id="JPST000370" pxid="PXD008506" createdDate="2017-12-07" modifiedDate="2017-12-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Dark and Bright sides of TMT tag for phosphoproteome analysis</Title>
+    <Description>The aim of this study is to figure out the mechanism of the loss of TMT labeling phosphopeptides during phosphopeptides purification by using TiO2 and IMAC and report the dark (cons) and bright (pros) sites of TMT tag for phosphoproteome analysis. &#10;</Description>
+    <AnnouncementDate>2018-12-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="UNIMOD:739" ontologyName="TMT" value="TMT (K)"/>
+      <PresetElement id="UNIMOD:739" ontologyName="TMT" value="TMT (N-term)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Chia-Feng Tsia</Name>
+    <Affiliation>Kyoto University</Affiliation>
+    <PrincipalInvestigator>Yasushi Ishihama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TMT, TiO2, HAMMOC, IMAC, Charge enhancement</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000512035">
+      <Name>160219Fe_HT_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512036">
+      <Name>160219Fe_HT_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512037">
+      <Name>160219Fe_HT_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512038">
+      <Name>160219Fe_TH_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512039">
+      <Name>160219Fe_TH_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512040">
+      <Name>160219Fe_TH_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512041">
+      <Name>160219Fe_Tip_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512042">
+      <Name>160219Fe_Tip_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512043">
+      <Name>160219Fe_Tip_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512044">
+      <Name>160219Fe_LF_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000182">
+          <title>Label free-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000196">
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Fusion-LF</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512045">
+      <Name>160219Fe_LF_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000182">
+          <title>Label free-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000196">
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Fusion-LF</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512046">
+      <Name>160219Fe_LF_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000209">
+          <title>HAMMOC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000182">
+          <title>Label free-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000196">
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Fusion-LF</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512047">
+      <Name>160407Fe_Hela_IMAC_C2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000210">
+          <title>Fe-IMAC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000182">
+          <title>Label free-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000196">
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>Fusion-LF</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512048">
+      <Name>160407Fe_Hela_IMAC_TMT_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000210">
+          <title>Fe-IMAC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512049">
+      <Name>160407Fe_Hela_IMAC_TMT_C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000210">
+          <title>Fe-IMAC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512051">
+      <Name>160407Fe_Hela_IMAC_TMT_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000210">
+          <title>Fe-IMAC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512084">
+      <Name>evidence-TMTexp-HAMMOC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512085">
+      <Name>Phospho (STY)Sites-TMTexp-HAMMOC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512086">
+      <Name>TMTexp-HAMMOC-peaklist.7z</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000512087">
+      <Name>Without Labeling-HAMMOC.7z</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512088">
+      <Name>Phospho (STY)Sites-Without Labeling-HAMMOC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512089">
+      <Name>evidence-Without Labeling-HAMMOC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512096">
+      <Name>Phospho (STY)Sites-WithoutLabeling-IMAC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512097">
+      <Name>evidence-WithoutLabeling-IMAC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512098">
+      <Name>WithoutLabeling-IMAC.7z</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512278">
+      <Name>160407Fe_Hela_IMAC_TMT_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000928">
+          <title>HeLa</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000210">
+          <title>Fe-IMAC</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000183">
+          <title>TMT-phospho</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (K)</fixedModification>
+          <fixedModification id="UNIMOD:739" name="TMT">TMT (N-term)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000194">
+          <title>Fusion-TMT</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512279">
+      <Name>TMT-IMAC-Exp.7z</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000512280">
+      <Name>Phospho (STY)Sites-TMTexp-IMAC..txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512281">
+      <Name>evidence-TMTexp-IMAC.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

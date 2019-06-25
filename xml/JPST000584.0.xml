@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000584" formatVersion="1.0">
+  <Project id="JPST000584" pxid="PXD013545" createdDate="2019-04-18" modifiedDate="2019-04-18" mode="partial" type="Mass spectrometry">
+    <Title>Effect of the ribonuclease binase on the proteome of A549 cell infected by influenza A(H1N1pdm09) virus </Title>
+    <Description>Ribonucleases (RNases) of different origin demonstrate antiviral effects that are mediated by the direct RNase action on RNA species and can also involve signal transduction modulation. To reveal cellular targets and explain the mechanisms underlying the antiviral effect employed by the small extra-cellular ribonuclease of Bacillus pumilus (binase) both in vitro and in vivo, a shotgun proteomic analysis of influenza A virus (H1N1pdm09)-infected A549 cells upon binase treatment, was performed.</Description>
+    <AnnouncementDate>2019-04-18</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001541" value="maXis"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Vera Ulyanova</Name>
+    <Affiliation>Kazan Federal University</Affiliation>
+    <PrincipalInvestigator>Raihan Shah Mahmud</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>virus, influenza A, ribonuclease, binase, antiviral activity, A549,  LC-MS/MS</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000546489">
+      <Name>Raich_1_Kontr_RA3_01_1760.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001401">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>Mock</title>
+        </Sample>
+        <Fractionation id="F0000000393">
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell proteins</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000349">
+          <title>In-solution protein digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000339">
+          <title>LC-MS/MS </title>
+          <instrument id="MS:1001541">maXis</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000546490">
+      <Name>Raich_2_kl_RNAse_RA4_01_1762.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001402">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note>cells treated by ribonuclease binase</note>
+          <title>Ribonuclease binase</title>
+        </Sample>
+        <Fractionation id="F0000000393">
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell proteins</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000349">
+          <title>In-solution protein digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000339">
+          <title>LC-MS/MS </title>
+          <instrument id="MS:1001541">maXis</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000546491">
+      <Name>Raich_3_kl_vir_RA5_01_1764.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001403">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:8469">influenza</disease>
+          <note/>
+          <title>influenza A virus (H1N1pdm09)</title>
+        </Sample>
+        <Fractionation id="F0000000393">
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell proteins</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000349">
+          <title>In-solution protein digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000339">
+          <title>LC-MS/MS </title>
+          <instrument id="MS:1001541">maXis</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000546492">
+      <Name>Raich_4_kl_vir_RNAse_RA6_01_1766.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001399">
+          <title>influenza A virus (H1N1pdm09) + Binase, A549, 6 h</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:8469">influenza</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000393">
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell proteins</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000349">
+          <title>In-solution protein digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000339">
+          <title>LC-MS/MS </title>
+          <instrument id="MS:1001541">maXis</instrument>
+          <instrumentMode id="">(none)</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000546497">
+      <Name>Raich_1_Kontr_RA3_01_1760.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000546498">
+      <Name>Raich_2_kl_RNAse_RA4_01_1762.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000546499">
+      <Name>Raich_3_kl_vir_RA5_01_1764.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000546500">
+      <Name>Raich_4_kl_vir_RNAse_RA6_01_1766.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000546501">
+      <Name>Raich_1_Kontr_RA3_01_1760.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000304">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>1</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>50</tol>
+          <fdr_psm>1</fdr_psm>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000546502">
+      <Name>Raich_2_kl_RNAse_RA4_01_1762.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000304">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>1</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>50</tol>
+          <fdr_psm>1</fdr_psm>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000546503">
+      <Name>Raich_3_kl_vir_RA5_01_1764.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000304">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>1</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>50</tol>
+          <fdr_psm>1</fdr_psm>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000546504">
+      <Name>Raich_4_kl_vir_RNAse_RA6_01_1766.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000304">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>1</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>50</tol>
+          <fdr_psm>1</fdr_psm>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000033" formatVersion="1.0">
+  <Project id="JPST000033" pxid="" createdDate="2016-05-23" modifiedDate="2016-05-23" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Protein identification of 2D-DIGE spots from thymocytes</Title>
+    <Description>Phosphoproteins from unstimulated wild-type, TCR-stimulated wild-type and TCR-stimulated PKD2/3-deficient thymocytes were subjected to 2D-DIGE followed by silver staining. Spots of interest were excised and digested with Trypsin to identify proteins.</Description>
+    <AnnouncementDate>2016-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000189" value="Q-Tof Ultima"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>2D-DIGE, silver stain, thymocyte, PKD2/3-double KO, TCR</Keywords>
+    <PubMed>
+      <PubMedId>27670070</PubMedId>
+      <PubMedInfo>Ishikawa E, Kosako H, Yasuda T, Ohmuraya M, Araki K, Kurosaki T, Saito T, Yamasaki S Protein kinase D regulates positive selection of CD4&#60;sup&#62;+&#60;/sup&#62; thymocytes through phosphorylation of SHP-1. Nat Commun. 2016 Sep 27;7:12756</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000438955">
+      <Name>130430_Spot1_Y43.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000030">
+          <title>Spot1-Y43-Pro-IL-16</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000438956">
+      <Name>130501_Spot2_Y46.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000031">
+          <title>Spot2-Y46-Pro-IL-16</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000438957">
+      <Name>130502_Spot3_Y48.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000032">
+          <title>Spot3-Y48-Pro-IL-16</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000438958">
+      <Name>130502_Spot4_Y56.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000033">
+          <title>Spot4-Y56-SHP-1</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000438959">
+      <Name>130501_Spot5_Y45.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000034">
+          <title>Spot5-Y45-NCK1</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000438960">
+      <Name>130501_Spot6_Y44.raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000035">
+          <title>Spot6-Y44-Gads</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000018">
+          <title>IMAC-2D-DIGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">immobilized metal ion affinity chromatography</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">two-dimensional difference gel electrophoresis</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000015">
+          <title>Trypsin-in-gel-protein identification</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000025">
+          <title>Q-Tof Ultima</title>
+          <instrument id="MS:1000189">Q-Tof Ultima</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

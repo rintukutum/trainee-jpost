@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000333" formatVersion="1.0">
+  <Project id="JPST000333" pxid="PXD007908" createdDate="2017-10-09" modifiedDate="2019-01-12" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>AtPhot2, Autophosphorylation, Gel</Title>
+    <Description>Recombinant Arabidopsis phototropin2 (Phot2) protein or kinase-dead derivative (Phot2-DN) were incubated with ATP under different conditions. Proteins were separated by SDS-PAGE, in-gel tryptic digested, analyzed by LC-MS. </Description>
+    <AnnouncementDate>2018-10-09</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="3702" value="Arabidopsis thaliana (Mouse-ear cress)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01061" ontologyName="S-carboxymethyl-L-cysteine" value="Carboxymethyl (C)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hirofumi Nakagami</Name>
+    <Affiliation>Max Planck Institute for Plant Breeding Research</Affiliation>
+    <PrincipalInvestigator>Hirofumi Nakagami</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Arabidopsis, phototropin2, phosphorylation</Keywords>
+    <PubMed>
+      <PubMedId>29196607</PubMedId>
+      <PubMedInfo>Oide M, Okajima K, Nakagami H, Kato T, Sekiguchi Y, Oroguchi T, Hikima T, Yamamoto M, Nakasako M Blue light-excited LOV1 and LOV2 domains cooperatively regulate the kinase activity of full-length phototropin2 from &#60;i&#62;Arabidopsis&#60;/i&#62;. J Biol Chem. 2018 Jan 19;293(3):963-972</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000506135">
+      <Name>Phot2_WT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000760">
+          <title>Arabidopsis, Recombinant protein</title>
+          <species id="3702">Arabidopsis thaliana (Mouse-ear cress)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000169">
+          <title>Gel slice</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000166">
+          <title>Arabidopsis, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="3702">Arabidopsis thaliana (Mouse-ear cress)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000166">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000506136">
+      <Name>Phot2_DN.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000760">
+          <title>Arabidopsis, Recombinant protein</title>
+          <species id="3702">Arabidopsis thaliana (Mouse-ear cress)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000169">
+          <title>Gel slice</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000166">
+          <title>Arabidopsis, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="3702">Arabidopsis thaliana (Mouse-ear cress)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000166">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000506137">
+      <Name>AtPHOT2_PP.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000760">
+          <title>Arabidopsis, Recombinant protein</title>
+          <species id="3702">Arabidopsis thaliana (Mouse-ear cress)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000169">
+          <title>Gel slice</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000166">
+          <title>Arabidopsis, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="3702">Arabidopsis thaliana (Mouse-ear cress)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000166">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000506138">
+      <Name>AtPHOT2_Dark_1h.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000760">
+          <title>Arabidopsis, Recombinant protein</title>
+          <species id="3702">Arabidopsis thaliana (Mouse-ear cress)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000169">
+          <title>Gel slice</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000166">
+          <title>Arabidopsis, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="3702">Arabidopsis thaliana (Mouse-ear cress)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000166">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000506139">
+      <Name>AtPHOT2_BL_1h.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000760">
+          <title>Arabidopsis, Recombinant protein</title>
+          <species id="3702">Arabidopsis thaliana (Mouse-ear cress)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000169">
+          <title>Gel slice</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000166">
+          <title>Arabidopsis, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01061" name="S-carboxymethyl-L-cysteine">Carboxymethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="3702">Arabidopsis thaliana (Mouse-ear cress)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000166">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000506141">
+      <Name>F022140.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000506142">
+      <Name>F022138.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

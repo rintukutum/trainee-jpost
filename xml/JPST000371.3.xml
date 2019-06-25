@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000371" formatVersion="1.0">
+  <Project id="JPST000371" pxid="PXD008429" createdDate="2018-09-29" modifiedDate="2018-10-03" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>mitotic chromosome scaffold SMC2ON vs OFF</Title>
+    <Description>Quantitative proteomics analysis of mitotic chromosome scaffold based on SILAC</Description>
+    <AnnouncementDate>2018-10-07</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9031" value="Gallus gallus"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Shinya Ohta</Name>
+    <Affiliation>Kochi university</Affiliation>
+    <PrincipalInvestigator>SHINYA OHTA</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>mitosis</Keywords>
+    <PubMed>
+      <PubMedId>30266865</PubMedId>
+      <PubMedInfo>Ohta S, Taniguchi T, Sato N, Hamada M, Taniguchi H, Rappsilber J Quantitative proteomics of the mitotic chromosome scaffold reveals the association of BAZ1B with chromosomal axes. Mol Cell Proteomics. 2018 Sep 28;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000533062">
+      <Name>E130126_Scaffold SMC2_H_ON-L_OFF_FW_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000604">
+          <title>Chromosome scaffold</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533063">
+      <Name>E130126_Scaffold SMC2_H_ON-L_OFF_FW_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000604">
+          <title>Chromosome scaffold</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533064">
+      <Name>E130126_Scaffold SMC2_H_ON-L_OFF_FW_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000604">
+          <title>Chromosome scaffold</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533065">
+      <Name>evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533066">
+      <Name>msms.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533067">
+      <Name>parameters.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533068">
+      <Name>peptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533069">
+      <Name>proteinGroups.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533070">
+      <Name>allSpectra.HCD.FTMS.iso_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533071">
+      <Name>allSpectra.HCD.FTMS.iso_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533072">
+      <Name>allSpectra.HCD.FTMS.iso_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533073">
+      <Name>allSpectra.HCD.FTMS.iso_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533074">
+      <Name>allSpectra.HCD.FTMS.iso_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533075">
+      <Name>allSpectra.HCD.FTMS.iso_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533076">
+      <Name>allSpectra.HCD.FTMS.iso_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533077">
+      <Name>allSpectra.HCD.FTMS.iso_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533078">
+      <Name>allSpectra.HCD.FTMS.iso_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533079">
+      <Name>allSpectra.HCD.FTMS.iso_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533080">
+      <Name>allSpectra.HCD.FTMS.iso_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533081">
+      <Name>allSpectra.HCD.FTMS.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533082">
+      <Name>allSpectra.HCD.FTMS.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533083">
+      <Name>allSpectra.HCD.FTMS.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533084">
+      <Name>allSpectra.HCD.FTMS.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533085">
+      <Name>allSpectra.HCD.FTMS.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533086">
+      <Name>allSpectra.HCD.FTMS.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533087">
+      <Name>allSpectra.HCD.FTMS.sil0_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533088">
+      <Name>allSpectra.HCD.FTMS.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533089">
+      <Name>allSpectra.HCD.FTMS.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533090">
+      <Name>allSpectra.HCD.FTMS.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533091">
+      <Name>allSpectra.HCD.FTMS.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533092">
+      <Name>allSpectra.HCD.FTMS.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533093">
+      <Name>allSpectra.HCD.FTMS.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533094">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533095">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533096">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533097">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533098">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533099">
+      <Name>allSpectra.HCD.FTMS.secpep.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533100">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533101">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533102">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533103">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533104">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533105">
+      <Name>allSpectra.HCD.FTMS.secpep.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533106">
+      <Name>allSpectra.HCD.FTMS.iso_48.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533107">
+      <Name>allSpectra.HCD.FTMS.iso_47.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533108">
+      <Name>allSpectra.HCD.FTMS.iso_46.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533109">
+      <Name>allSpectra.HCD.FTMS.iso_45.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533110">
+      <Name>allSpectra.HCD.FTMS.iso_44.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533111">
+      <Name>allSpectra.HCD.FTMS.iso_43.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533112">
+      <Name>allSpectra.HCD.FTMS.iso_42.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533113">
+      <Name>allSpectra.HCD.FTMS.iso_41.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533114">
+      <Name>allSpectra.HCD.FTMS.iso_40.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533115">
+      <Name>allSpectra.HCD.FTMS.iso_39.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533116">
+      <Name>allSpectra.HCD.FTMS.iso_38.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533117">
+      <Name>allSpectra.HCD.FTMS.iso_37.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533118">
+      <Name>allSpectra.HCD.FTMS.iso_36.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533119">
+      <Name>allSpectra.HCD.FTMS.iso_35.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533120">
+      <Name>allSpectra.HCD.FTMS.iso_34.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533121">
+      <Name>allSpectra.HCD.FTMS.iso_33.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533122">
+      <Name>allSpectra.HCD.FTMS.iso_32.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533123">
+      <Name>allSpectra.HCD.FTMS.iso_31.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533124">
+      <Name>allSpectra.HCD.FTMS.iso_30.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533125">
+      <Name>allSpectra.HCD.FTMS.iso_29.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533126">
+      <Name>allSpectra.HCD.FTMS.iso_28.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533127">
+      <Name>allSpectra.HCD.FTMS.iso_27.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533128">
+      <Name>allSpectra.HCD.FTMS.iso_26.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533129">
+      <Name>allSpectra.HCD.FTMS.iso_25.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533130">
+      <Name>allSpectra.HCD.FTMS.iso_24.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533131">
+      <Name>allSpectra.HCD.FTMS.iso_23.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533132">
+      <Name>allSpectra.HCD.FTMS.iso_22.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533133">
+      <Name>allSpectra.HCD.FTMS.iso_21.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533134">
+      <Name>allSpectra.HCD.FTMS.iso_20.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533135">
+      <Name>allSpectra.HCD.FTMS.iso_19.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533136">
+      <Name>allSpectra.HCD.FTMS.iso_18.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533137">
+      <Name>allSpectra.HCD.FTMS.iso_17.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533138">
+      <Name>allSpectra.HCD.FTMS.iso_16.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533139">
+      <Name>allSpectra.HCD.FTMS.iso_15.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533140">
+      <Name>allSpectra.HCD.FTMS.iso_14.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533141">
+      <Name>allSpectra.HCD.FTMS.iso_13.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533142">
+      <Name>allSpectra.HCD.FTMS.iso_12.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533143">
+      <Name>allSpectra.HCD.FTMS.iso_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533144">
+      <Name>MaxQuant1403.zip</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

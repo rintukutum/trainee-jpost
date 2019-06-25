@@ -1,0 +1,2936 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000073" formatVersion="1.0">
+  <Project id="JPST000073" pxid="PXD004856" createdDate="2016-06-22" modifiedDate="2017-08-09" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Effect of oncogenic transformation on metabolism 12</Title>
+    <Description>The expression levels of metabolic enzymes were estimated by MRM analysis with internal standard recombinant proteins. The analysis is performed in human diploid fibroblasts, TIG-3 cells and their derived cell lines (TS, TSM, and TSR). TIG-3 TS is immortalized cells by expressing hTERT and SV40 largeT and smallT antigens (SV40 ER). TIG3 TSM and TSR cells were transformed lines by cMyc or H-RAS(G12V) in TERT/SV40 expressing TIG-3, respectively.</Description>
+    <AnnouncementDate>2016-12-03</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000187" value="Q TRAP"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01866" ontologyName="mTRAQ light reporter+balance reagent N6-acylated lysine" value="mTRAQ (K)"/>
+      <PresetElement id="MOD:01865" ontologyName="mTRAQ light reporter+balance reagent acylated N-terminal" value="mTRAQ (N-term)"/>
+      <PresetElement id="MOD:01867" ontologyName="mTRAQ light reporter+balance reagent O4'-acylated tyrosine" value="mTRAQ (Y)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="UNIMOD:889" ontologyName="mTRAQ:13C(3)15N(1)" value="mTRAQ:13C(3)15N(1) (N-term)"/>
+      <PresetElement id="UNIMOD:1302" ontologyName="mTRAQ:13C(6)15N(2)" value="mTRAQ:13C(6)15N(2) (K)"/>
+      <PresetElement id="UNIMOD:889" ontologyName="mTRAQ:13C(3)15N(1)" value="mTRAQ:13C(3)15N(1) (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaki Matsumoto</Name>
+    <Affiliation>Div. Proteomics, Med. Inst. Bioreg., Kyushu Univ.</Affiliation>
+    <PrincipalInvestigator>Masaki Matsumoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>metabolism, absolute quantification, MRM</Keywords>
+    <PubMed>
+      <PubMedId>28267743</PubMedId>
+      <PubMedInfo>Matsumoto M, Matsuzaki F, Oshikawa K, Goshima N, Mori M, Kawamura Y, Ogawa K, Fukuda E, Nakatsumi H, Natsume T, Fukui K, Horimoto K, Nagashima T, Funayama R, Nakayama K, Nakayama KI A large-scale targeted proteomics assay resource based on an in vitro human proteome. Nat Methods. 2017 Mar;14(3):251-258</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000460601">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep01.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460602">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460603">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep02.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460604">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460605">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep03.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460606">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460607">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep04.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460608">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TS 140519prep04.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000041">
+          <title>TIG-3 TS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT and SV40ER.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460609">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep01.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460610">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460611">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep02.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460612">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460613">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep03.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460614">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460615">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep04.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460616">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSM 140519prep04.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000042">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and c-Myc.</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460617">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep01.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460618">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460619">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep02.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460620">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460621">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep03.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460622">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460623">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep04.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460624">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 TSR 140519prep04.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000043">
+          <title>TIG-3 TSR</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>TIG-3 cells were infected with recombinant retrovirus for human TERT, SV40ER, and H-Ras (RasG12V).</note>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460625">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep01.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460626">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460627">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep02.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460628">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="2">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460629">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep03.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460630">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="3">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460631">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep04.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460632">
+      <Name>D20140707_vMRM_metabolic all set12_TIG3 WT 140519prep04.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000040">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id=""/>
+        <Enzyme_Mod id=""/>
+        <Enzyme_Mod id="E0000000020">
+          <title>Trypsin digestion and mTRAQdelta0 labeling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id="E0000000021">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <title>Trypsin digestion and mTRAQdelta4 labeling</title>
+          <fixedModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (N-term)</fixedModification>
+          <fixedModification id="UNIMOD:1302" name="mTRAQ:13C(6)15N(2)">mTRAQ:13C(6)15N(2) (K)</fixedModification>
+          <variableModification id="UNIMOD:889" name="mTRAQ:13C(3)15N(1)">mTRAQ:13C(3)15N(1) (Y)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id=""/>
+      </Profile>
+      <Profile plex="mTRAQd0">
+        <Sample id=""/>
+        <Fractionation id="F0000000025">
+          <subcellular replicate="4">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+          <title>Whole cell digest 4-replicates</title>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQd0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQd4">
+        <Sample id="S0000000072">
+          <title>Digests of recombinant proteins for metabolic enzymes set12</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000024">
+          <title>mTRAQd4 labeled recombinant protein digest</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">Precipitation by centrifugation</protein>
+          <peptide replicate=""/>
+          <note>Protein mixture (typically, 96-proteins) was diluted fourfold with phosphate buffered saline (PBS) containing 1% Tween 20, and centrifuged at 19,000 × g for 20 min at 4°C to recover the MAFG-tagged protein in the pellet. </note>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000030">
+          <title>MRM analysis with mTRAQ system</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQd4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000471888">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_WT_140519prep01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471889">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_WT_140519prep02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471890">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_WT_140519prep03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471891">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_WT_140519prep04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471892">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TS_140519prep01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471893">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TS_140519prep02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471894">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TS_140519prep03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471895">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TS_140519prep04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471896">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSM_140519prep01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471897">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSM_140519prep02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471898">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSM_140519prep03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471899">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSM_140519prep04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471900">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSR_140519prep01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471901">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSR_140519prep02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471902">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSR_140519prep03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+    <File id="f_0000471903">
+      <Name>D20140707_vMRM_metabolic_all_set12_TIG3_TSR_140519prep04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT-Quant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

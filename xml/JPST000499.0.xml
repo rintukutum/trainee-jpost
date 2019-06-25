@@ -1,0 +1,4434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000499" formatVersion="1.0">
+  <Project id="JPST000499" pxid="PXD011168" createdDate="2018-09-24" modifiedDate="2018-10-27" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>A nanoLC-MS/MS system using a nonporous reverse phase column for ultrasensitive proteome analysis</Title>
+    <Description>The design of proteome projects is often restricted by the available amounts of sample, and thus there has been much effort to date to improve the sensitivity of proteome analyses. We have developed a new ultrasensitive nanoLC-MS system for the proteome analysis of microscale samples using a nonporous reverse phase column. Although nonporous particles have low binding capacity due to low functional group density, we found that the use of C30 particles compensated for this disadvantage and nanoLC-MS proteome analyses of microscale samples using a C30-packed column exhibited superior performance compared to porous C18 columns.</Description>
+    <AnnouncementDate>2018-09-24</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yusuke Kawashima</Name>
+    <Affiliation>Kazusa DNA Research Institute</Affiliation>
+    <PrincipalInvestigator>Yusuke Kawashima</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords> nonporous C30 column, nonporous particle, ultrasensitive proteomics, HEK293</Keywords>
+    <PubMed>
+      <PubMedId>30350605</PubMedId>
+      <PubMedInfo>Kawashima Y, Ohara O Development of a NanoLC-MS/MS System Using a Nonporous Reverse Phase Column for Ultrasensitive Proteome Analysis. Anal Chem. 2018 Oct 16;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000532814">
+      <Name>HEK_1000cells_T120_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532815">
+      <Name>HEK_1000cells_T240_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532816">
+      <Name>HEK_10ng_T120_npC30_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532817">
+      <Name>HEK_10ng_T120_npC30_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532818">
+      <Name>HEK_10ng_T120_npC30_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532819">
+      <Name>HEK_10ng_T120_pC18_A_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532820">
+      <Name>HEK_10ng_T120_pC18_A_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532821">
+      <Name>HEK_10ng_T120_pC18_A_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532822">
+      <Name>HEK_10ng_T120_pC18_B_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532823">
+      <Name>HEK_10ng_T120_pC18_B_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532824">
+      <Name>HEK_10ng_T120_pC18_B_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532825">
+      <Name>HEK_50ng_T120_npC30_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532826">
+      <Name>HEK_50ng_T120_npC30_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532827">
+      <Name>HEK_50ng_T120_npC30_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532828">
+      <Name>HEK_50ng_T120_pC18_A_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532829">
+      <Name>HEK_50ng_T120_pC18_A_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532830">
+      <Name>HEK_50ng_T120_pC18_A_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532831">
+      <Name>HEK_50ng_T120_pC18_B_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532832">
+      <Name>HEK_50ng_T120_pC18_B_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532833">
+      <Name>HEK_50ng_T120_pC18_B_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532834">
+      <Name>HEK_100cells_T120_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532835">
+      <Name>HEK_100cells_T240_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532836">
+      <Name>HEK_100ng_T120_npC30_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532837">
+      <Name>HEK_100ng_T120_npC30_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532838">
+      <Name>HEK_100ng_T120_npC30_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532839">
+      <Name>HEK_100ng_T120_pC18_A_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532840">
+      <Name>HEK_100ng_T120_pC18_A_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532841">
+      <Name>HEK_100ng_T120_pC18_A_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532842">
+      <Name>HEK_100ng_T120_pC18_B_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532843">
+      <Name>HEK_100ng_T240_pC18_B_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532844">
+      <Name>HEK_100ng_T120_pC18_B_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532845">
+      <Name>HEK_100ng_T120_pC18_B_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532846">
+      <Name>HEK_100ng_T240_pC18_B_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532847">
+      <Name>HEK_100ng_T180_npC30_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532848">
+      <Name>HEK_250cells_T120_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532849">
+      <Name>HEK_100ng_T180_npC30_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532850">
+      <Name>HEK_250cells_T240_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532851">
+      <Name>HEK_100ng_T180_npC30_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532852">
+      <Name>HEK_500cells_T120_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532853">
+      <Name>HEK_100ng_T180_pC18_A_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532854">
+      <Name>HEK_500cells_T240_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532855">
+      <Name>HEK_100ng_T180_pC18_A_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532856">
+      <Name>HEK_100ng_T180_pC18_A_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532857">
+      <Name>HEK_100ng_T180_pC18_B_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532858">
+      <Name>HEK_100ng_T180_pC18_B_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532859">
+      <Name>HEK_100ng_T180_pC18_B_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532860">
+      <Name>HEK_100ng_T240_npC30_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532861">
+      <Name>HEK_100ng_T240_npC30_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532862">
+      <Name>HEK_100ng_T240_npC30_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532863">
+      <Name>HEK_100ng_T240_pC18_A_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532864">
+      <Name>HEK_100ng_T240_pC18_A_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532865">
+      <Name>HEK_100ng_T240_pC18_A_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532866">
+      <Name>HEK_100ng_T240_pC18_B_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532867">
+      <Name>HEK_100ng_T240_pC18_B_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532868">
+      <Name>HEK_100ng_T240_pC18_B_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532869">
+      <Name>HEK_250cells_T120_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532870">
+      <Name>HEK_250cells_T240_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532871">
+      <Name>HEK_500cells_T120_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532872">
+      <Name>HEK_500cells_T240_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532873">
+      <Name>HEK_1000cells_T120_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532874">
+      <Name>HEK_1000cells_T240_npC30.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532875">
+      <Name>HEK_10ng_T120_npC30_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532876">
+      <Name>HEK_10ng_T120_npC30_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532877">
+      <Name>HEK_10ng_T120_npC30_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532878">
+      <Name>HEK_10ng_T120_pC18_A_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532879">
+      <Name>HEK_10ng_T120_pC18_A_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532880">
+      <Name>HEK_10ng_T120_pC18_A_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532881">
+      <Name>HEK_10ng_T120_pC18_B_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532882">
+      <Name>HEK_10ng_T120_pC18_B_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532883">
+      <Name>HEK_10ng_T120_pC18_B_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532884">
+      <Name>HEK_50ng_T120_npC30_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532885">
+      <Name>HEK_50ng_T120_npC30_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532886">
+      <Name>HEK_50ng_T120_npC30_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532887">
+      <Name>HEK_50ng_T120_pC18_A_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532888">
+      <Name>HEK_50ng_T120_pC18_A_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532889">
+      <Name>HEK_50ng_T120_pC18_A_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532890">
+      <Name>HEK_50ng_T120_pC18_B_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532891">
+      <Name>HEK_50ng_T120_pC18_B_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532892">
+      <Name>HEK_50ng_T120_pC18_B_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532893">
+      <Name>HEK_100cells_T120_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532894">
+      <Name>HEK_100cells_T240_npC30.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532895">
+      <Name>HEK_100ng_T120_npC30_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532896">
+      <Name>HEK_100ng_T120_npC30_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532897">
+      <Name>HEK_100ng_T120_npC30_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532898">
+      <Name>HEK_100ng_T120_pC18_A_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532899">
+      <Name>HEK_100ng_T120_pC18_A_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532900">
+      <Name>HEK_100ng_T120_pC18_A_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532901">
+      <Name>HEK_100ng_T120_pC18_B_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532902">
+      <Name>HEK_100ng_T120_pC18_B_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532903">
+      <Name>HEK_100ng_T120_pC18_B_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532904">
+      <Name>HEK_100ng_T180_npC30_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532905">
+      <Name>HEK_100ng_T180_npC30_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532906">
+      <Name>HEK_100ng_T180_npC30_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532907">
+      <Name>HEK_100ng_T180_pC18_A_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532908">
+      <Name>HEK_100ng_T180_pC18_A_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532909">
+      <Name>HEK_100ng_T180_pC18_A_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532910">
+      <Name>HEK_100ng_T180_pC18_B_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532911">
+      <Name>HEK_100ng_T180_pC18_B_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532912">
+      <Name>HEK_100ng_T180_pC18_B_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532913">
+      <Name>HEK_100ng_T240_npC30_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532914">
+      <Name>HEK_100ng_T240_npC30_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532915">
+      <Name>HEK_100ng_T240_npC30_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532916">
+      <Name>HEK_100ng_T240_pC18_A_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532917">
+      <Name>HEK_100ng_T240_pC18_A_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532918">
+      <Name>HEK_100ng_T240_pC18_A_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532919">
+      <Name>HEK_100ng_T240_pC18_B_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001126">
+          <title>HEK293F cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000334">
+          <title>Whole proteome analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532920">
+      <Name>HEK_250cells_T120_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532921">
+      <Name>HEK_250cells_T240_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532922">
+      <Name>HEK_500cells_T120_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532923">
+      <Name>HEK_500cells_T240_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532924">
+      <Name>HEK_1000cells_T120_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532925">
+      <Name>HEK_1000cells_T240_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532926">
+      <Name>HEK_10ng_T120_npC30_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532927">
+      <Name>HEK_10ng_T120_npC30_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532928">
+      <Name>HEK_10ng_T120_npC30_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532929">
+      <Name>HEK_10ng_T120_pC18_A_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532930">
+      <Name>HEK_10ng_T120_pC18_A_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532931">
+      <Name>HEK_10ng_T120_pC18_A_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532932">
+      <Name>HEK_10ng_T120_pC18_B_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532933">
+      <Name>HEK_10ng_T120_pC18_B_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532934">
+      <Name>HEK_10ng_T120_pC18_B_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532935">
+      <Name>HEK_50ng_T120_npC30_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532936">
+      <Name>HEK_50ng_T120_npC30_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532937">
+      <Name>HEK_50ng_T120_npC30_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532938">
+      <Name>HEK_50ng_T120_pC18_A_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532939">
+      <Name>HEK_50ng_T120_pC18_A_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532940">
+      <Name>HEK_50ng_T120_pC18_A_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532941">
+      <Name>HEK_50ng_T120_pC18_B_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532942">
+      <Name>HEK_50ng_T120_pC18_B_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532943">
+      <Name>HEK_50ng_T120_pC18_B_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532944">
+      <Name>HEK_100cells_T120_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532945">
+      <Name>HEK_100cells_T240_npC30.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532946">
+      <Name>HEK_100ng_T120_npC30_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532947">
+      <Name>HEK_100ng_T120_npC30_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532948">
+      <Name>HEK_100ng_T120_npC30_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532949">
+      <Name>HEK_100ng_T120_pC18_A_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532950">
+      <Name>HEK_100ng_T120_pC18_A_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532951">
+      <Name>HEK_100ng_T120_pC18_A_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532952">
+      <Name>HEK_100ng_T120_pC18_B_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532953">
+      <Name>HEK_100ng_T120_pC18_B_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532954">
+      <Name>HEK_100ng_T120_pC18_B_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532955">
+      <Name>HEK_100ng_T180_npC30_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532956">
+      <Name>HEK_100ng_T180_npC30_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532957">
+      <Name>HEK_100ng_T180_npC30_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532958">
+      <Name>HEK_100ng_T180_pC18_A_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532959">
+      <Name>HEK_100ng_T180_pC18_A_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532960">
+      <Name>HEK_100ng_T180_pC18_A_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532961">
+      <Name>HEK_100ng_T180_pC18_B_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532962">
+      <Name>HEK_100ng_T180_pC18_B_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532963">
+      <Name>HEK_100ng_T180_pC18_B_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532964">
+      <Name>HEK_100ng_T240_npC30_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532965">
+      <Name>HEK_100ng_T240_npC30_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532966">
+      <Name>HEK_100ng_T240_npC30_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532967">
+      <Name>HEK_100ng_T240_pC18_A_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532968">
+      <Name>HEK_100ng_T240_pC18_A_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532969">
+      <Name>HEK_100ng_T240_pC18_A_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532970">
+      <Name>HEK_100ng_T240_pC18_B_1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532971">
+      <Name>HEK_100ng_T240_pC18_B_2.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000532972">
+      <Name>HEK_100ng_T240_pC18_B_3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

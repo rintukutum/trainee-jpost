@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000328" formatVersion="1.0">
+  <Project id="JPST000328" pxid="PXD007848" createdDate="2017-09-27" modifiedDate="2018-01-31" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>GFP-Trap-IP-phospho</Title>
+    <Description>To analyze phosphorylation sites of ALLO-1, worm eggs expressing GFP-ALLO-1 in the atg-11 or ikke-1 background were lysed in co-IP buffer, and GFP-ALLO-1 was immunoprecipitated with GFP-Trap-agarose beads. Proteins on the beads were directly digested with Trypsin overnight. Supernatants were collected, acidified to pH2.5 and desalted using GL-Tip SDB followed by LC-MS/MS analysis.</Description>
+    <AnnouncementDate>2018-01-31</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="6239" value="Caenorhabditis elegans"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Q Exactive Plus"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="none" value="none"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>GFP-Trap</Keywords>
+    <PubMed>
+      <PubMedId>29255173</PubMedId>
+      <PubMedInfo>Sato M, Sato K, Tomura K, Kosako H, Sato K The autophagy receptor ALLO-1 and the IKKE-1 kinase control clearance of paternal mitochondria in Caenorhabditis elegans. Nat Cell Biol. 2018 Jan;20(1):81-91</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000504005">
+      <Name>91_sato_2_ikke1_wt.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000685">
+          <title>pT74-ALLO-1</title>
+          <species id="6239">Caenorhabditis elegans</species>
+          <tissue id="BTO:0000369">egg</tissue>
+          <celltype id="CL:0000007">early embryonic cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000164">
+          <title>GFP-Trap</title>
+          <subcellular>Whole</subcellular>
+          <protein>GFP-Trap immunoprecipitation</protein>
+          <peptide>Reverse phase</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000162">
+          <title>Trypsin-on-bead</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <taxonomy id="6239">Caenorhabditis elegans</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000022">
+          <title>QEplus-110min</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504007">
+      <Name>91_sato_2_ikke1_wt.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000504008">
+      <Name>91_sato_2_ikke1_wt.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

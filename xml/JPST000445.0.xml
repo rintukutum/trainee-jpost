@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000445" formatVersion="1.0">
+  <Project id="JPST000445" pxid="PXD010662" createdDate="2018-06-20" modifiedDate="2018-11-05" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TCTP-interacting proteins in normal and tumor Schwann cells</Title>
+    <Description>Comparison of TCTP-interacting proteins in between sNF96.2 MPNST cells (NF1-associated malignant tumor cells) and human Schwann cells</Description>
+    <AnnouncementDate>2018-11-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Norie Araki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TCTP, interactomics, </Keywords>
+    <PubMed>
+      <PubMedId>30381327</PubMedId>
+      <PubMedInfo>Kobayashi D, Tokuda T, Sato K, Okanishi H, Nagayama M, Hirayama M, Ohtsuki S, Araki N Identification of a specific translational machinery via TCTP-EF1A2 interaction regulating NF1-associated tumor growth by affinity purification and data-independent mass spectrometry acquisition (AP-DIA/SWATH). Mol Cell Proteomics. 2018 Oct 31;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000527056">
+      <Name>20180615_HSC_MOCK-2_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001092">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_HSC_2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527057">
+      <Name>20180615_HSC_MOCK-3_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001096">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_HSC_3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527058">
+      <Name>20180615_HSC_MOCK-1_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001091">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_HSC_1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527059">
+      <Name>20180615_HSC_TCTP-4_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001093">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_HSC_3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527060">
+      <Name>20180615_HSC_TCTP-2_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_HSC_2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527061">
+      <Name>20180615_HSC_TCTP-3_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001094">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_HSC_1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527062">
+      <Name>20180615_MPNST_MOCK-3_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001090">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_MPNST_3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527063">
+      <Name>20180615_MPNST_MOCK-1_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001088">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_MPNST_1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527064">
+      <Name>20180615_MPNST_MOCK-2_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001089">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP_MPNST_2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527068">
+      <Name>20180615_MPNST_TCTP-1_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001085">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_MPNST_1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527069">
+      <Name>20180615_MPNST_TCTP-3_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001086">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_MPNST_2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527070">
+      <Name>20180615_MPNST_TCTP-4_5ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001087">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP_MPNST_3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000257">
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>DDA_Orbitrap Fusion_LFQ</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527071">
+      <Name>Result File.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

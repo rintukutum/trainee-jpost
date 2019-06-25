@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000107" formatVersion="1.0">
+  <Project id="JPST000107" pxid="PXD007578" createdDate="2016-06-23" modifiedDate="2018-11-05" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TCTP interactome analysis by AP-SWATH</Title>
+    <Description>TCTP binding proteins were identified by immunoprecipitation using anti-FLAG antibody and SWATH acquisition. </Description>
+    <AnnouncementDate>2018-11-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Norie Araki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TCTP, interactome, affinity purifucation, SWATH</Keywords>
+    <PubMed>
+      <PubMedId>30381327</PubMedId>
+      <PubMedInfo>Kobayashi D, Tokuda T, Sato K, Okanishi H, Nagayama M, Hirayama M, Ohtsuki S, Araki N Identification of a specific translational machinery via TCTP-EF1A2 interaction regulating NF1-associated tumor growth by affinity purification and data-independent mass spectrometry acquisition (AP-DIA/SWATH). Mol Cell Proteomics. 2018 Oct 31;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000462107">
+      <Name>Data140712_kobayashi_TCTP1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000143">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462108">
+      <Name>Data140712_kobayashi_TCTP1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000143">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462111">
+      <Name>Data140712_kobayashi_TCTP3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000145">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462112">
+      <Name>Data140712_kobayashi_TCTP3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000145">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462113">
+      <Name>Data140712_kobayashi_mock1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000146">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462114">
+      <Name>Data140712_kobayashi_mock1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000146">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-1</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462115">
+      <Name>Data140712_kobayashi_mock2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000147">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462116">
+      <Name>Data140712_kobayashi_mock2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000147">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462117">
+      <Name>Data140712_kobayashi_mock3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000148">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462118">
+      <Name>Data140712_kobayashi_mock3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000148">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>MOCK-FLAG-IP-3</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462131">
+      <Name>Data140712_kobayashi_IDA1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000048">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>5600 Identification</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462132">
+      <Name>Data140712_kobayashi_IDA1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000048">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>5600 Identification</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462133">
+      <Name>Data140712_kobayashi_IDA2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000048">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>5600 Identification</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462134">
+      <Name>Data140712_kobayashi_IDA2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000048">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+          <title>5600 Identification</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462135">
+      <Name>Data140712_kobayashi_IDA1_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000462136">
+      <Name>Data140712_kobayashi_IDA1.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000462232">
+      <Name>Data140712_kobayashi_IDA1-20150529.swath</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Peakview</Software>
+    </File>
+    <File id="f_0000463185">
+      <Name>Data140712_kobayashi_TCTP2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000144">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501687">
+      <Name>Data140712_kobayashi_TCTP2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000144">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP-2</title>
+        </Sample>
+        <Fractionation id="F0000000036">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Anti-FLAG immunoprecipitation</protein>
+          <peptide replicate=""/>
+          <note/>
+          <title>Anti-FLAG immunoprecipitation</title>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000040">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <title>Tryp+LysC, IAA, Human</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000049">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>5600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

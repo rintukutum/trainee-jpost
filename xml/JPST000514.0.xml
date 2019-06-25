@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000514" formatVersion="1.0">
+  <Project id="JPST000514" pxid="PXD011575" createdDate="2018-10-31" modifiedDate="2019-01-04" mode="partial" type="Mass spectrometry" announced="true">
+    <Title> Identification of collagen marker peptides for animal source identification of crocodilian leather</Title>
+    <Description>For species discrimination of crocodilian leather, we performed LC-MS/MS identification of type I collagen-derived marker peptides using leathers made from crocodile, alligator, caiman, and lizard skins.</Description>
+    <AnnouncementDate>2019-01-04</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="68455" value="Crocodylus siamensis"/>
+      <PresetElement id="8496" value="Alligator mississippiensis"/>
+      <PresetElement id="208213" value="Caiman crocodilus fuscus"/>
+      <PresetElement id="62051" value="Varanus salvator"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="instrument"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00037" ontologyName="5-hydroxy-L-lysine" value="5-hydroxy-L-lysine"/>
+      <PresetElement id="MOD:00039" ontologyName="4-hydroxy-L-proline" value="4-hydroxy-L-proline"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yuki Taga</Name>
+    <Affiliation>Nippi Research Institute of Biomatrix</Affiliation>
+    <PrincipalInvestigator>Yuki Taga</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>collagen, crocodilian, leather</Keywords>
+    <PubMed>
+      <PubMedId>30599131</PubMedId>
+      <PubMedInfo>Kumazawa Y, Hattori S, Taga Y Semi-nondestructive certification of crocodilian leather by LC-MS detection of collagen marker peptides. Anal Chem. 2019 Jan 1;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000539770">
+      <Name>Crocodile (Siamese crocodile)-1.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001197">
+          <title>Crocodile leather</title>
+          <species id="68455">Crocodylus siamensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539771">
+      <Name>Crocodile (Siamese crocodile)-2.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001197">
+          <title>Crocodile leather</title>
+          <species id="68455">Crocodylus siamensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539772">
+      <Name>Crocodile (Siamese crocodile)-3.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001197">
+          <title>Crocodile leather</title>
+          <species id="68455">Crocodylus siamensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539773">
+      <Name>Alligator (American alligator)-1.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001198">
+          <title>Alligator leather</title>
+          <species id="8496">Alligator mississippiensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539774">
+      <Name>Alligator (American alligator)-2.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001198">
+          <title>Alligator leather</title>
+          <species id="8496">Alligator mississippiensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539775">
+      <Name>Alligator (American alligator)-3.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001198">
+          <title>Alligator leather</title>
+          <species id="8496">Alligator mississippiensis</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539776">
+      <Name>Caiman (Brown caiman)-1.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001199">
+          <title>Caiman leather</title>
+          <species id="208213">Caiman crocodilus fuscus</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539777">
+      <Name>Caiman (Brown caiman)-2.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001199">
+          <title>Caiman leather</title>
+          <species id="208213">Caiman crocodilus fuscus</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539778">
+      <Name>Caiman (Brown caiman)-3.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001199">
+          <title>Caiman leather</title>
+          <species id="208213">Caiman crocodilus fuscus</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539779">
+      <Name>Lizard (Common water monitor)-1.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001200">
+          <title>Lizard leather</title>
+          <species id="62051">Varanus salvator</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539780">
+      <Name>Lizard (Common water monitor)-2.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001200">
+          <title>Lizard leather</title>
+          <species id="62051">Varanus salvator</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539781">
+      <Name>Lizard (Common water monitor)-3.baf</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001200">
+          <title>Lizard leather</title>
+          <species id="62051">Varanus salvator</species>
+          <tissue id="BTO:0001253">skin</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000116">
+          <title>Direct analysis</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000204">
+          <title>Trypsin digestion (none)</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00037" name="5-hydroxy-L-lysine">5-hydroxy-L-lysine</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:00039" name="4-hydroxy-L-proline">4-hydroxy-L-proline</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000114">
+          <title>maXis II-MS/MS</title>
+          <instrument>maXis II</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Protein identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000539782">
+      <Name>Crocodile (Siamese crocodile)-1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539783">
+      <Name>Crocodile (Siamese crocodile)-2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539784">
+      <Name>Crocodile (Siamese crocodile)-3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539785">
+      <Name>Alligator (American alligator)-1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539786">
+      <Name>Alligator (American alligator)-2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539787">
+      <Name>Alligator (American alligator)-3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539788">
+      <Name>Caiman (Brown caiman)-1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539789">
+      <Name>Caiman (Brown caiman)-2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539790">
+      <Name>Caiman (Brown caiman)-3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539791">
+      <Name>Lizard (Common water monitor)-1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539792">
+      <Name>Lizard (Common water monitor)-2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539793">
+      <Name>Lizard (Common water monitor)-3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000539794">
+      <Name>Crocodile (Siamese crocodile)-1-3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539795">
+      <Name>Alligator (American alligator)-1-3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539796">
+      <Name>Caiman (Brown caiman)-1-3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539813">
+      <Name>Lizard (Common water monitor)-1-3.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539814">
+      <Name>Crocodile (Siamese crocodile)-1-3_PeptideSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539816">
+      <Name>Alligator (American alligator)-1-3_PeptideSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539817">
+      <Name>Caiman (Brown caiman)-1-3_PeptideSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539818">
+      <Name>Lizard (Common water monitor)-1-3_PeptideSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539819">
+      <Name>Crocodile (Siamese crocodile)-1-3_ProteinSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539820">
+      <Name>Alligator (American alligator)-1-3_ProteinSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539821">
+      <Name>Caiman (Brown caiman)-1-3_ProteinSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000539822">
+      <Name>Lizard (Common water monitor)-1-3_ProteinSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

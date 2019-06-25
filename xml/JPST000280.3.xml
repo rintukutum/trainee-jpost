@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000280" formatVersion="1.0">
+  <Project id="JPST000280" pxid="PXD007269" createdDate="2018-09-20" modifiedDate="2018-10-03" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Mitotic chromosome scaffold</Title>
+    <Description>Quantitative proteomics analysis of mitotic chromosome scaffold based on SILAC</Description>
+    <AnnouncementDate>2018-10-07</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9031" value="Gallus gallus"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Shinya Ohta</Name>
+    <Affiliation>Kochi university</Affiliation>
+    <PrincipalInvestigator>Shinya Ohta</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>mitosis, chromosome </Keywords>
+    <PubMed>
+      <PubMedId>30266865</PubMedId>
+      <PubMedInfo>Ohta S, Taniguchi T, Sato N, Hamada M, Taniguchi H, Rappsilber J Quantitative proteomics of the mitotic chromosome scaffold reveals the association of BAZ1B with chromosomal axes. Mol Cell Proteomics. 2018 Sep 28;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000532526">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532527">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532528">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532529">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532530">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532531">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532532">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532533">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532534">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532535">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532536">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532537">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532538">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532539">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil1_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532540">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532541">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532542">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532543">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532544">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532545">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532546">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532547">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532548">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532549">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532550">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532551">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532552">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_12.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532553">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_13.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532554">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_14.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532555">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_15.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532556">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_16.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532557">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_17.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532558">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_18.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532559">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_19.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532560">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_20.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532561">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_21.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532562">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_22.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532563">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_23.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532564">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_24.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532565">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_25.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532566">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_26.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532567">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_27.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532568">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_28.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532569">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_29.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532570">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_30.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532571">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_31.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532572">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_32.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532573">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_33.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532574">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_34.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532575">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_35.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532576">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_36.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532577">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_37.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532578">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_38.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532579">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_39.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532580">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_40.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532581">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_41.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532582">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_42.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532583">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_43.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532584">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_44.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532585">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_45.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532586">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_46.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532587">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_47.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532588">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_48.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532589">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_49.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532590">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_50.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532591">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_51.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532592">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_52.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532593">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_53.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532594">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_54.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532595">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_55.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532596">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_56.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532597">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_57.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532598">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_58.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532599">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_59.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532600">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_60.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532601">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_61.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532602">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_62.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532603">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_63.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532604">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_55.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532605">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_64.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532606">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_56.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532607">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_65.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532608">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_57.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532609">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_66.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532610">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_58.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532611">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_67.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532612">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_59.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532613">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_68.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532614">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_60.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532615">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_69.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532616">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_61.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532617">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_70.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532618">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_62.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532619">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_71.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532620">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_63.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532621">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_72.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532622">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_64.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532623">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_73.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532624">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_65.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532625">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_74.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532626">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_66.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532627">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_75.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532628">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_67.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532629">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_76.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532630">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_68.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532631">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_77.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532632">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_69.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532633">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_78.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532634">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_70.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532635">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_79.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532636">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_71.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532637">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_80.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532638">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_72.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532639">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_73.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532640">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_81.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532641">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_74.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532642">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_82.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532643">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_75.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532644">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_83.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532645">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_76.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532646">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_77.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532647">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_84.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532648">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_78.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532649">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_85.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532650">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_79.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532651">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_80.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532652">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_81.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532653">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532654">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532655">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532656">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532657">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532658">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532659">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532660">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532661">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532662">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532663">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532664">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532665">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil0_12.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532666">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532667">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532668">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532669">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532670">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532671">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532672">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532673">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532674">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532675">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532676">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532677">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.secpep.sil1_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532678">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532679">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532680">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532681">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532682">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532683">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532684">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_86.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532685">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_87.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532686">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_88.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532687">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_89.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532688">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.iso_90.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532689">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532690">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532691">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532692">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532693">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532694">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532695">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532696">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532697">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532698">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil0_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532699">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532700">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532701">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532702">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532703">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532704">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532705">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532706">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532707">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532708">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532709">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532710">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.secpep.sil1_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532711">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532712">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532713">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532714">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532715">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532716">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532717">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil0_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532718">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532719">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532720">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532721">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532722">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532723">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532724">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532725">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532726">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532727">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532728">
+      <Name>,Arg10,Lys8_0.allSpectra.CID.ITMS.sil1_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532729">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_0.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532730">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_1.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532731">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_2.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532732">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_3.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532733">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_4.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532734">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_5.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532735">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_6.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532736">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_7.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532737">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_8.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532738">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_9.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532739">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_10.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532740">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_11.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532741">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_12.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532742">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_13.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532743">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_14.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532744">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_15.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532745">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_16.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532746">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_17.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532747">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_18.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532748">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_19.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532749">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_20.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532750">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_21.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532751">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_22.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532752">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_23.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532753">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_24.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532754">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_25.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532755">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_26.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532756">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_27.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532757">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_28.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532758">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_29.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532759">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_30.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532760">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_31.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532761">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_32.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532762">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_33.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532763">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_34.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532764">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_35.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532765">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_36.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532766">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_37.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532767">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_38.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532768">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_39.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532769">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_40.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532770">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_41.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532771">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_42.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532772">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_43.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532773">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_44.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532774">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_45.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532775">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_46.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532776">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_47.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532777">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_48.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532778">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_49.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532779">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_50.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532780">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_51.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532781">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_52.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532782">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_53.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532783">
+      <Name>Arg10,Lys8,_1.allSpectra.CID.ITMS.iso_54.apl</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532796">
+      <Name>evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000532797">
+      <Name>msms.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000532798">
+      <Name>peptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000532799">
+      <Name>proteinGroups.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000532800">
+      <Name>MaxQuant1403.zip</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000532802">
+      <Name>120702_11_Orbi2_FLA_CO_220_BE_Shinya_XH_ScafL_S3_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001123">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosomes&#10;Light: Mitotic chromosome scaffold</note>
+          <title>Scaffold vs Chromosome RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532803">
+      <Name>120702_12_Orbi2_FLA_CO_220_BE_Shinya_BackgL_ScafH_S4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001124">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: -BME&#10;Light: +BME</note>
+          <title>-BME(Scaffold) vs +BME(back graound) FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532804">
+      <Name>120702_13_Orbi2_FLA_CO_220_BE_Shinya_BackgL_ScafH_S4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001124">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: -BME&#10;Light: +BME</note>
+          <title>-BME(Scaffold) vs +BME(back graound) FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532805">
+      <Name>120702_14_Orbi2_FLA_CO_220_BE_Shinya_BackgH_ScafL_S5_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001125">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: +BME&#10;Light: -BME</note>
+          <title>-BME(Scaffold) vs +BME(Back ground) RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532806">
+      <Name>120702_15_Orbi2_FLA_CO_220_BE_Shinya_BackgH_ScafL_S5_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001125">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: +BME&#10;Light: -BME</note>
+          <title>-BME(Scaffold) vs +BME(Back ground) RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532807">
+      <Name>120626_10_Orbi2_PM_CO_180_BE_Shinya_S2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001122">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosome scaffold&#10;Light: Mitotic chromosomes</note>
+          <title>Scaffold vs Chromosome FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532808">
+      <Name>120626_11_Orbi2_PM_CO_180_BE_Shinya_S3_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001123">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosomes&#10;Light: Mitotic chromosome scaffold</note>
+          <title>Scaffold vs Chromosome RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532809">
+      <Name>120626_12_Orbi2_PM_CO_180_BE_Shinya_S4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001124">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: -BME&#10;Light: +BME</note>
+          <title>-BME(Scaffold) vs +BME(back graound) FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532810">
+      <Name>120626_13_Orbi2_PM_CO_180_BE_Shinya_S5_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001125">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: +BME&#10;Light: -BME</note>
+          <title>-BME(Scaffold) vs +BME(Back ground) RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532811">
+      <Name>120702_08_Orbi2_FLA_CO_220_BE_Shinya_XL_ScafH_S2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001122">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosome scaffold&#10;Light: Mitotic chromosomes</note>
+          <title>Scaffold vs Chromosome FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532812">
+      <Name>120702_09_Orbi2_FLA_CO_220_BE_Shinya_XL_ScafH_S2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001122">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosome scaffold&#10;Light: Mitotic chromosomes</note>
+          <title>Scaffold vs Chromosome FW</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532813">
+      <Name>120702_10_Orbi2_FLA_CO_220_BE_Shinya_XH_ScafL_S3_REV.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001123">
+          <species id="9031">Gallus gallus</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000236">B cell</celltype>
+          <disease id="DOID:0060058">lymphoma</disease>
+          <note>Heavy: Mitotic chromosomes&#10;Light: Mitotic chromosome scaffold</note>
+          <title>Scaffold vs Chromosome RV</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000151">
+          <title>Chromosome scaffold</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9031">Gallus gallus</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000150">
+          <title>chromosome scaffold</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

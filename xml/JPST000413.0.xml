@@ -1,0 +1,3616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000413" formatVersion="1.0">
+  <Project id="JPST000413" pxid="PXD009543" createdDate="2018-04-19" modifiedDate="2018-04-19" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Quantification of metabolic enzymes in TIG-3 TSM and AIG cells</Title>
+    <Description>Normal human diploid fibroblast (TIG-3) cells were infected with retroviruses containing the early region of simian virus 40 (SV40) and encoding the catalytic component of human telomerase (hTERT) and human c-Myc. The resultant transformed cells (TSM cells) gained a moderate ability to undergo anchorage-independent growth. TSM clones grown in three dimensional (3-D) culture were picked up and expanded in 2-D culture to obtain AIG-1 clones. This selection process was repeated three times to yield AIG-3 cells.</Description>
+    <AnnouncementDate>2019-04-19</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000187" value="Q TRAP"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01866" ontologyName="mTRAQ light reporter+balance reagent N6-acylated lysine" value="mTRAQ (K)"/>
+      <PresetElement id="MOD:01865" ontologyName="mTRAQ light reporter+balance reagent acylated N-terminal" value="mTRAQ (N-term)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="None"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Manabu Kodama</Name>
+    <Affiliation>Kyushu University</Affiliation>
+    <PrincipalInvestigator>Manabu Kodama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>MRM, metabolism</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000516745">
+      <Name>TSM_Bulk_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516746">
+      <Name>TSM_Bulk_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516747">
+      <Name>TSM_Bulk_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516748">
+      <Name>TSM_Bulk_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516749">
+      <Name>TSM_Bulk_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516750">
+      <Name>TSM_Bulk_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001014">
+          <title>TIG-3 TSM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516751">
+      <Name>TSM_Bulk_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516752">
+      <Name>TSM_Bulk_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516753">
+      <Name>TSM_Bulk_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516754">
+      <Name>TSM_1-1_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516755">
+      <Name>TSM_1-1_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516756">
+      <Name>TSM_1-1_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516757">
+      <Name>TSM_1-1_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516758">
+      <Name>TSM_1-1_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516759">
+      <Name>TSM_1-1_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001015">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516760">
+      <Name>TSM_1-1_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516761">
+      <Name>TSM_1-1_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516762">
+      <Name>TSM_1-1_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516763">
+      <Name>TSM_2-2_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516764">
+      <Name>TSM_2-2_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516765">
+      <Name>TSM_2-2_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516766">
+      <Name>TSM_2-2_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516767">
+      <Name>TSM_2-2_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516768">
+      <Name>TSM_2-2_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001016">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516769">
+      <Name>TSM_2-2_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516770">
+      <Name>TSM_2-2_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516771">
+      <Name>TSM_2-2_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516772">
+      <Name>TSM_3-1_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516773">
+      <Name>TSM_3-1_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516774">
+      <Name>TSM_3-1_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516775">
+      <Name>TSM_3-1_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516776">
+      <Name>TSM_3-1_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516777">
+      <Name>TSM_3-1_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001017">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-1</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516778">
+      <Name>TSM_3-1_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516779">
+      <Name>TSM_3-1_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516780">
+      <Name>TSM_3-1_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516781">
+      <Name>TSM_3-2_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516782">
+      <Name>TSM_3-2_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516783">
+      <Name>TSM_3-2_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516784">
+      <Name>TSM_3-2_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516785">
+      <Name>TSM_3-2_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516786">
+      <Name>TSM_3-2_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001018">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-2</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516787">
+      <Name>TSM_3-2_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516788">
+      <Name>TSM_3-2_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516789">
+      <Name>TSM_3-2_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516790">
+      <Name>TSM_3-3_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516791">
+      <Name>TSM_3-3_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516792">
+      <Name>TSM_3-3_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516793">
+      <Name>TSM_3-3_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516794">
+      <Name>TSM_3-3_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516795">
+      <Name>TSM_3-3_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001019">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-3</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516796">
+      <Name>TSM_3-3_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516797">
+      <Name>TSM_3-3_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516798">
+      <Name>TSM_3-3_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516799">
+      <Name>TSM_3-4_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516800">
+      <Name>TSM_3-4_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516801">
+      <Name>TSM_3-4_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516802">
+      <Name>TSM_3-4_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516803">
+      <Name>TSM_3-4_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516804">
+      <Name>TSM_3-4_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001020">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-4</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516805">
+      <Name>TSM_3-4_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516806">
+      <Name>TSM_3-4_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516807">
+      <Name>TSM_3-4_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516808">
+      <Name>TSM_3-5_1st.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516809">
+      <Name>TSM_3-5_1st.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516810">
+      <Name>TSM_3-5_2nd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516811">
+      <Name>TSM_3-5_2nd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516812">
+      <Name>TSM_3-5_3rd.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516813">
+      <Name>TSM_3-5_3rd.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="mTRAQdelta0">
+        <Sample id="S0000001021">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note/>
+          <title>TIG-3 AIG-3-5</title>
+        </Sample>
+        <Fractionation id="F0000000242">
+          <title>Whole cell digest</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000219">
+          <title>Tryptic digest mTRAQdelta0 </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">mTRAQdelta0</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="mTRAQdelta4">
+        <Sample id="S0000001022">
+          <title>Synthetic peptide for metabolic enzymes</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000243">
+          <title>Synthetic peptide mTRAQ labeling</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000221">
+          <title>Metabolic shift</title>
+          <instrument id="MS:1000187">Q TRAP</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform>Fragment ion (stable isotope labeling)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">mTRAQdelta4</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516814">
+      <Name>TSM_3-5_1st.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516815">
+      <Name>TSM_3-5_2nd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+    <File id="f_0000516816">
+      <Name>TSM_3-5_3rd.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>iMPAQT</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

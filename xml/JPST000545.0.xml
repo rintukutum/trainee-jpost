@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000545" formatVersion="1.0">
+  <Project id="JPST000545" pxid="PXD012369" createdDate="2019-01-16" modifiedDate="2019-01-16" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Inhibition of T cell activation and function by the CIN85 adaptor protein</Title>
+    <Description>CIN85 is ubiquitously expressed adaptor protein. In T cells, CIN85 is recruited to the TCR signaling complex and inhibit TCR signaling. To reveal the molecular function of CIN85-mediated inhibition, we performed Flag-CIN85 (CIN85dA) immuno-precipitation and identified the binding proteins. As a negative control, we used deletion mutant of CIN85 (CIN85PR).</Description>
+    <AnnouncementDate>2019-01-16</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yusuke Kawashima</Name>
+    <Affiliation>Kazusa DNA Research Institute</Affiliation>
+    <PrincipalInvestigator>Takashi Saito</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>CIN85, TCR, adaptor</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000541977">
+      <Name>CIN85dA_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541978">
+      <Name>CIN85dA_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541979">
+      <Name>CIN85dA_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541980">
+      <Name>CIN85dA_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541981">
+      <Name>CIN85PR_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541982">
+      <Name>CIN85PR_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541983">
+      <Name>CIN85PR_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541984">
+      <Name>CIN85PR_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541985">
+      <Name>Non-transfected.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541986">
+      <Name>Non-transfected.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000277">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541987">
+      <Name>CIN85PR_1a_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541988">
+      <Name>CIN85PR_1a_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541989">
+      <Name>CIN85dA_2b_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541990">
+      <Name>CIN85dA_2b_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541991">
+      <Name>CIN85dA_2a_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541992">
+      <Name>CIN85dA_2a_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541993">
+      <Name>CIN85dA_1b_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541994">
+      <Name>CIN85dA_1b_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541995">
+      <Name>CIN85dA_1a_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541996">
+      <Name>CIN85dA_1a_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541997">
+      <Name>Non-transfected_1_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541998">
+      <Name>Non-transfected_1_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541999">
+      <Name>CIN85PR_2b_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542000">
+      <Name>CIN85PR_2b_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542001">
+      <Name>CIN85PR_2a_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542002">
+      <Name>CIN85PR_2a_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542003">
+      <Name>CIN85PR_1b_SWATH.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542004">
+      <Name>CIN85PR_1b_SWATH.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001252">
+          <title>CIN85-FLAG-IP</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>T cell hybridoma</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000369">
+          <title>Anti-FLAG immunoprecipitation</title>
+          <subcellular>Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000284">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000312">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542005">
+      <Name>CIN85.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

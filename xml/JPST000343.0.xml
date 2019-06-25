@@ -1,0 +1,2854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000343" formatVersion="1.0">
+  <Project id="JPST000343" pxid="PXD008209" createdDate="2017-11-09" modifiedDate="2018-07-31" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>MDCK Culture Medium</Title>
+    <Description>The SILAC analysis of secreted proteins in monoculture or mix-culture of normal and transformed cells</Description>
+    <AnnouncementDate>2018-11-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="131567" value="cellular organisms"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="UNIMOD:259" ontologyName="Label:13C(6)15N(2)" value="Label:13C(6)15N(2) (K)"/>
+      <PresetElement id="MOD:01331" ontologyName="6x(13)C labeled L-arginine" value="Label:13C(6) (R)"/>
+      <PresetElement id="UNIMOD:267" ontologyName="Label:13C(6)15N(4)" value="Label:13C(6)15N(4) (R)"/>
+      <PresetElement id="UNIMOD:481" ontologyName="Label:2H(4)" value="Label:2H(4) (K)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Takashi Hayashi</Name>
+    <Affiliation>Otsuka Pharmaceutical Co., Ltd.</Affiliation>
+    <PrincipalInvestigator>Yasuyuki Fujita</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>cell culture medium, SILAC</Keywords>
+    <PubMed>
+      <PubMedId>29941981</PubMedId>
+      <PubMedInfo>Yako Y, Hayashi T, Takeuchi Y, Ishibashi K, Kasai N, Sato N, Kuromiya K, Ishikawa S, Fujita Y ADAM-like Decysin-1 (ADAMDEC1) is a positive regulator of Epithelial Defense Against Cancer (EDAC) that promotes apical extrusion of RasV12-transformed cells. Sci Rep. 2018 Jun 25;8(1):9639</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000509589">
+      <Name>20140719_MDCKras_sup06.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509590">
+      <Name>20140719_MDCKras_sup07.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509591">
+      <Name>20140719_MDCKras_sup08.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509592">
+      <Name>20140719_MDCKras_sup09.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509593">
+      <Name>20140719_MDCKras_sup10.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509594">
+      <Name>20140719_MDCKras_sup11.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509595">
+      <Name>20140719_MDCKras_sup12.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509596">
+      <Name>20140719_MDCKras_sup13.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509597">
+      <Name>20140719_MDCKras_sup14.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509598">
+      <Name>20140719_MDCKras_sup15.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509599">
+      <Name>20140719_MDCKras_sup16.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509600">
+      <Name>20140719_MDCKras_sup17.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509601">
+      <Name>20140719_MDCKras_sup18.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509602">
+      <Name>20140719_MDCKras_sup01.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509603">
+      <Name>20140719_MDCKras_sup02.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509604">
+      <Name>20140719_MDCKras_sup03.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509605">
+      <Name>20140719_MDCKras_sup04.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509606">
+      <Name>20140719_MDCKras_sup05.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000177">
+          <title>QE</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509607">
+      <Name>20141017_MDCKras_SUPgel05.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509608">
+      <Name>20141017_MDCKras_SUPgel06.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509609">
+      <Name>20141017_MDCKras_SUPgel07.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509610">
+      <Name>20141017_MDCKras_SUPgel08.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509611">
+      <Name>20141017_MDCKras_SUPgel09.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509612">
+      <Name>20141017_MDCKras_SUPgel10.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509613">
+      <Name>20141017_MDCKras_SUPgel11.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509614">
+      <Name>20141017_MDCKras_SUPgel12.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509615">
+      <Name>20141017_MDCKras_SUPgel13.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509616">
+      <Name>20141017_MDCKras_SUPgel14.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509617">
+      <Name>20141017_MDCKras_SUPgel15.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509618">
+      <Name>20141017_MDCKras_SUPgel16.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509619">
+      <Name>20141017_MDCKras_SUPgel01.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509620">
+      <Name>20141017_MDCKras_SUPgel02.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509621">
+      <Name>20141017_MDCKras_SUPgel03.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509622">
+      <Name>20141017_MDCKras_SUPgel04.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC medium">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC medium</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC heavy">
+        <Sample id="S0000000839">
+          <title>MDCK culture sup</title>
+          <species>Canis lupus familiaris</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="">(none)</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000178">
+          <title>culture medium 2</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="18" replicate="">SDS-PAGE</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000172">
+          <title>SILAC</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="9615">Canis lupus familiaris</taxonomy>
+          <note/>
+          <variableModification id="MOD:01331" name="6x(13)C labeled L-arginine">Label:13C(6) (R)</variableModification>
+          <variableModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000178">
+          <title>Fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509623">
+      <Name>MDCKras_SUP_SILAC_Fusion.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000509624">
+      <Name>MDCKras_sup_SILAC_QE.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000509625">
+      <Name>20140719_MDCKras_sup_2pxQuanSILAC.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509626">
+      <Name>20141017_MDCKras_SUP_SILAC2pxQuant_Mascot.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

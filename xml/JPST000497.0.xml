@@ -1,0 +1,4984 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000497" formatVersion="1.0">
+  <Project id="JPST000497" pxid="PXD011100" createdDate="2018-09-17" modifiedDate="2019-04-30" mode="partial" type="Mass spectrometry">
+    <Title>Analyze key proteins in Syntrophus aciditrophicus</Title>
+    <Description>Pure cultures of S. aciditrophicus grown in 250 ml of 20 mM crotonate medium in 500-ml Schott bottles were used for proteomic analysis after 2-dimensional (2-D) PAGE.</Description>
+    <AnnouncementDate>2019-04-29</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="56780" value="Syntrophus aciditrophicus SB"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000190" value="QSTAR"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hong Hanh Nguyen</Name>
+    <Affiliation>UCLA</Affiliation>
+    <PrincipalInvestigator>Joseph Loo</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>mass spectrometry, environmental bacteria</Keywords>
+    <PubMed>
+      <PubMedId>30895699</PubMedId>
+      <PubMedInfo>James KL, Kung JW, Crable BR, Mouttaki H, Sieber JR, Nguyen HH, Yang Y, Xie Y, Erde J, Wofford NQ, Karr EA, Loo JA, Ogorzalek Loo RR, Gunsalus RP, McInerney MJ Syntrophus aciditrophicus uses the same enzymes in a reversible manner to degrade and synthesize aromatic and alicyclic acids. Environ Microbiol. 2019 Mar 20;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000532127">
+      <Name>050120syntroph11cmH5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532128">
+      <Name>050120syntroph11cmA2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532129">
+      <Name>050120syntroph11cmA3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532130">
+      <Name>050120syntroph11cmA4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532131">
+      <Name>050120syntroph11cmA5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532132">
+      <Name>050120syntroph11cmA6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532133">
+      <Name>050120syntroph11cmB2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532134">
+      <Name>050120syntroph11cmB3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532135">
+      <Name>050120syntroph11cmB4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532136">
+      <Name>050120syntroph11cmB5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532137">
+      <Name>050120syntroph11cmB6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532138">
+      <Name>050120syntroph11cmC2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532139">
+      <Name>050120syntroph11cmC3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532140">
+      <Name>050120syntroph11cmC4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532141">
+      <Name>050120syntroph11cmC5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532142">
+      <Name>050120syntroph11cmD2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532143">
+      <Name>050120syntroph11cmD3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532144">
+      <Name>050120syntroph11cmD4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532145">
+      <Name>050120syntroph11cmD5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532146">
+      <Name>050120syntroph11cmE1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532147">
+      <Name>050120syntroph11cmE2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532148">
+      <Name>050120syntroph11cmE3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532149">
+      <Name>050120syntroph11cmE4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532150">
+      <Name>050120syntroph11cmE5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532151">
+      <Name>050120syntroph11cmF1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532152">
+      <Name>050120syntroph11cmF2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532153">
+      <Name>050120syntroph11cmF3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532154">
+      <Name>050120syntroph11cmF4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532155">
+      <Name>050120syntroph11cmF5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532156">
+      <Name>050120syntroph11cmG1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532157">
+      <Name>050120syntroph11cmG2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532158">
+      <Name>050120syntroph11cmG3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532159">
+      <Name>050120syntroph11cmG4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532160">
+      <Name>050120syntroph11cmG5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532161">
+      <Name>050120syntroph11cmH1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532162">
+      <Name>050120syntroph11cmH2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532163">
+      <Name>050120syntroph11cmH3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532164">
+      <Name>050120syntroph11cmH4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532165">
+      <Name>20050130syntroph11cmF8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532166">
+      <Name>20050130syntroph11cmF9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532167">
+      <Name>20050130syntroph11cmG6r2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532168">
+      <Name>20050130syntroph11cmG8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532169">
+      <Name>20050130syntroph11cmG9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532170">
+      <Name>20050130syntroph11cmH7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532171">
+      <Name>20050130syntroph11cmH8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532172">
+      <Name>20050130syntroph11cmH9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532173">
+      <Name>20050128syntroph11cmA6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532174">
+      <Name>20050128syntroph11cmA7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532175">
+      <Name>20050128syntroph11cmB6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532176">
+      <Name>20050128syntroph11cmB7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532177">
+      <Name>20050128syntroph11cmC6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532178">
+      <Name>20050128syntroph11cmC7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532179">
+      <Name>20050128syntroph11cmD6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532180">
+      <Name>20050128syntroph11cmD7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532181">
+      <Name>20050128syntroph11cmE6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532182">
+      <Name>20050128syntroph11cmE7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532183">
+      <Name>20050128syntroph11cmF6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532184">
+      <Name>20050128syntroph11cmF7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532185">
+      <Name>20050128syntroph11cmG6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532186">
+      <Name>20050128syntroph11cmG7.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532187">
+      <Name>20050128syntroph11cmH6.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532188">
+      <Name>20050130syntroph11cmA8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532189">
+      <Name>20050130syntroph11cmA9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532190">
+      <Name>20050130syntroph11cmB8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532191">
+      <Name>20050130syntroph11cmB9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532192">
+      <Name>20050130syntroph11cmC8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532193">
+      <Name>20050130syntroph11cmC9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532194">
+      <Name>20050130syntroph11cmD7r2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532195">
+      <Name>20050130syntroph11cmD8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532196">
+      <Name>20050130syntroph11cmD9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532197">
+      <Name>20050130syntroph11cmE6r2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532198">
+      <Name>20050130syntroph11cmE8.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532199">
+      <Name>20050130syntroph11cmE9.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001121">
+          <title>Syntrophus aciditrphicus proteome</title>
+          <species id="56780">Syntrophus aciditrophicus SB</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000333">
+          <title>gel separation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note>2D gel separation</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000283">
+          <title>tryptic digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000276">
+          <title>QSTAR XL</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000532200">
+      <Name>F100308.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532201">
+      <Name>F100309.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532202">
+      <Name>F100310.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532203">
+      <Name>F100311.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532204">
+      <Name>F100312.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532205">
+      <Name>F100313.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532206">
+      <Name>F100317.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532207">
+      <Name>F100318.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532208">
+      <Name>F100199.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532209">
+      <Name>F100200.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532210">
+      <Name>F100201.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532211">
+      <Name>F100202.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532212">
+      <Name>F100238.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532213">
+      <Name>F100239.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532214">
+      <Name>F100240.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532215">
+      <Name>F100241.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532216">
+      <Name>F100242.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532217">
+      <Name>F100243.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532218">
+      <Name>F100244.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532219">
+      <Name>F100246.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532220">
+      <Name>F100247.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532221">
+      <Name>F100248.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532222">
+      <Name>F100249.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532223">
+      <Name>F100250.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532224">
+      <Name>F100251.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532225">
+      <Name>F100252.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532226">
+      <Name>F100253.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532227">
+      <Name>F100254.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532228">
+      <Name>F100255.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532229">
+      <Name>F100256.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532230">
+      <Name>F100257.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532231">
+      <Name>F100258.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532232">
+      <Name>F100259.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532233">
+      <Name>F100260.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532234">
+      <Name>F100261.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532235">
+      <Name>F100262.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532236">
+      <Name>F100263.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532237">
+      <Name>F100264.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532238">
+      <Name>F100265.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532239">
+      <Name>F100266.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532240">
+      <Name>F100267.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532241">
+      <Name>F100268.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532242">
+      <Name>F100269.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532243">
+      <Name>F100270.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532244">
+      <Name>F100271.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532245">
+      <Name>F100272.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532246">
+      <Name>F100273.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532247">
+      <Name>F100274.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532248">
+      <Name>F100275.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532249">
+      <Name>F100276.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532250">
+      <Name>F100277.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532251">
+      <Name>F100285.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532252">
+      <Name>F100287.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532253">
+      <Name>F100289.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532254">
+      <Name>F100293.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532255">
+      <Name>F100294.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532256">
+      <Name>F100297.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532257">
+      <Name>F100298.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532258">
+      <Name>F100299.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532259">
+      <Name>F100300.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532260">
+      <Name>F100301.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532261">
+      <Name>F100302.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532262">
+      <Name>F100303.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532263">
+      <Name>F100304.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532264">
+      <Name>F100305.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532265">
+      <Name>F100306.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532266">
+      <Name>F100307.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000227">
+          <database>Prokaryotes_EST</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>0.3</tol>
+          <itol>0.3</itol>
+          <fdr_peptide>95</fdr_peptide>
+          <fdr_protein>95</fdr_protein>
+          <fdr_psm>95</fdr_psm>
+          <tol_unit>Da</tol_unit>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000532267">
+      <Name>050120syntroph11cmB4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532268">
+      <Name>050120syntroph11cmB5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532269">
+      <Name>050120syntroph11cmC2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532270">
+      <Name>050120syntroph11cmC3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532271">
+      <Name>050120syntroph11cmC4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532272">
+      <Name>050120syntroph11cmC5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532273">
+      <Name>050120syntroph11cmD2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532274">
+      <Name>050120syntroph11cmD3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532275">
+      <Name>050120syntroph11cmD4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532276">
+      <Name>050120syntroph11cmD5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532277">
+      <Name>050120syntroph11cmE1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532278">
+      <Name>050120syntroph11cmE2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532279">
+      <Name>050120syntroph11cmE3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532280">
+      <Name>050120syntroph11cmE4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532281">
+      <Name>050120syntroph11cmE5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532282">
+      <Name>050120syntroph11cmF1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532283">
+      <Name>050120syntroph11cmF2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532284">
+      <Name>050120syntroph11cmF3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532285">
+      <Name>050120syntroph11cmF4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532286">
+      <Name>050120syntroph11cmF5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532287">
+      <Name>050120syntroph11cmG1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532288">
+      <Name>050120syntroph11cmG2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532289">
+      <Name>050120syntroph11cmG3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532290">
+      <Name>050120syntroph11cmG4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532291">
+      <Name>050120syntroph11cmG5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532292">
+      <Name>050120syntroph11cmH1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532293">
+      <Name>050120syntroph11cmH2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532294">
+      <Name>050120syntroph11cmH3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532295">
+      <Name>050120syntroph11cmH4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532296">
+      <Name>050120syntroph11cmH5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532297">
+      <Name>050120syntroph11cmA2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532298">
+      <Name>050120syntroph11cmA3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532299">
+      <Name>050120syntroph11cmA4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532300">
+      <Name>050120syntroph11cmA5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532301">
+      <Name>050120syntroph11cmB2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532302">
+      <Name>050120syntroph11cmB3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532303">
+      <Name>20050130syntroph11cmH9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532304">
+      <Name>20050128syntroph11cmA6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532305">
+      <Name>20050128syntroph11cmA7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532306">
+      <Name>20050128syntroph11cmB6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532307">
+      <Name>20050128syntroph11cmB7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532308">
+      <Name>20050128syntroph11cmC6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532309">
+      <Name>20050128syntroph11cmC7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532310">
+      <Name>20050128syntroph11cmD6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532311">
+      <Name>20050128syntroph11cmD7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532312">
+      <Name>20050128syntroph11cmE6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532313">
+      <Name>20050128syntroph11cmE7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532314">
+      <Name>20050128syntroph11cmF6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532315">
+      <Name>20050128syntroph11cmF7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532316">
+      <Name>20050128syntroph11cmG6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532317">
+      <Name>20050128syntroph11cmG7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532318">
+      <Name>20050128syntroph11cmH6.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532319">
+      <Name>20050130syntroph11cmA8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532320">
+      <Name>20050130syntroph11cmA9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532321">
+      <Name>20050130syntroph11cmB8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532322">
+      <Name>20050130syntroph11cmB9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532323">
+      <Name>20050130syntroph11cmC8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532324">
+      <Name>20050130syntroph11cmC9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532325">
+      <Name>20050130syntroph11cmD7r2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532326">
+      <Name>20050130syntroph11cmD8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532327">
+      <Name>20050130syntroph11cmD9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532328">
+      <Name>20050130syntroph11cmE6r2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532329">
+      <Name>20050130syntroph11cmE8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532330">
+      <Name>20050130syntroph11cmE9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532331">
+      <Name>20050130syntroph11cmF8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532332">
+      <Name>20050130syntroph11cmF9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532333">
+      <Name>20050130syntroph11cmG6r2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532334">
+      <Name>20050130syntroph11cmG8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532335">
+      <Name>20050130syntroph11cmG9.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532336">
+      <Name>20050130syntroph11cmH7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000532337">
+      <Name>20050130syntroph11cmH8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

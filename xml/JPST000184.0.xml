@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000184" formatVersion="1.0">
+  <Project id="JPST000184" pxid="PXD004904" createdDate="2016-09-07" modifiedDate="2016-09-08" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</Title>
+    <Description>To increase the coverage of membrane protein identification,we developed high-pH reverse phase (Hp-RP) combined with stop-and-go extraction tip (StageTip) technique, as a fast (∼15 min.). Almost 5000 proteins (∼60% membrane proteins) can be identified in only 10 μg of membrane protein digests, showing the superior sensitivity of the Hp-RP StageTip approach.</Description>
+    <AnnouncementDate>2016-09-08</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Pei-Yi Lin</Name>
+    <Affiliation>Academia Sinica</Affiliation>
+    <PrincipalInvestigator>Baby Rorielyn T. Dimayacyac-Esleta and Yu-Ju Chen</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Membrane Proteomic, Rapid High-pH Reverse Phase StageTip</Keywords>
+    <PubMed>
+      <PubMedId>26554430</PubMedId>
+      <PubMedInfo>Dimayacyac-Esleta BR, Tsai CF, Kitata RB, Lin PY, Choong WK, Lin TD, Wang YT, Weng SH, Yang PC, Arco SD, Sung TY, Chen YJ Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling. Anal Chem. 2015 Dec 15;87(24):12016-23</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000485515">
+      <Name>RP1_F1_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485516">
+      <Name>RP1_F2_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485517">
+      <Name>RP1_F3_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485518">
+      <Name>RP1_F4_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485519">
+      <Name>RP1_F5_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485520">
+      <Name>RP1_F6_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485521">
+      <Name>RP1_FT_150820_inj02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000398">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000079">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <subcellular replicate="1">Membrane</subcellular>
+          <protein/>
+          <peptide fraction="7" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000084">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000075">
+          <title>Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000485819">
+      <Name>proteinGroups.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

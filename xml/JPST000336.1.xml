@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000336" formatVersion="1.0">
+  <Project id="JPST000336" pxid="PXD007998" createdDate="2017-10-20" modifiedDate="2017-10-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Sensitive analysis of protein tyrosine phosphorylation</Title>
+    <Description>We immobilized SH2 superbinder onto a monolithic capillary column to construct a microreactor to enrich pTyr peptides from minute amount of samples. To evaluate the feasibility of this strategy, we used protein standards, phosphopeptide samples purified from pervanadate-treated HeLa cell digests as well as a protein complex sample. The results showed that this microreactor enabled highly speciﬁc enrichment of phosphotyrosine peptides. </Description>
+    <AnnouncementDate>2018-10-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yating Yao</Name>
+    <Affiliation>Dalian Institute of Chemical Physics, Chinese Academy of Sciences (CAS)</Affiliation>
+    <PrincipalInvestigator>Mingliang Ye</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>tyrosine phosphorylation, SH2 superbinder, monolithic capillary column</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000509142">
+      <Name>reproducibility_R1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509143">
+      <Name>reproducibility_R2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509144">
+      <Name>reproducibility_R3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509145">
+      <Name>reproducibility_R4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509146">
+      <Name>SH2_beads_100ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509147">
+      <Name>SH2_beads_100ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509148">
+      <Name>SH2_beads_200ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509149">
+      <Name>SH2_beads_200ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509150">
+      <Name>SH2_beads_500ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509151">
+      <Name>SH2_beads_500ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509152">
+      <Name>SH2_beads_1000ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509153">
+      <Name>SH2_beads_1000ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509154">
+      <Name>SH2_column_100ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509155">
+      <Name>SH2_column_100ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509156">
+      <Name>SH2_column_200ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509157">
+      <Name>SH2_column_200ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509158">
+      <Name>SH2_column_500ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509159">
+      <Name>SH2_column_500ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509160">
+      <Name>SH2_column_1000ug_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509161">
+      <Name>SH2_column_1000ug_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000833">
+          <title>HeLa_cell</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000174">
+          <title>NoFractionation</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000168">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000173">
+          <title>Velos</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509163">
+      <Name>search result.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

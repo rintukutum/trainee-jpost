@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000542" formatVersion="1.0">
+  <Project id="JPST000542" pxid="PXD012311" createdDate="2019-01-12" modifiedDate="2019-01-14" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Phosphoproteomics of Chlamydomonas reinhardtii in photoautotrophic nitrogen-deficient conditions</Title>
+    <Description>Nutrient-deprived microalgae accumulate triacylglycerol (TAG) in lipid droplets. A dual-specificity tyrosine phosphorylation-regulated kinase, TAG accumulation regulator 1 (TAR1) has been shown to be required for acetate-dependent TAG accumulation and the degradation of chlorophyll and photosynthesis-related proteins in photomixotrophic nitrogen (N)-deficient conditions (Kajikawa et al. 2015). However, this previous report only examined particular condition. Here, we report that in photoautotrophic N-deficient conditions, tar1-1 cells, with a mutation in the TAR1 gene, maintained higher levels of cell viability and lower levels of hydrogen peroxide generation and accumulated higher levels of TAG and starch compared with those of wild-type (WT) cells with bubbling of air containing 5% carbon dioxide. Transcriptomic analyses suggested that genes involved in the scavenging of reactive oxygen species are not repressed in tar1-1 cells. In contrast, the mating efficiency and mRNA levels of key regulatory genes for gametogenesis, MID, MTD, and FUS, were suppressed in tar1-1 cells. Among the TAR1-dependent phosphopeptides deduced by phosphoproteomic analysis, protein kinases and enzymes related to N assimilation and carbon (C) metabolism are of particular interest. Characterization of these putative downstream factors may elucidate the molecular pathway whereby TAR1 mediates cellular propagation and C and N metabolism in C/N-imbalanced stress conditions.</Description>
+    <AnnouncementDate>2019-01-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="131567" value="cellular organisms"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hirofumi Nakagami</Name>
+    <Affiliation>Max Planck Institute for Plant Breeding Research</Affiliation>
+    <PrincipalInvestigator>Hirofumi Nakagami</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Chlamydomonas reinhardtii, Triacylglycerol accumulation regulator 1 (TAR1), Photoautotrophic nitrogen-deficient conditions, Phosphoproteomics</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000541850">
+      <Name>150910Orbi_tar1_0h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541851">
+      <Name>150910Orbi_tar1_05h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541852">
+      <Name>150910Orbi_tar1_05h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541853">
+      <Name>150910Orbi_tar1_05h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541854">
+      <Name>150910Orbi_tar1_05h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541855">
+      <Name>150910Orbi_tar1_6h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541856">
+      <Name>150910Orbi_tar1_6h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541857">
+      <Name>150910Orbi_tar1_6h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541858">
+      <Name>150910Orbi_tar1_6h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541859">
+      <Name>150910Orbi_WT_0h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541860">
+      <Name>150910Orbi_WT_0h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541861">
+      <Name>150910Orbi_WT_0h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541862">
+      <Name>150910Orbi_WT_0h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541863">
+      <Name>150910Orbi_WT_05h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541864">
+      <Name>150910Orbi_WT_05h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541865">
+      <Name>150910Orbi_WT_05h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541866">
+      <Name>150910Orbi_WT_05h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541867">
+      <Name>150910Orbi_WT_6h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541868">
+      <Name>150910Orbi_WT_6h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541869">
+      <Name>150910Orbi_WT_6h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541870">
+      <Name>150910Orbi_WT_6h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541871">
+      <Name>150910Orbi_C1_0h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541872">
+      <Name>150910Orbi_C1_0h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541873">
+      <Name>150910Orbi_C1_0h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541874">
+      <Name>150910Orbi_C1_0h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541875">
+      <Name>150910Orbi_C1_05h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541876">
+      <Name>150910Orbi_C1_05h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541877">
+      <Name>150910Orbi_C1_05h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541878">
+      <Name>150910Orbi_C1_05h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541879">
+      <Name>150910Orbi_C1_6h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541880">
+      <Name>150910Orbi_C1_6h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541881">
+      <Name>150910Orbi_C1_6h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541882">
+      <Name>150910Orbi_C1_6h_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541883">
+      <Name>150910Orbi_tar1_0h_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541884">
+      <Name>150910Orbi_tar1_0h_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541885">
+      <Name>150910Orbi_tar1_0h_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001246">
+          <title>Chlamydomonas reinhardtii</title>
+          <species>Chlamydomonas reinhardtii</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000368">
+          <title>TiO2 enrichment, Whole cell lysates</title>
+          <subcellular>Whole</subcellular>
+          <peptide>TiO2</peptide>
+          <note/>
+          <protein replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000321">
+          <title>Chlamydomonas, Trypsin, Phospho</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Chlamydomonas reinhardtii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000308">
+          <title>LTQ-Orbitrap XL</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000541886">
+      <Name>150910Orbi_tar1_6h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541887">
+      <Name>150910Orbi_WT_0h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541888">
+      <Name>150910Orbi_WT_0h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541889">
+      <Name>150910Orbi_WT_0h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541890">
+      <Name>150910Orbi_WT_0h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541891">
+      <Name>150910Orbi_WT_05h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541892">
+      <Name>150910Orbi_WT_05h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541893">
+      <Name>150910Orbi_WT_05h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541894">
+      <Name>150910Orbi_WT_05h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541895">
+      <Name>150910Orbi_WT_6h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541896">
+      <Name>150910Orbi_WT_6h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541897">
+      <Name>150910Orbi_WT_6h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541898">
+      <Name>150910Orbi_WT_6h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541899">
+      <Name>150910Orbi_C1_0h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541900">
+      <Name>150910Orbi_C1_0h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541901">
+      <Name>150910Orbi_C1_0h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541902">
+      <Name>150910Orbi_C1_0h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541903">
+      <Name>150910Orbi_C1_05h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541904">
+      <Name>150910Orbi_C1_05h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541905">
+      <Name>150910Orbi_C1_05h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541906">
+      <Name>150910Orbi_C1_05h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541907">
+      <Name>150910Orbi_C1_6h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541908">
+      <Name>150910Orbi_C1_6h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541909">
+      <Name>150910Orbi_C1_6h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541910">
+      <Name>150910Orbi_C1_6h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541911">
+      <Name>150910Orbi_tar1_0h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541912">
+      <Name>150910Orbi_tar1_0h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541913">
+      <Name>150910Orbi_tar1_0h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541914">
+      <Name>150910Orbi_tar1_0h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541915">
+      <Name>150910Orbi_tar1_05h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541916">
+      <Name>150910Orbi_tar1_05h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541917">
+      <Name>150910Orbi_tar1_05h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541918">
+      <Name>150910Orbi_tar1_05h_4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541919">
+      <Name>150910Orbi_tar1_6h_1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541920">
+      <Name>150910Orbi_tar1_6h_2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541921">
+      <Name>150910Orbi_tar1_6h_3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000541922">
+      <Name>150910Orbi_WT_05h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541923">
+      <Name>150910Orbi_WT_05h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541924">
+      <Name>150910Orbi_WT_05h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541925">
+      <Name>150910Orbi_WT_05h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541926">
+      <Name>150910Orbi_WT_6h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541927">
+      <Name>150910Orbi_WT_6h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541928">
+      <Name>150910Orbi_WT_6h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541929">
+      <Name>150910Orbi_WT_6h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541930">
+      <Name>150910Orbi_C1_0h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541931">
+      <Name>150910Orbi_C1_0h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541932">
+      <Name>150910Orbi_C1_0h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541933">
+      <Name>150910Orbi_C1_0h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541934">
+      <Name>150910Orbi_C1_05h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541935">
+      <Name>150910Orbi_C1_05h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541936">
+      <Name>150910Orbi_C1_05h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541937">
+      <Name>150910Orbi_C1_05h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541938">
+      <Name>150910Orbi_C1_6h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541939">
+      <Name>150910Orbi_C1_6h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541940">
+      <Name>150910Orbi_C1_6h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541941">
+      <Name>150910Orbi_C1_6h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541942">
+      <Name>150910Orbi_tar1_0h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541943">
+      <Name>150910Orbi_tar1_0h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541944">
+      <Name>150910Orbi_tar1_0h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541945">
+      <Name>150910Orbi_tar1_0h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541946">
+      <Name>150910Orbi_tar1_05h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541947">
+      <Name>150910Orbi_tar1_05h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541948">
+      <Name>150910Orbi_tar1_05h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541949">
+      <Name>150910Orbi_tar1_05h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541950">
+      <Name>150910Orbi_tar1_6h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541951">
+      <Name>150910Orbi_tar1_6h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541952">
+      <Name>150910Orbi_tar1_6h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541953">
+      <Name>150910Orbi_tar1_6h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541954">
+      <Name>150910Orbi_WT_0h_1.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541955">
+      <Name>150910Orbi_WT_0h_2.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541956">
+      <Name>150910Orbi_WT_0h_3.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541957">
+      <Name>150910Orbi_WT_0h_4.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000541958">
+      <Name>Export_150910Orbi_Fukuzawa_Chlamy_tar1.txt</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000541959">
+      <Name>job.log</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

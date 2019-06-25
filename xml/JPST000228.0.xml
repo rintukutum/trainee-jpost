@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000228" formatVersion="1.0">
+  <Project id="JPST000228" pxid="PXD005685" createdDate="2017-01-05" modifiedDate="2017-01-09" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Metal-directed metal oxide chromatography augmented the coverage of phosphoproteome  </Title>
+    <Description>Phosphosites cluster, a set of co-regulation sites, extends a variety of protein function via the distinct combination of phosphorylation events. The coordination of proximal multisite phosphorylation is a universal mechanism to regulate protein function, activity, and interaction pattern. The common method for efficiently separating heterogeneous types of phosphopeptides is insufficient thereby hampering the complete mapping of phosphoproteome. By taking the advantages of distinct binding affinities of Ga2O3 and TiO2 toward phosphopeptides under the same buffer condition, we present a simple and rapid strategy, metal-directed metal oxide chromatography (MD-MOC), for sequential separation of singly and multiply phosphorylated peptides. Among the 6,585 phosphopeptides identified from PC9 cells, up to 92% was uniquely enriched in either the first Ga2O3 or subsequent TiO2 fractions and more than 90 % of phosphopeptides in Ga2O3 fraction were multiply phosphorylated peptide, demonstrating the high complementary properties of these two materials. The high separation efficiency (&#60;10% overlapping of identified phosphopeptides) results in a 1.9-fold superior phosphoproteomic coverage compared to conventional TiO2-based MOC in PC9 cells. Finally, the MD-MOC approach was applied to the large-scale phosphoproteomic profiling of ten mouse organ tissues allowed the identification of 42,086 unique phosphopeptides from 6,669 phosphoproteins using single-shot LC/MS/MS analysis. To our knowledge, the identification of 14,854 multiply phosphorylated peptides presented the largest dataset for multiply phosphorylated peptide from rodent tissues to date. Also, around half identified novel phosphosites (n=2,752) were uniquely came from the multiply phosphorylated peptide dataset further emphasizing the need of improving the detection sensitivity of multiply phosphorylated peptides. Given the good separation ability, stable reproducibility, and ease of tip-based preparation, this MD-MOC presents a sensitive approach for deep phosphoproteome identification and quantification from limited sample for shedding light on in vivo phosphoregulations. </Description>
+    <AnnouncementDate>2018-01-11</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Miao-Hsia Lin</Name>
+    <Affiliation>Institute of Chemistry, Academia Sinica</Affiliation>
+    <PrincipalInvestigator>Yu-Ju Chen</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords> Metal Oxide Chromatography, phosphoproteomics</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000491843">
+      <Name>1Ga2O3_E_assemble_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491844">
+      <Name>1Ga2O3_E_assemble_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491845">
+      <Name>2TiO2_E_assemble_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491846">
+      <Name>2TiO2_E_assemble_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491847">
+      <Name>TiO2_only_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491976">
+      <Name>Fe_IMAC_E_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491977">
+      <Name>Fe_IMAC_E_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491978">
+      <Name>Ga_IMAC_E_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491979">
+      <Name>Ga_IMAC_E_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491980">
+      <Name>TiO2_only_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491981">
+      <Name>recovery_1Ga2O3_run1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491982">
+      <Name>recovery_1Ga2O3_run2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491983">
+      <Name>Recovery_1TiO2_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491984">
+      <Name>Recovery_1TiO2_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491985">
+      <Name>recovery_2Ga2O3_run1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491986">
+      <Name>recovery_2Ga2O3_run2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491987">
+      <Name>Recovery_2TiO2_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491988">
+      <Name>Recovery_2TiO2_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491989">
+      <Name>2TiO2_reproducibility_1a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491990">
+      <Name>2TiO2_reproducibility_1b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491991">
+      <Name>2TiO2_reproducibility_2a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491992">
+      <Name>2TiO2_reproducibility_2b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491993">
+      <Name>2TiO2_reproducibility_3a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491994">
+      <Name>2TiO2_reproducibility_3b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491995">
+      <Name>Ga2O3_reproducibility_1a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491996">
+      <Name>Ga2O3_reproducibility_1b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491997">
+      <Name>Ga2O3_reproducibility_2a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491998">
+      <Name>Ga2O3_reproducibility_2b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000491999">
+      <Name>Ga2O3_reproducibility_3a.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492000">
+      <Name>Ga2O3_reproducibility_3b.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000432">
+          <title>PC9 phosphopeptide metal-directed MOC enrichment</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000097">
+          <title>metal-directed MOC</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492001">
+      <Name>reproducibility.7z</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000492002">
+      <Name>REcovery.7z</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+      <Software_setting>
+        <Setting id=""/>
+      </Software_setting>
+    </File>
+    <File id="f_0000492003">
+      <Name>1Ga2O3_E_assemble_01.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492004">
+      <Name>1Ga2O3_E_assemble_02.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492005">
+      <Name>2TiO2_E_assemble_01.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492006">
+      <Name>2TiO2_E_assemble_02.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000492007">
+      <Name>Fe_IMAC_E_01.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492008">
+      <Name>Fe_IMAC_E_02.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492009">
+      <Name>Ga_IMAC_E_01.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492010">
+      <Name>Ga_IMAC_E_02.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492011">
+      <Name>TiO2_only_1.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492012">
+      <Name>TiO2_only_2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492013">
+      <Name>LWT_Brain_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000433">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000142">brain</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492014">
+      <Name>LWT_Brain_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000433">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000142">brain</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492015">
+      <Name>LWT_Heart_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000434">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000562">heart</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492016">
+      <Name>LWT_Heart_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000434">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000562">heart</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492017">
+      <Name>LWT_spleen_Ga2O3_151220154645.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000435">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001281">spleen</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492018">
+      <Name>LWT_spleen_TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000435">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001281">spleen</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492019">
+      <Name>LWT_Liver_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000436">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492020">
+      <Name>LWT_Liver_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000436">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492021">
+      <Name>LWT_Lung_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000437">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492022">
+      <Name>LWT_Lung_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000437">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492023">
+      <Name>LWT_Testist_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000438">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001363">testis</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492024">
+      <Name>LWT_Testist_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000438">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001363">testis</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492025">
+      <Name>LWT_Kidney_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000439">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000671">kidney</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492026">
+      <Name>LWT_Kidney_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000439">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000671">kidney</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492027">
+      <Name>LWT_thymus_Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000440">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492028">
+      <Name>LWT_thymus_TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000440">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492029">
+      <Name>LWT_stomach_Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000441">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001307">stomach</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492030">
+      <Name>LWT_stomach_TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000441">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001307">stomach</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492031">
+      <Name>LWT_Intestist_1Ga2O3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000442">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000648">intestine</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492032">
+      <Name>LWT_Intestist_2TiO2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000442">
+          <title>Mouse tissues metal-directed phosphopeptide enrichment&#38;#9;</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000648">intestine</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000104">
+          <title>metal directed MOC</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000098">
+          <title>Metal-directed MOC</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492034">
+      <Name>LWT_Brain_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492035">
+      <Name>LWT_Brain_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492036">
+      <Name>LWT_Heart_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492037">
+      <Name>LWT_Heart_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492039">
+      <Name>LWT_Intestist_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492040">
+      <Name>LWT_Kidney_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492041">
+      <Name>LWT_Kidney_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492042">
+      <Name>LWT_Liver_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492043">
+      <Name>LWT_Liver_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492044">
+      <Name>LWT_Lung_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492045">
+      <Name>LWT_Lung_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492046">
+      <Name>LWT_spleen_Ga2O3_151220154645.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492047">
+      <Name>LWT_spleen_TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492048">
+      <Name>LWT_stomach_Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492049">
+      <Name>LWT_stomach_TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492050">
+      <Name>LWT_Testist_1Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492051">
+      <Name>LWT_Testist_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492052">
+      <Name>LWT_thymus_TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492053">
+      <Name>LWT_thymus_Ga2O3.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492054">
+      <Name>LWT_Intestist_2TiO2.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

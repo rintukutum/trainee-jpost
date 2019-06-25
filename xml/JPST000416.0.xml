@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000416" formatVersion="1.0">
+  <Project id="JPST000416" pxid="PXD009653" createdDate="2018-05-03" modifiedDate="2018-05-03" mode="partial" type="Mass spectrometry">
+    <Title>Histone Middle Down UVPD</Title>
+    <Description>Middle Down UVPD MS of purified HeLa Histones analyzed using 193 nm Ultra violet photo dissocaiton on a Thermo Fisher Scientific Orbitrap Fusion Lumos </Description>
+    <AnnouncementDate>2019-05-03</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002732" value="Orbitrap Fusion Lumos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="methyl (R) (K)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="Dimethyl (RK)"/>
+      <PresetElement id="MOD:00855" ontologyName="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)" value="Trimethyl (K)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="none"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Sylvester Greer</Name>
+    <Affiliation>UT Austin</Affiliation>
+    <PrincipalInvestigator>Jennifer Brodbelt</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Middle Down, UVPD, Histone</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000517207">
+      <Name>HeLA_H3_UVPD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517208">
+      <Name>HeLA_H3_UVPD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517209">
+      <Name>HeLA_H3_UVPD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517210">
+      <Name>HeLA_H3_ETD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517211">
+      <Name>HeLA_H3_ETD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517212">
+      <Name>HELA_H3_ETD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517216">
+      <Name>HeLA_Nabut_H3_UVPD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517217">
+      <Name>HeLA_Nabut_H3_UVPD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517218">
+      <Name>HeLA_Nabut_H3_UVPD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517219">
+      <Name>HeLA_Nabut_H3_ETD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517220">
+      <Name>HeLA_Nabut_H3_ETD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517221">
+      <Name>HeLA_Nabut_H3_ETD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517222">
+      <Name>HeLA_NabutH4_ETD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517223">
+      <Name>HeLA_NabutH4_ETD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517224">
+      <Name>HeLA_NabutH4_ETD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517225">
+      <Name>HeLA_NabutH4_UVPD_2_.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517226">
+      <Name>HeLA_NabutH4_UVPD_1_.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517227">
+      <Name>HeLA_NabutH4_UVPD_3_.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517228">
+      <Name>HeLA_HeLA_H4_ETD.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517229">
+      <Name>HeLA_HeLA_H4_ETD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517230">
+      <Name>HeLA_HeLA_H4_ETD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517231">
+      <Name>HeLA_H4_UVPD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517232">
+      <Name>HeLA_H4_UVPD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517233">
+      <Name>HeLA_H4_UVPD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001024">
+          <title>HeLa Histones</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000223">
+          <title>Middle Down</title>
+          <enzyme id="MS:1001315">V8-E</enzyme>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="methyl (R) (K)" name="">methyl (R) (K)</variableModification>
+          <variableModification id="Dimethyl (RK)" name="">Dimethyl (RK)</variableModification>
+          <variableModification id="MOD:00855" name="N6,N6,N6-trimethyl-L-lysine (from L-lysinium residue)">Trimethyl (K)</variableModification>
+          <fixedModification id="none" name="">none</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517246">
+      <Name>Supplemental Histoform Table.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MASCOT + HistoneCoder + isoScale</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

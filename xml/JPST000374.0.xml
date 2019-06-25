@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000374" formatVersion="1.0">
+  <Project id="JPST000374" pxid="PXD008603" createdDate="2018-01-05" modifiedDate="2018-06-13" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TK03_Proteome_Soybean</Title>
+    <Description>Proteomic analysis of the effect of plant-derived smoke on soybean during recovery after flooding stress</Description>
+    <AnnouncementDate>2018-06-13</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="3847" value="Glycine max"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002417" value="Orbitrap Fusion ETD"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hisateru YAMAGUCHI</Name>
+    <Affiliation>Institute for Comprehensive Medical Science, FUJITA HEALTH UNIVERSITY.</Affiliation>
+    <PrincipalInvestigator>Setsuko Komatsu</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Proteomics, Soybean, Plant-derived smoke, Flooding, LFQ</Keywords>
+    <PubMed>
+      <PubMedId>29704570</PubMedId>
+      <PubMedInfo>Li X, Rehman SU, Yamaguchi H, Hitachi K, Tsuchida K, Yamaguchi T, Sunohara Y, Matsumoto H, Komatsu S Proteomic analysis of the effect of plant-derived smoke on soybean during recovery from flooding stress. J Proteomics. 2018 Jun 15;181:238-248</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000512578">
+      <Name>20171214_05_Komatsu_SB_C1_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512579">
+      <Name>20171214_08_Komatsu_SB_C2_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512580">
+      <Name>20171214_11_Komatsu_SB_C3_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512581">
+      <Name>20171214_14_Komatsu_SB_F1_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512582">
+      <Name>20171214_17_Komatsu_SB_F2_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512583">
+      <Name>20171214_20_Komatsu_SB_F3_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512584">
+      <Name>20171214_23_Komatsu_SB_FS1_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512585">
+      <Name>20171214_26_Komatsu_SB_FS2_1uL_130min.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512586">
+      <Name>20171214_29_Komatsu_SB_FS3_1uL_130min_171215221406.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000934">
+          <species id="3847">Glycine max</species>
+          <tissue id="BTO:0001226">seed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>TK03_Proteome_Soybean</title>
+        </Sample>
+        <Fractionation id="F0000000206">
+          <title>Whole proteome analysis by TK</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000187">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="3847">Glycine max</taxonomy>
+          <note/>
+          <title>Glycine max</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000189">
+          <title>Orbitrap Fusion ETD DDA LFQ</title>
+          <instrument id="MS:1002417">Orbitrap Fusion ETD</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512587">
+      <Name>20171218_Komatsu_SB_C123_F123_FS123_1uL_130min.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512591">
+      <Name>20171218_Komatsu_SB_C123_1uL_130min.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512592">
+      <Name>20171218_Komatsu_SB_F123_1uL_130min.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512593">
+      <Name>20171218_Komatsu_SB_FS123_1uL_130min.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512594">
+      <Name>20171218_Komatsu_SB_C123_1uL_130min.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512595">
+      <Name>20171218_Komatsu_SB_F123_1uL_130min.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512596">
+      <Name>20171218_Komatsu_SB_FS123_1uL_130min.msf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000512597">
+      <Name>20171218_Komatsu_SB_C123_F123_FS123_1uL_130min.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software>Mascot</Software>
+      <Software>Sequest HT</Software>
+    </File>
+    <File id="f_0000512598">
+      <Name>20171218_Komatsu_SB_C123_F123_FS123_1uL_130min.mzTab</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software>Mascot</Software>
+      <Software>Sequest HT</Software>
+    </File>
+    <File id="f_0000512599">
+      <Name>20171218_Komatsu_SB_C123_F123_FS123_1uL_130min.pdResult</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software>Mascot</Software>
+      <Software>Sequest HT</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

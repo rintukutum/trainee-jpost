@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000379" formatVersion="1.0">
+  <Project id="JPST000379" pxid="PXD008683" createdDate="2018-04-24" modifiedDate="2018-05-31" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>DM</Title>
+    <Description>Diabetic mellitus (DM) is a disease that affects glucose homeostasis and has cause of complications, such as diabetic nephropathy (DN). For diagnose of the early DN, microalbuminuria is one of the mostly used biomarker currently. However, more early diagnostic biomarkers are desired rather than microalbuminuria.</Description>
+    <AnnouncementDate>2018-05-31</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yoshitoshi Hirao</Name>
+    <Affiliation>Niigata University</Affiliation>
+    <PrincipalInvestigator>Tadashi Yamamoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>urine, DM</Keywords>
+    <PubMed>
+      <PubMedId>29415455</PubMedId>
+      <PubMedInfo>Hirao Y, Saito S, Fujinaka H, Miyazaki S, Xu B, Quadery AF, Elguoshy A, Yamamoto K, Yamamoto T Proteome Profiling of Diabetic Mellitus Patient Urine for Discovery of Biomarkers by Comprehensive MS-Based Proteomics. Proteomes. 2018 Feb 6;6(1)</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000516817">
+      <Name>DM_01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516818">
+      <Name>DM_01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516819">
+      <Name>DM_02_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516820">
+      <Name>DM_02_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516821">
+      <Name>DM_03_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516822">
+      <Name>DM_03_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516823">
+      <Name>DM_04_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516824">
+      <Name>DM_04_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516825">
+      <Name>DM_05_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516826">
+      <Name>DM_05_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516827">
+      <Name>HV_01_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516828">
+      <Name>HV_01_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516829">
+      <Name>HV_02_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516830">
+      <Name>HV_02_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516831">
+      <Name>HV_03_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516832">
+      <Name>HV_03_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516833">
+      <Name>HV_04_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516834">
+      <Name>HV_04_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516835">
+      <Name>HV_05_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516836">
+      <Name>HV_05_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000939">
+          <title>DM</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:9352">type 2 diabetes mellitus</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000191">
+          <title>DM</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000201">
+          <title>DM</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516837">
+      <Name>DM_01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516838">
+      <Name>DM_02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516839">
+      <Name>DM_03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516840">
+      <Name>DM_04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516841">
+      <Name>DM_05.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516842">
+      <Name>HV_01.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516843">
+      <Name>HV_02.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516844">
+      <Name>HV_03.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516845">
+      <Name>HV_04.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000516846">
+      <Name>HV_05.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000149">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

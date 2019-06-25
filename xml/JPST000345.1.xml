@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000345" formatVersion="1.0">
+  <Project id="JPST000345" pxid="" createdDate="2017-12-30" modifiedDate="2017-12-30" mode="partial" type="Gel electrophoresis" announced="true">
+    <Title>TIG-3: Two-dimensional electrophoresis database for cellular aging research</Title>
+    <Description> The cell strain TIG-3, which was established in our institute, shows the finite life span up to 70-80 population doubling levels (PDLs). The preparation of our 2-D gel-based proteome database was intended for promoting proteomic researches on cellular aging. (Toda T, Kaji K, Kimura N. Electrophoresis 19(2), 344-348, 1998)</Description>
+    <AnnouncementDate>2018-12-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument/>
+    <Modification/>
+  </presetSummary>
+  <Contact>
+    <Name>Tosifusa Toda</Name>
+    <Affiliation>Tokyo Metropolitan Institute of Gerontology</Affiliation>
+    <PrincipalInvestigator>Tosifusa Toda</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TIG-3, human, fibroblast, cultured cells</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000512330">
+      <Name>fibro_master.gif</Name>
+      <Type>image</Type>
+      <Profile>
+        <Sample id="S0000000840">
+          <title>TIG-3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype id="CL:0000057">fibroblast</celltype>
+          <disease/>
+          <note>Normal human diploid fibroblast cell strain</note>
+        </Sample>
+        <Fractionation id="F0000000179">
+          <title>Protein extraction for two-dimesional gel electrophoresis</title>
+          <subcellular>Whole</subcellular>
+          <protein>Whole protein extraction using urea/detergent-containing buffer</protein>
+          <peptide/>
+          <note>According to the TMIG Standard Procedure of 2-D PAGE in Proteomics (http://www.proteome.jp/2D/2DE_method.html).&#10;</note>
+        </Fractionation>
+      </Profile>
+    </File>
+    <File id="f_0000512331">
+      <Name>TIG-3_2DPAGE_Database.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

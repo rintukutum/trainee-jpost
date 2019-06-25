@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000415" formatVersion="1.0">
+  <Project id="JPST000415" pxid="PXD010049" createdDate="2018-05-03" modifiedDate="2018-06-07" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Whole Total soluble fractions of Meyerozyma guilliermondii</Title>
+    <Description>Organisms respond to environmental stress by altering their pattern of protein expression , as an alternative to growing in stressful conditions. A strain of Meyerozyma guilliermondii resistant to manganese was isolated from a sample of water collected from a mine drainage in southeastern Minas Gerais (Brazil), demonstrated manganese detoxification capacity. We compared the changes in protein expression in two different conditions, absence and after exposure to excess manganese and used this information to demonstrate the differential expression of proteins in both conditions and try to of explain the resistance of these yeasts to high concentrations of the metal. We utilized high resolution, high mass accuracy  proteomics to explore stress alters expression of proteins involved in the oxidative stress in M. guilliermondii. The study of this proteome may help in the understanding of molecular regulatory mechanisms to tolerate excess Mn, and the use of biomass in the bioremediation process.</Description>
+    <AnnouncementDate>2018-06-07</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="4929" value="Meyerozyma guilliermondii"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00156" ontologyName="oxidation of tyrosine to L-2',4',5'-topaquinone" value="oxidation of tyrosine to L-2',4',5'-topaquinone"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>France Anne Dias Ruas</Name>
+    <Affiliation>Universidade Federal de Ouro preto</Affiliation>
+    <PrincipalInvestigator>France Anne Dias Ruas</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Meyerozyma guilliermondii, Manganese, Soluble proteome, Shotgun, LC-MS/MS</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000517255">
+      <Name>FA_20161020_38_replica1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517256">
+      <Name>FA_20161024_38_replica3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517257">
+      <Name>FA_20161024_38_replica4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517258">
+      <Name>FA_20161020_39_replica1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517259">
+      <Name>FA_20161021_39_replica2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517260">
+      <Name>FA_20161024_39_replica3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001025">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <species id="4929">Meyerozyma guilliermondii</species>
+          <tissue id="BTO:0002307">yeast form</tissue>
+          <celltype id="CL:0000334">vegetative cell (sensu Fungi)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Sample id=""/>
+        <Fractionation id="F0000000245">
+          <title>Whole Total soluble fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="2" replicate="1">Digestion in gel</protein>
+          <peptide fraction="2" replicate="1">Digestion in gel</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000224">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="4929">Meyerozyma guilliermondii</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <fixedModification id="MOD:00156" name="oxidation of tyrosine to L-2',4',5'-topaquinone">oxidation of tyrosine to L-2',4',5'-topaquinone</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <Enzyme_Mod id=""/>
+        <MS_mode id="M0000000225">
+          <title>Whole Total soluble fractions of Meyerozyma guilliermondii</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517708">
+      <Name>FA_20161024_38_replica3.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517709">
+      <Name>FA_20161020_38_replica1.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517710">
+      <Name>FA_20161024_38_replica4.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517711">
+      <Name>FA_20161020_39_replica1.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517712">
+      <Name>FA_20161021_39_replica2.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517713">
+      <Name>FA_20161024_39_replica3.mzML</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>mzML</Format>
+    </File>
+    <File id="f_0000517714">
+      <Name>FA_20161020_38_replica1.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000517715">
+      <Name>FA_20161024_38_replica3.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000517725">
+      <Name>FA_20161024_38_replica4.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000517726">
+      <Name>FA_20161020_39_replica1.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000518430">
+      <Name>FA_20161021_39_replica2.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000518431">
+      <Name>FA_20161024_39_replica3.mgf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+    <File id="f_0000521841">
+      <Name>peptides_1_0_0.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000521842">
+      <Name>peptides_1_1_0.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

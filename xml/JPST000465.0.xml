@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000465" formatVersion="1.0">
+  <Project id="JPST000465" pxid="PXD010541" createdDate="2018-07-24" modifiedDate="2018-07-24" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>induced salivary gland from PSCs (iSG) secretome analysis</Title>
+    <Description>To compare mouse saliva and induced salivary gland from PSCs (iSG) secreted protein profiles, those samples were digested by Lys-C and trypsin and then analyzed by data-dependent acquisition (DDA) and sequential window acquisition of all theoretical mass spectra (SWATH) using TripleTOF 5600+ mass spectrometer coupled with nanoLC.</Description>
+    <AnnouncementDate>2018-07-24</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Junichi Tanaka</Name>
+    <Affiliation>showa university</Affiliation>
+    <PrincipalInvestigator>Kenji Mishima</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>iSG, Secretome, Saliva</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000526928">
+      <Name>DDA_iSG.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000253">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526929">
+      <Name>DDA_iSG.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000253">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526930">
+      <Name>DDA_Saliva.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000253">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526931">
+      <Name>DDA_Saliva.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000253">
+          <title>DDA by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526932">
+      <Name>SWATH_iSG_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526933">
+      <Name>SWATH_iSG_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526934">
+      <Name>SWATH_iSG_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526935">
+      <Name>SWATH_iSG_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526936">
+      <Name>SWATH_iSG_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526937">
+      <Name>SWATH_iSG_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001081">
+          <title>iSG derived saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000307">
+          <title>Secretome analysis</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526938">
+      <Name>SWATH_Saliva_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526939">
+      <Name>SWATH_Saliva_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526940">
+      <Name>SWATH_Saliva_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526941">
+      <Name>SWATH_Saliva_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526942">
+      <Name>SWATH_Saliva_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526943">
+      <Name>SWATH_Saliva_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001082">
+          <title>saliva</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0001202">saliva</tissue>
+          <celltype id="">(none)</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000308">
+          <title>Whole proteome analysis</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000258">
+          <title>Lys-C/Trypsin mix</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000254">
+          <title>SWATH by TripleTOF 5600+</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526944">
+      <Name>iSG.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000526945">
+      <Name>Saliva.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

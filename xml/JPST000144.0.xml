@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000144" formatVersion="1.0">
+  <Project id="JPST000144" pxid="" createdDate="2016-06-24" modifiedDate="2016-06-27" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Phosphoproteomics analysis of TCR signaling</Title>
+    <Description>We investigated the global dynamic view of TCR-dependent phosphorylation in thymocytes stimulated with antibodies to CD3e. Thymocytes prepared from C57BL/6 mice at 4 to 8 weeks of age were subjected to phosphor-iTRAQ system, which is combined Fe-IMAC and iTRAQ. Phorphoproteomics analysis identified and quantified 8945 unique phosphopeptides (2634 proteins).</Description>
+    <AnnouncementDate>2016-12-03</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000190" value="QSTAR"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:01501" ontologyName="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine" value="iTRAQ4plex (K)"/>
+      <PresetElement id="MOD:01500" ontologyName="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal" value="iTRAQ4plex (N-term)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00420" ontologyName="2-pyrrolidone-5-carboxylic acid (Glu)" value="Glu-&#62;pyro-Glu (E)"/>
+      <PresetElement id="MOD:01502" ontologyName="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine" value="iTRAQ4plex (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaki Matsumoto</Name>
+    <Affiliation>Div. Proteomics, Med. Inst. Bioreg., Kyushu Univ.</Affiliation>
+    <PrincipalInvestigator>Masaki Matsumoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Mouse, iTRAQ, Phosphoproteome</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000462980">
+      <Name>20131026_CD3_thymocyte.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462981">
+      <Name>20131026_CD3_thymocyte.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462982">
+      <Name>20131028_CD3_thymocyte.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462983">
+      <Name>20131028_CD3_thymocyte.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462984">
+      <Name>20131029_CD3_thymocyte.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462985">
+      <Name>20131029_CD3_thymocyte.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462986">
+      <Name>20131030_CD3_thymocyte.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462987">
+      <Name>20131030_CD3_thymocyte.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462988">
+      <Name>20131031_CD3_thymocyte.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462989">
+      <Name>20131031_CD3_thymocyte.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000243">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 0 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000245">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 2.5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000244">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 5 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000246">
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000782">T-lymphocyte</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+          <title>Mouse thymocyte antibodies to CD3e stimulation 10 min</title>
+        </Sample>
+        <Fractionation id="F0000000033">
+          <title>Phosphopeptide Fe-IMAC</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="1" replicate="1">Fe-IMAC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000035">
+          <title>trypsin Fe-IMAC iTRAQ</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01501" name="iTRAQ4plex-116 reporter+balance reagent N6-acylated lysine">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01500" name="iTRAQ4plex-116 reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:01502" name="iTRAQ4plex-116 reporter+balance reagent O4'-acylated tyrosine">iTRAQ4plex (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000042">
+          <title>QSTAR elite iTRAQ</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000462991">
+      <Name>20131031_thymocyte_CD3_fr3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462992">
+      <Name>20131031_thymocyte_CD3_fr4.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462993">
+      <Name>20131031_thymocyte_CD3_fr5.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462994">
+      <Name>20131031_thymocyte_CD3_fr6-8.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462995">
+      <Name>20131031_thymocyte_CD3_fr9-10.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462996">
+      <Name>20131031_thymocyte_CD3_fr11.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462997">
+      <Name>20131031_thymocyte_CD3_fr12.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462998">
+      <Name>20131031_thymocyte_CD3_fr13_15-17.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000462999">
+      <Name>20131031_thymocyte_CD3_fr14_18-19.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463000">
+      <Name>20131031_thymocyte_CD3_fr1-2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463003">
+      <Name>20131026_thymocyte_CD3_whole_01.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463004">
+      <Name>20131026_thymocyte_CD3_whole_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463005">
+      <Name>F010071.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463006">
+      <Name>F010077.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463007">
+      <Name>F010095.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463008">
+      <Name>F010097.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463009">
+      <Name>F010099.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463010">
+      <Name>F010100.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463011">
+      <Name>F010101.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463012">
+      <Name>F010102.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463013">
+      <Name>F010106.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463014">
+      <Name>F010107.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463015">
+      <Name>F010108.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463016">
+      <Name>F010110.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

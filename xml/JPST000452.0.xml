@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000452" formatVersion="1.0">
+  <Project id="JPST000452" pxid="PXD010368" createdDate="2018-07-10" modifiedDate="2018-09-11" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Cytoplasmic capping enzyme interactome</Title>
+    <Description>Formaldehyde crosslinking and Proximity-dependent biotinylation methods were applied to study the cytoplasmic capping enzyme interactome via 1D-LC-MS/MS. The raw data were searched against Uniprot human database modified to contain our designed protein sequences using the Thermo Proteome Discoverer software (v 1.4.1.14).</Description>
+    <AnnouncementDate>2018-08-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00684" ontologyName="deamidated L-asparagine" value="deamidated L-asparagine"/>
+      <PresetElement id="MOD:00685" ontologyName="deamidated L-glutamine" value="deamidated L-glutamine"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Bernice Agana</Name>
+    <Affiliation>The Ohio State University</Affiliation>
+    <PrincipalInvestigator>Daniel Schoenberg</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>cytoplasmic capping enzyme, crosslinking, BioID</Keywords>
+    <PubMed>
+      <PubMedId>30166341</PubMedId>
+      <PubMedInfo>Trotman JB, Agana BA, Giltmier AJ, Wysocki VH, Schoenberg DR RNA-binding proteins and heat-shock protein 90 are constituents of the cytoplasmic capping enzyme interactome. J Biol Chem. 2018 Aug 30;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000524999">
+      <Name>BioID_BirA_cCE_rep2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001065">
+          <title>BioID_BirA_cCE</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525000">
+      <Name>BioID_BirA_cCE_rep3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001065">
+          <title>BioID_BirA_cCE</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525001">
+      <Name>BioID_BirA_cCE_rep1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001065">
+          <title>BioID_BirA_cCE</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525002">
+      <Name>BioID_BirA_rep1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001066">
+          <title>BioID_BirA</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525003">
+      <Name>BioID_BirA_rep2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001066">
+          <title>BioID_BirA</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525004">
+      <Name>BioID_BirA_rep3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001066">
+          <title>BioID_BirA</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525005">
+      <Name>cCE-XL_rep2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001067">
+          <title>cCE-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525006">
+      <Name>cCE-XL_rep3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001067">
+          <title>cCE-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525007">
+      <Name>cCE-XL_rep1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001067">
+          <title>cCE-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525008">
+      <Name>EGFP-XL_rep1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001068">
+          <title>EGFP-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525009">
+      <Name>EGFP-XL_rep2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001068">
+          <title>EGFP-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525010">
+      <Name>EGFP-XL_rep3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001068">
+          <title>EGFP-XL</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000297">
+          <title>Cytosolic protein-bound streptavidin beads digestion and analysis with 1D-LC-MS/MS</title>
+          <subcellular>Cytosol</subcellular>
+          <protein>Affinity purification with streptavidin beads</protein>
+          <peptide>Reverse phase at acidic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000250">
+          <title>Protein digestion and label-free relative quantitation</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000246">
+          <title>Top 15 DDA on LTQ Orbitrap Elite</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000525011">
+      <Name>EGFP-XL_rep2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525012">
+      <Name>EGFP-XL_rep3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525013">
+      <Name>BioID_BirA_cCE_rep1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525014">
+      <Name>BioID_BirA_cCE_rep2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525015">
+      <Name>BioID_BirA_cCE_rep3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525016">
+      <Name>BioID_BirA_rep1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525017">
+      <Name>BioID_BirA_rep2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525018">
+      <Name>BioID_BirA_rep3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525019">
+      <Name>cCE-XL_rep1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525020">
+      <Name>cCE-XL_rep2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525021">
+      <Name>cCE-XL_rep3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525022">
+      <Name>EGFP-XL_rep1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000525023">
+      <Name>EGFP-XL_rep2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525024">
+      <Name>EGFP-XL_rep3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525025">
+      <Name>BioID_BirA_cCE_rep1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525026">
+      <Name>BioID_BirA_cCE_rep2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525027">
+      <Name>BioID_BirA_cCE_rep3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525028">
+      <Name>BioID_BirA_rep1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525029">
+      <Name>BioID_BirA_rep2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525030">
+      <Name>BioID_BirA_rep3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525031">
+      <Name>cCE-XL_rep1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525032">
+      <Name>CCE-XL_rep2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525033">
+      <Name>cCE-XL_rep3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+    <File id="f_0000525034">
+      <Name>EGFP-XL_rep1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>SEQUEST</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>
