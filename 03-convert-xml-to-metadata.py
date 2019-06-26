@@ -32,4 +32,6 @@ def extract_id_value_with_tagName(tagName,doc):
 
 extract_id_value_with_tagName('Species',doc)
 
+# not working for other tags 
+# fix it
 extract_id_value_with_tagName('Instrument',doc)
