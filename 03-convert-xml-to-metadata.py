@@ -10,6 +10,8 @@ Created on Wed Jun 26 12:28:01 2019
 import os
 
 from xml.dom import minidom
+# reference 
+# https://docs.python.org/3/library/xml.dom.minidom.html
 
 xml_files = []
 for (dirpath, dirname, filenames) in os.walk("./xml"):
