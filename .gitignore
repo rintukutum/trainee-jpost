@@ -36,4 +36,4 @@ vignettes/*.pdf
 rsconnect/
 
 # spyder project files
-.spyproject/
+/.spyproject/
