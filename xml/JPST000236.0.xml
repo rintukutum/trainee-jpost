@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000236" formatVersion="1.0">
+  <Project id="JPST000236" pxid="PXD005918" createdDate="2017-02-13" modifiedDate="2018-01-24" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>honeybee proteome</Title>
+    <Description>The honeybee (Apis mellifera L.) is a eusocial insect that uses various chemical signals such as royal jelly (RJ) produced by the worker exocrine glands, to maintain the ‘physiology’ of its colony. The roles of worker hypopharyngeal glands (HpG) and the changes they undergo according to the division of labor from nursing to foraging have been extensively studied. The functions of other exocrine glands, however, such as the postcerebral glands (PcGs), thoracic glands (TGs), and mandibular glands (MGs), and their changes according to the division of labor of workers are not as well studied. To comprehensively characterize the molecular roles of these glands in workers and their changes according to the division of labor of workers, we analyzed the proteomes of PcGs, TGs, and MGs from nurse bees and foragers using large-scale and spectral counting-based semi-quantitative proteomics.</Description>
+    <AnnouncementDate>2018-01-24</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="" value="honeybee (Apis mellifera L.)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaaki Oyama</Name>
+    <Affiliation>The Institute of Medical Science, The University of Tokyo</Affiliation>
+    <PrincipalInvestigator>Masaaki Oyama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Apis mellifera L.</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000492915">
+      <Name>121205_fujita_NTG_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492916">
+      <Name>121207_fujita_FTG_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492917">
+      <Name>121217_fujita_N_PCG_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492918">
+      <Name>121219_fujita_F_PCG_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492919">
+      <Name>121225_fujita_N_MG_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492920">
+      <Name>121227_fujita_F_MG_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000480">
+          <title>honeybee proteome</title>
+          <species>honeybee (Apis mellifera L.)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000113">
+          <title>organ dissection</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000116">
+          <title>In-solution digestion</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000112">
+          <title>Shotgun proteomics</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492921">
+      <Name>121205_fujita_NTG_03.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492922">
+      <Name>121207_fujita_FTG_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492923">
+      <Name>121217_fujita_N_PCG_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492924">
+      <Name>121219_fujita_F_PCG_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492925">
+      <Name>121225_fujita_N_MG_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492926">
+      <Name>121227_fujita_F_MG_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492927">
+      <Name>121217_fujita_N_PCG_02.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492928">
+      <Name>121219_fujita_F_PCG_02.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492929">
+      <Name>121225_fujita_N_MG_02.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492930">
+      <Name>121227_fujita_F_MG_02.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492931">
+      <Name>121205_fujita_NTG_03.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000492932">
+      <Name>121207_fujita_FTG_02.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

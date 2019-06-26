@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000446" formatVersion="1.0">
+  <Project id="JPST000446" pxid="PXD010183" createdDate="2018-06-22" modifiedDate="2019-05-19" mode="partial" type="Mass spectrometry">
+    <Title>Cytosolic fraction of MCF7 cells, SLC22A18 KD</Title>
+    <Description>The SLC22A18 gene, which encodes an orphan transporter, is located at the 11p15.5 imprinted region, an important tumor-suppressor gene region. However, the role of SLC22A18 in tumor suppression remains unclear. Here, we investigated the involvement of SLC22A18 in cell growth, invasion and drug resistance of MCF7 human breast cancer cell line. Western blot analysis indicated that SLC22A18 is predominantly expressed at intracellular organelle membranes. Quantitative proteomics showed that knockdown of SLC22A18 significantly altered the expression of 578 (31.0%) out of 1867 proteins identified, including proteins related to malignancy and poor prognosis of breast cancer.</Description>
+    <AnnouncementDate>2019-06-01</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Sumio Ohtsuki</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Sumio Ohtsuki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>MCF7, SLC22A18, Cytosol, SWATH-MS</Keywords>
+    <PubMed>
+      <PubMedId>30145211</PubMedId>
+      <PubMedInfo>Ito S, Fujino Y, Ogata S, Hirayama-Kurogi M, Ohtsuki S Involvement of an Orphan Transporter, SLC22A18, in Cell Growth and Drug Resistance of Human Breast Cancer MCF7 Cells. J Pharm Sci. 2018 Dec;107(12):3163-3170</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000522101">
+      <Name>Data140522_MCF7_NC_mix.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000120">
+          <title>IDA_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522102">
+      <Name>Data140522_MCF7_NC_mix.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000120">
+          <title>IDA_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522109">
+      <Name>Data140522_MCF7_NC_5.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522110">
+      <Name>Data140522_MCF7_NC_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522111">
+      <Name>Data140522_MCF7_NC_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522112">
+      <Name>Data140522_MCF7_NC_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522113">
+      <Name>Data140522_MCF7_NC_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522114">
+      <Name>Data140522_MCF7_NC_4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522115">
+      <Name>Data140522_MCF7_NC_4.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522116">
+      <Name>Data140522_MCF7_NC_5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001055">
+          <title>MCF7, Control</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>Control for SLC22A18 KD. The cells were transfected with non-targeted 29-mer scrambled shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522117">
+      <Name>Data140522_MCF7_sh_mix.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000120">
+          <title>IDA_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522118">
+      <Name>Data140522_MCF7_sh_mix.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000120">
+          <title>IDA_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Identification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522119">
+      <Name>Data140522_MCF7_sh_5.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522120">
+      <Name>Data140522_MCF7_sh_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522121">
+      <Name>Data140522_MCF7_sh_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522122">
+      <Name>Data140522_MCF7_sh_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522123">
+      <Name>Data140522_MCF7_sh_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522124">
+      <Name>Data140522_MCF7_sh_4.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522125">
+      <Name>Data140522_MCF7_sh_4.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522126">
+      <Name>Data140522_MCF7_sh_5.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001056">
+          <title>MCF cells, SLC22A18 KD</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note>MCF7 cells suppressing SLC22A18 by SLC22A18-targeted 29-mer shRNA.</note>
+        </Sample>
+        <Fractionation id="F0000000262">
+          <title>Cytosolic fraction of MCF7 cells</title>
+          <subcellular>Cytosol</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000111">
+          <title>Lys-C/Trypsin_Human</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000121">
+          <title>SWATH_1008</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522127">
+      <Name>Data140522_MCF7_NC+sh_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000522128">
+      <Name>Data140522_MCF7_NC+sh_ProteinSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000522129">
+      <Name>Data140522_MCF7_NC+sh_PeptideSummary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000522131">
+      <Name>MCF7_NC+sh_ion_library_for_SWATH.txt</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

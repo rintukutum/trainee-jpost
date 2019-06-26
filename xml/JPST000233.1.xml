@@ -1,0 +1,3534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000233" formatVersion="1.0">
+  <Project id="JPST000233" pxid="PXD005900" createdDate="2018-02-03" modifiedDate="2018-11-23" mode="partial" type="Mass spectrometry">
+    <Title>Phosphoprotoemics analysis of FAO cells stimulated with insulin</Title>
+    <Description>FAO cells, rat hepatoma cells, were stimulated with 1 nM insulin and collected at seven time points for ~60 minutes. Ion metal affinity chromatography (IMAC) was performed to enrich the phosphopeptides. As we used two sets of 4-plex iTRAQ to quantify the peptides from seven samples, we set the internal control to calibrate two sets of phosphoproteomics data</Description>
+    <AnnouncementDate>2018-11-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10117" value="Rattus rattus (Black rat)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000190" value="QSTAR"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:01709" ontologyName="iTRAQ4plex reporter+balance reagent N-acylated residue" value="iTRAQ4plex (K)"/>
+      <PresetElement id="MOD:01711" ontologyName="iTRAQ4plex reporter+balance reagent acylated N-terminal" value="iTRAQ4plex (N-term)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Atsushi</Name>
+    <Affiliation>Department of Biological Sciences, Graduate School of Science, University of Tokyo</Affiliation>
+    <PrincipalInvestigator>Sinya Kuroda</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>insulin, rat hepatoma cell line</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000513254">
+      <Name>20100413MM_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513255">
+      <Name>20100413MM_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513256">
+      <Name>20100413MM_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513257">
+      <Name>20100413MM_04.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513258">
+      <Name>20100413MM_05.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513259">
+      <Name>20100413MM_06.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513260">
+      <Name>20100413MM_07.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513261">
+      <Name>20100413MM_08.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513262">
+      <Name>20100511MM_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513263">
+      <Name>20100511MM_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513264">
+      <Name>20100511MM_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513265">
+      <Name>20100511MM_04.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513266">
+      <Name>20100511MM_05.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513267">
+      <Name>20100511MM_06.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513268">
+      <Name>20100511MM_07.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513269">
+      <Name>20100511MM_08.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513270">
+      <Name>20100511MM_09.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513271">
+      <Name>20100511MM_10.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513272">
+      <Name>20100511MM_11.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513273">
+      <Name>20100511MM_12.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ114">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">iTRAQ114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ115">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">iTRAQ115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ116">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">iTRAQ116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ117">
+        <Sample id="S0000000476">
+          <title>FAO cells</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000182">hepatocyte</celltype>
+          <disease id="DOID:3571">liver cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000111">
+          <title>SAX fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide>Anion exchange</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000113">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</fixedModification>
+          <fixedModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</fixedModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000109">
+          <title>Qstar elite</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">iTRAQ117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513274">
+      <Name>F006206.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513275">
+      <Name>F006208.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513276">
+      <Name>F006068.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513277">
+      <Name>F006069.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513278">
+      <Name>F006070.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513279">
+      <Name>F006071.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513280">
+      <Name>F006072.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513281">
+      <Name>F006074.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513282">
+      <Name>F006075.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513283">
+      <Name>F006076.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513284">
+      <Name>F006077.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513285">
+      <Name>F006078.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513286">
+      <Name>F006079.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513287">
+      <Name>F006080.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513288">
+      <Name>F006081.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513289">
+      <Name>F006185.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513290">
+      <Name>F006186.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513291">
+      <Name>F006187.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513292">
+      <Name>F006188.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513293">
+      <Name>F006189.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513294">
+      <Name>F006190.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513295">
+      <Name>F006191.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513296">
+      <Name>F006192.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513297">
+      <Name>F006193.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513298">
+      <Name>F006194.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513299">
+      <Name>F006195.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513300">
+      <Name>F006196.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513301">
+      <Name>F006199.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513302">
+      <Name>F006200.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513303">
+      <Name>F006204.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000513304">
+      <Name>F006205.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

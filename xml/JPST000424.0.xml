@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000424" formatVersion="1.0">
+  <Project id="JPST000424" pxid="PXD009849" doi="10.6019/PXD009849" createdDate="2018-05-21" modifiedDate="2018-05-21" mode="complete" type="Mass spectrometry">
+    <Title>FLAG-PUM IP 180521</Title>
+    <Description>RNA degradation factors that bind to human Pumilio proteins</Description>
+    <AnnouncementDate>2019-05-21</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000556" value="LTQ Orbitrap XL"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="UNIMOD:526" ontologyName="Dethiomethyl" value="Dethiomethyl (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Toshimichi Yamada</Name>
+    <Affiliation>The University of Tokyo</Affiliation>
+    <PrincipalInvestigator>Nobuyoshi Akimitsu</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>human PUM1,PUM2, PPI</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000519603">
+      <Name>E15PUM2_7ul_CID_[Node_03] (F034250).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000519604">
+      <Name>E05Control_7ul_CID_[Node_03] (F034248).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000519605">
+      <Name>E10PUM1_7ul_CID_[Node_03] (F034249).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000519606">
+      <Name>E10PUM1_7ul_CID_[Node_03] (F034249).mzid_E10PUM1_7ul_CID__Node_03__(F034249).MGF</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519607">
+      <Name>E15PUM2_7ul_CID_[Node_03] (F034250).mzid_E15PUM2_7ul_CID__Node_03__(F034250).MGF</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519608">
+      <Name>E05Control_7ul_CID_[Node_03] (F034248).mzid_E05Control_7ul_CID__Node_03__(F034248).MGF</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519609">
+      <Name>Control.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001034">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa TOC cells expressing FLAG-PUM1</note>
+          <title>empty vector IP (control)</title>
+        </Sample>
+        <Fractionation id="F0000000248">
+          <title>whole</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000229">
+          <title>Trypsin </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="UNIMOD:526" name="Dethiomethyl">Dethiomethyl (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000229">
+          <title>180521 mass</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode/>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519610">
+      <Name>PUM1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001032">
+          <title>FLAG-PUM1 IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa TOC cells expressing FLAG-PUM1</note>
+        </Sample>
+        <Fractionation id="F0000000248">
+          <title>whole</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000229">
+          <title>Trypsin </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="UNIMOD:526" name="Dethiomethyl">Dethiomethyl (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000229">
+          <title>180521 mass</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode/>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519611">
+      <Name>PUM2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001033">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa TOC cells expressing FLAG-PUM2</note>
+          <title>FLAG-PUM2 IP</title>
+        </Sample>
+        <Fractionation id="F0000000248">
+          <title>whole</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein>Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000229">
+          <title>Trypsin </title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="UNIMOD:526" name="Dethiomethyl">Dethiomethyl (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000229">
+          <title>180521 mass</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode/>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="3410089426">
+      <File id="f_0000519603" name="E15PUM2_7ul_CID_[Node_03] (F034250).mzid" type="result"/>
+      <File id="f_0000519607" name="E15PUM2_7ul_CID_[Node_03] (F034250).mzid_E15PUM2_7ul_CID__Node_03__(F034250).MGF" type="peak"/>
+      <File id="f_0000519611" name="PUM2.raw" type="raw"/>
+    </FileLinkage>
+    <FileLinkage id="5375644831">
+      <File id="f_0000519604" name="E05Control_7ul_CID_[Node_03] (F034248).mzid" type="result"/>
+      <File id="f_0000519608" name="E05Control_7ul_CID_[Node_03] (F034248).mzid_E05Control_7ul_CID__Node_03__(F034248).MGF" type="peak"/>
+      <File id="f_0000519609" name="Control.raw" type="raw"/>
+    </FileLinkage>
+    <FileLinkage id="4205396216">
+      <File id="f_0000519605" name="E10PUM1_7ul_CID_[Node_03] (F034249).mzid" type="result"/>
+      <File id="f_0000519606" name="E10PUM1_7ul_CID_[Node_03] (F034249).mzid_E10PUM1_7ul_CID__Node_03__(F034249).MGF" type="peak"/>
+      <File id="f_0000519610" name="PUM1.raw" type="raw"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>

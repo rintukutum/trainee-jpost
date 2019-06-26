@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000418" formatVersion="1.0">
+  <Project id="JPST000418" pxid="PXD009739" createdDate="2018-05-10" modifiedDate="2018-07-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>NRDC-IP</Title>
+    <Description>IP-MS analysis against endogenous NRDC using megakaryocyte cell lysates.</Description>
+    <AnnouncementDate>2018-07-19</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00684" ontologyName="deamidated L-asparagine" value="deamidated L-asparagine"/>
+      <PresetElement id="MOD:00685" ontologyName="deamidated L-glutamine" value="deamidated L-glutamine"/>
+      <PresetElement id="MOD:00420" ontologyName="2-pyrrolidone-5-carboxylic acid (Glu)" value="Glu-&#62;pyro-Glu (E)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+      <PresetElement id="MOD:00564" ontologyName="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry" value="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Iwasaki Mio</Name>
+    <Affiliation>Kyoto University</Affiliation>
+    <PrincipalInvestigator>Mio Iwasaki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>IP-MS, iTRAQ</Keywords>
+    <PubMed>
+      <PubMedId>30017246</PubMedId>
+      <PubMedInfo>Ito Y, Nakamura S, Sugimoto N, Shigemori T, Kato Y, Ohno M, Sakuma S, Ito K, Kumon H, Hirose H, Okamoto H, Nogawa M, Iwasaki M, Kihara S, Fujio K, Matsumoto T, Higashi N, Hashimoto K, Sawaguchi A, Harimoto KI, Nakagawa M, Yamamoto T, Handa M, Watanabe N, Nishi E, Arai F, Nishimura S, Eto K Turbulence Activates Platelet Biogenesis to Enable Clinical Scale Ex Vivo Production. Cell. 2018 Jul 3;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000517688">
+      <Name>170502yk-17-Eto-IP-NRD1-ST-VM-115-116.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517689">
+      <Name>170502yk-17-Eto-IP-NRD1-ST-VM-115-116.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517690">
+      <Name>170502yk-18-Eto-IP-NRD1-ST-VM-115-116.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517691">
+      <Name>170502yk-18-Eto-IP-NRD1-ST-VM-115-116.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517692">
+      <Name>170502yk-19-Eto-IP-NRD1-ST-VM-115-116.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517693">
+      <Name>170502yk-19-Eto-IP-NRD1-ST-VM-115-116.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+      </Profile>
+      <Profile plex="iTRAQ 115">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">iTRAQ 115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 116">
+        <Sample id="S0000001027">
+          <title>NRDC-IPMS</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000556">megakaryocyte</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000226">
+          <title>NRDC-IPMS</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000226">
+          <title>NRDC-IPMS</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">iTRAQ 116</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517694">
+      <Name>170502yk-19-Eto-IP-NRD1-ST-VM-115-116.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000517695">
+      <Name>170502yk-17-Eto-IP-NRD1-ST-VM-115-116.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000517696">
+      <Name>170502yk-18-Eto-IP-NRD1-ST-VM-115-116.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000517697">
+      <Name>170502yk-19-Eto-IP-NRD1-ST-VM-115-116.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000517698">
+      <Name>170502yk-17-Eto-IP-NRD1-ST-VM-115-116.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000517699">
+      <Name>170502yk-18-Eto-IP-NRD1-ST-VM-115-116.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

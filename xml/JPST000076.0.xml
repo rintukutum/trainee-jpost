@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000076" formatVersion="1.0">
+  <Project id="JPST000076" pxid="" createdDate="2016-06-22" modifiedDate="2018-11-05" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TCTP interactome analysis by gel-based identification</Title>
+    <Description>TCTP binding proteins were identified by SDS-PAGE gel-based protein identification.</Description>
+    <AnnouncementDate>2018-11-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000190" value="QSTAR"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Norie Araki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TCTP, interactomics, </Keywords>
+    <PubMed>
+      <PubMedId>30381327</PubMedId>
+      <PubMedInfo>Kobayashi D, Tokuda T, Sato K, Okanishi H, Nagayama M, Hirayama M, Ohtsuki S, Araki N Identification of a specific translational machinery via TCTP-EF1A2 interaction regulating NF1-associated tumor growth by affinity purification and data-independent mass spectrometry acquisition (AP-DIA/SWATH). Mol Cell Proteomics. 2018 Oct 31;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000460591">
+      <Name>Data20152017-MOCK-A.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460592">
+      <Name>Data20152017-MOCK-A.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460593">
+      <Name>Data20152017-MOCK-D.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460594">
+      <Name>Data20152017-MOCK-D.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460595">
+      <Name>Data20150123-MOCK-B.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460596">
+      <Name>Data20150123-MOCK-B.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460597">
+      <Name>Data20150123-MOCK-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460598">
+      <Name>Data20150123-MOCK-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460599">
+      <Name>Data20150123-MOCK-F.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460600">
+      <Name>Data20150123-MOCK-F.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000094">
+          <title>MOCK-FLAG-IP</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460665">
+      <Name>Data20150123-TCTP-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460666">
+      <Name>Data20150123-TCTP-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460667">
+      <Name>Data20150123-TCTP-F.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460668">
+      <Name>Data20150123-TCTP-F.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460669">
+      <Name>Data20152017-TCTP-A.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460670">
+      <Name>Data20152017-TCTP-A.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460671">
+      <Name>Data20152017-TCTP-D.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460672">
+      <Name>Data20152017-TCTP-D.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460673">
+      <Name>Data20150123-TCTP-B.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460674">
+      <Name>Data20150123-TCTP-B.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000095">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note/>
+          <title>TCTP-FLAG-IP</title>
+        </Sample>
+        <Fractionation id="F0000000032">
+          <title> Anti-FLAG immunoprecipitation and SDS-PAGE</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG immunoprecipitation</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="5" replicate="1">SDS-PAGE (12.5%)</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000008">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <title>trypsin, carbamidomethyl-C, human</title>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000041">
+          <title>Identification</title>
+          <instrument id="MS:1000190">QSTAR</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000460695">
+      <Name>Data20150123-MOCK-F.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460696">
+      <Name>Data20150123-MOCK-C.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460697">
+      <Name>Data20150123-MOCK-B.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460698">
+      <Name>Data20152017-TCTP-D.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460699">
+      <Name>Data20152017-TCTP-A.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460700">
+      <Name>Data20152017-MOCK-D.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460701">
+      <Name>Data20152017-MOCK-A.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460702">
+      <Name>Data20150123-TCTP-F.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460703">
+      <Name>Data20150123-TCTP-C.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460704">
+      <Name>Data20150123-TCTP-B.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000460705">
+      <Name>Data20152017-MOCK-A_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460706">
+      <Name>Data20152017-MOCK-D_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460707">
+      <Name>Data20152017-TCTP-A_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460708">
+      <Name>Data20152017-TCTP-D_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460709">
+      <Name>Data20150123-MOCK-B_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460710">
+      <Name>Data20150123-MOCK-C_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460711">
+      <Name>Data20150123-MOCK-F_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460712">
+      <Name>Data20150123-TCTP-B_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460713">
+      <Name>Data20150123-TCTP-C_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000460714">
+      <Name>Data20150123-TCTP-F_MGFPeaklist.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000311" formatVersion="1.0">
+  <Project id="JPST000311" pxid="PXD007606" createdDate="2017-08-29" modifiedDate="2018-11-05" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>SWATH-MS in TCTP-deficient MPNST cells</Title>
+    <Description>EF1A2-binding proteins in TCTP-deficient MPNST cells were identified by immuno-precipitation using anti-FLAG antibody and SWATH. To verify whether the change of the amount of EF1A2-binding proteins caused the cellular expression change, the proteins expressed in sNF96.2 MPNST cells treated with TCTP-siRNA were profiled by SWATH-MS.</Description>
+    <AnnouncementDate>2018-11-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002533" value="TripleTOF 6600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Norie Araki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>EF1A2, TCTP, SWATH</Keywords>
+    <PubMed>
+      <PubMedId>30381327</PubMedId>
+      <PubMedInfo>Kobayashi D, Tokuda T, Sato K, Okanishi H, Nagayama M, Hirayama M, Ohtsuki S, Araki N Identification of a specific translational machinery via TCTP-EF1A2 interaction regulating NF1-associated tumor growth by affinity purification and data-independent mass spectrometry acquisition (AP-DIA/SWATH). Mol Cell Proteomics. 2018 Oct 31;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000501842">
+      <Name>Data20170315_EF1A2_TCTPsi_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000656">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501843">
+      <Name>Data20170315_EF1A2_TCTPsi_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000656">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501844">
+      <Name>Data20170315_EF1A2_TCTPsi_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000657">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501845">
+      <Name>Data20170315_EF1A2_TCTPsi_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000657">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501846">
+      <Name>Data20170315_EF1A2_CONTsi_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000658">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501847">
+      <Name>Data20170315_EF1A2_CONTsi_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000658">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501848">
+      <Name>Data20170315_EF1A2_CONTsi_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000659">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501849">
+      <Name>Data20170315_EF1A2_CONTsi_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000659">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501850">
+      <Name>Data20170315_EF1A2_CONTsi_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000660">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501851">
+      <Name>Data20170315_EF1A2_CONTsi_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000660">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501852">
+      <Name>Data20170315_EF1A2_TCTPsi_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000655">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501853">
+      <Name>Data20170315_EF1A2_TCTPsi_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000655">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501854">
+      <Name>Data20170315_MOCK_CONTsi_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000661">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501855">
+      <Name>Data20170315_MOCK_CONTsi_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000662">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501856">
+      <Name>Data20170315_MOCK_CONTsi_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000662">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501857">
+      <Name>Data20170315_MOCK_CONTsi_3.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000663">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501858">
+      <Name>Data20170315_MOCK_CONTsi_3.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000663">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-3</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501859">
+      <Name>Data20170315_IDA_EF1A2_CONTsi_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000658">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501860">
+      <Name>Data20170315_IDA_EF1A2_CONTsi_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000658">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501861">
+      <Name>Data20170315_IDA_EF1A2_TCTPsi_2.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000656">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501862">
+      <Name>Data20170315_IDA_EF1A2_TCTPsi_2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000656">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2&#10;HUMAN EF1A2 Uniprot ID: Q05639&#10;HUMAN TCTP Uniprot ID: P13693</note>
+          <title>sNF96.2 cell lysate, EF1A2-FLAG plasmid, TCTP siRNA-2</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501863">
+      <Name>Data20170315_IDA_MOCK_CONTsi_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000661">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501864">
+      <Name>Data20170315_IDA_MOCK_CONTsi_1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000661">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000067">
+          <title>TT6600 Qualification</title>
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501865">
+      <Name>Data20170315_MOCK_CONTsi_1.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000661">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0002573">Schwann cell</celltype>
+          <disease id="DOID:8712">neurofibromatosis</disease>
+          <note>Cell line name: sNF96.2</note>
+          <title>sNF96.2 cell lysate, MOCK-FLAG plasmid, control siRNA-1</title>
+        </Sample>
+        <Fractionation id="F0000000156">
+          <title>Whole Cell Lysate</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000074">
+          <title>trypsin DTT IAA</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000154">
+          <instrument id="MS:1002533">TripleTOF 6600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>6600 SWATH</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000501866">
+      <Name>Data20170315_IDA_EF1A2_All.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000482" formatVersion="1.0">
+  <Project id="JPST000482" pxid="PXD010790" createdDate="2018-08-16" modifiedDate="2019-05-19" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>LFQ of UMR106 pY-IP</Title>
+    <Description>UMR106 cells were untreated or treated with 5 mM Pi or 100 ng/ml FGF2 for 15 min. The lysates were digested with trypsin, and tyrosine-phosphorylated peptides were enriched by anti-phosphotyrosine antibody and subjected to LC-MS/MS analysis. Raw data were directly analyzed against the SwissProt database restricted to Rattus using Proteome Discoverer version 2.2 for identification and label-free precursor ion quantification.</Description>
+    <AnnouncementDate>2019-05-05</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10117" value="Rattus rattus (Black rat)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="instrument"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>phosphotyrosine, LFQ</Keywords>
+    <PubMed>
+      <PubMedId>31097591</PubMedId>
+      <PubMedInfo>Takashi Y, Kosako H, Sawatsubashi S, Kinoshita Y, Ito N, Tsoumpra MK, Nangaku M, Abe M, Matsuhisa M, Kato S, Matsumoto T, Fukumoto S Activation of unliganded FGF receptor by extracellular phosphate potentiates proteolytic protection of FGF23 by its O-glycosylation. Proc Natl Acad Sci U S A. 2019 May 16;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000529438">
+      <Name>DDA_UMR106_pY_control.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001105">
+          <title>UMR106</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000320">
+          <title>pY-IP</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide>anti-pY immunoprecipitation</peptide>
+          <note>PTMScan Phospho-Tyrosine Rabbit mAb (P-Tyr-1000) kit (Cell Signaling Technology) was used.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000271">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <title>Trypsin-pY-IP</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000215">
+          <title>QE-LFQ</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000529439">
+      <Name>DDA_UMR106_pY_Pi.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001105">
+          <title>UMR106</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000320">
+          <title>pY-IP</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide>anti-pY immunoprecipitation</peptide>
+          <note>PTMScan Phospho-Tyrosine Rabbit mAb (P-Tyr-1000) kit (Cell Signaling Technology) was used.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000271">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <title>Trypsin-pY-IP</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000215">
+          <title>QE-LFQ</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000529440">
+      <Name>DDA_UMR106_pY_FGF2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001105">
+          <title>UMR106</title>
+          <species id="10117">Rattus rattus (Black rat)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000320">
+          <title>pY-IP</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide>anti-pY immunoprecipitation</peptide>
+          <note>PTMScan Phospho-Tyrosine Rabbit mAb (P-Tyr-1000) kit (Cell Signaling Technology) was used.</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000271">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <taxonomy id="10117">Rattus rattus (Black rat)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <title>Trypsin-pY-IP</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000215">
+          <title>QE-LFQ</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000529441">
+      <Name>UMR106_pY_IP_LFQ_PD22.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

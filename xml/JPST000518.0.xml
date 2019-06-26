@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000518" formatVersion="1.0">
+  <Project id="JPST000518" pxid="PXD011638" createdDate="2018-11-09" modifiedDate="2018-11-09" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>In-depth analysis of HeLa cell proteome</Title>
+    <Description>The tryptic peptide mixture from HeLa cells was fractionated using a High pH Reversed-Phase Peptide Fractionation Kit (Thermo Fisher Scientific). Each peptide fraction was subjected to LC-MS/MS in triplicate using a Q Exactive Orbitrap mass spectrometer (Thermo Fisher Scientific) equipped with an UltiMate 3000 liquid chromatograph (Thermo Fisher Scientific). LC-MS/MS data were integrated on a Progenesis QI for proteomics software (Waters), followed by sequence database search of the MS/MS data using Mascot software (Matrix Science). The search results showed identification of the total of 6151 protein groups, filtered at 1% false discovery rate (FDR) peptide threshold.</Description>
+    <AnnouncementDate>2018-11-09</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01090" ontologyName="iodoacetamide derivatized amino-terminal residue" value="Carbamidomethyl (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Kouhei Nishino</Name>
+    <Affiliation>Medical ProteoScope Co., Ltd.</Affiliation>
+    <PrincipalInvestigator>Takao Kawakami</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>HeLa cells, deep proteomics, peptide fractionation</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000540103">
+      <Name>180803_HpH_n1_F7_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540104">
+      <Name>180803_HpH_n1_F8_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540105">
+      <Name>180803_HpH_n2_F1_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540106">
+      <Name>180803_HpH_n2_F2_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540107">
+      <Name>180803_HpH_n2_F3_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540108">
+      <Name>180803_HpH_n2_F4_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540109">
+      <Name>180803_HpH_n2_F5_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540110">
+      <Name>180803_HpH_n2_F6_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540111">
+      <Name>180803_HpH_n2_F7_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540112">
+      <Name>180803_HpH_n2_F8_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540113">
+      <Name>180803_HpH_n3_F1_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540114">
+      <Name>180803_HpH_n3_F2_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540115">
+      <Name>180803_HpH_n3_F3_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540116">
+      <Name>180803_HpH_n3_F4_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540117">
+      <Name>180803_HpH_n3_F5_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540118">
+      <Name>180803_HpH_n3_F6_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540119">
+      <Name>180803_HpH_n3_F7_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540120">
+      <Name>180803_HpH_n3_F8_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540121">
+      <Name>180803_HpH_n1_F1_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540122">
+      <Name>180803_HpH_n1_F2_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540123">
+      <Name>180803_HpH_n1_F3_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540124">
+      <Name>180803_HpH_n1_F4_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540125">
+      <Name>180803_HpH_n1_F5_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540126">
+      <Name>180803_HpH_n1_F6_90min_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001205">
+          <title>HeLa whole</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000350">
+          <title>Reversed phase peptide fraction at basic pH</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein/>
+          <peptide fraction="8" replicate="">Reversed phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000301">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01090" name="iodoacetamide derivatized amino-terminal residue">Carbamidomethyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000540127">
+      <Name>180814 HpH F8 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540128">
+      <Name>180814 HpH F1 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540129">
+      <Name>180814 HpH F2 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540130">
+      <Name>180814 HpH F3 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540131">
+      <Name>180814 HpH F4 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540132">
+      <Name>180814 HpH F5 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540133">
+      <Name>180814 HpH F6 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540134">
+      <Name>180814 HpH F7 90min n3.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000540135">
+      <Name>180815_ProgenesisQI_peptide.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Progenesis QI for proteomics</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000540136">
+      <Name>180815_ProgenesisQI_Protein.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Progenesis QI for proteomics</Software>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

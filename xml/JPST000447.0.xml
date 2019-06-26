@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000447" formatVersion="1.0">
+  <Project id="JPST000447" pxid="PXD010310" createdDate="2018-07-04" modifiedDate="2018-09-21" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Universal plant phosphoproteomics workflow and its application to tomato signaling in response to cold stress</Title>
+    <Description>Phosphorylation-mediated signaling transduction plays a crucial role in the regulation of plant defense mechanisms against environmental stresses. To address the high complexity and dynamic range of plant proteomes and phosphoproteomes, we present a universal sample preparation procedure that facilitates plant phosphoproteomic profiling. This advanced workflow significantly improves phosphopeptide identifications, enabling deep insight into plant phosphoproteomes. We then applied the workflow to study the phosphorylation events involved in tomato cold tolerance mechanisms. Phosphoproteomic changes of two tomato species (N135 Green Gage and Atacames) with distinct cold tolerance phenotypes were profiled under cold stress. In total, we identified more than 30,000 unique phosphopeptides from tomato leaves, representing about 5,500 phosphoproteins, thereby creating the largest tomato phosphoproteomic resource to date. The data, along with the validation through in vitro kinase reactions, allowed us to identify kinases involved in cold tolerant signaling and discover distinctive kinase-substrate events in two tomato species in response to a cold environment. In particular, the activation of SnRK2s and their direct substrates may assist N135 Green Gage tomatoes in surviving long-term cold stress. Taken together, the streamlined approach and the resulting deep phosphoproteomic analyses revealed a global view of tomato cold-induced signaling mechanisms. </Description>
+    <AnnouncementDate>2018-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="4081" value="Solanum lycopersicum"/>
+      <PresetElement id="4084" value="Solanum pimpinellifolium"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Chuan-Chih Hsu</Name>
+    <Affiliation>Purdue University</Affiliation>
+    <PrincipalInvestigator>Dr. W. Andy Tao</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Phosphorylation; tomato phosphoproteome; mass spectrometry; cold stress; signal transduction</Keywords>
+    <PubMed>
+      <PubMedId>30006488</PubMedId>
+      <PubMedInfo>Hsu CC, Zhu Y, Arrington JV, Paez JS, Wang P, Zhu P, Chen IH, Zhu JK, Tao WA Universal plant phosphoproteomics workflow and its application to tomato signaling in response to cold stress. Mol Cell Proteomics. 2018 Jul 13;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000522311">
+      <Name>111016-tomato-Tris-direct-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000913">
+          <title>Tris-HCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522312">
+      <Name>111016-tomato-Tris-direct-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000913">
+          <title>Tris-HCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522313">
+      <Name>111016-tomato-Tris-direct-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000913">
+          <title>Tris-HCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522314">
+      <Name>111016-tomato-PTS-direct-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000914">
+          <title>SDC-SLS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522315">
+      <Name>111016-tomato-PTS-direct-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000914">
+          <title>SDC-SLS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522316">
+      <Name>111016-tomato-PTS-direct-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000914">
+          <title>SDC-SLS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522317">
+      <Name>111016-tomato-GduHCl-direct-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000915">
+          <title>GdnHCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522318">
+      <Name>111016-tomato-GduHCl-direct-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000915">
+          <title>GdnHCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522319">
+      <Name>111016-tomato-GduHCl-direct-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000915">
+          <title>GdnHCl protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522320">
+      <Name>111016-tomato-GduHCl-FASP-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000916">
+          <title>FASP protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522321">
+      <Name>111016-tomato-GduHCl-FASP-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000916">
+          <title>FASP protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522322">
+      <Name>111016-tomato-GduHCl-FASP-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000916">
+          <title>FASP protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522323">
+      <Name>111016-tomato-GduHCl-MC-urea-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000917">
+          <title>GdnHCl-Urea protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522324">
+      <Name>111016-tomato-GduHCl-MC-urea-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000917">
+          <title>GdnHCl-Urea protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522325">
+      <Name>111016-tomato-GduHCl-MC-urea-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000917">
+          <title>GdnHCl-Urea protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522326">
+      <Name>111016-tomato-GduHCl-MC-PTS-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000918">
+          <title>GdnHCl-PTS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522327">
+      <Name>111016-tomato-GduHCl-MC-PTS-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000918">
+          <title>GdnHCl-PTS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522328">
+      <Name>111016-tomato-GduHCl-MC-PTS-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000918">
+          <title>GdnHCl-PTS protocol</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522329">
+      <Name>111016-tomato-SDS-FASP-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522330">
+      <Name>111016-tomato-SDS-FASP-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522331">
+      <Name>111016-tomato-SDS-FASP-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522332">
+      <Name>111016-tomato-SDS-MC-PTS-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522333">
+      <Name>111016-tomato-SDS-MC-PTS-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522334">
+      <Name>111016-tomato-SDS-MC-PTS-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522335">
+      <Name>111016-tomato-SDS-MC-Urea-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522336">
+      <Name>111016-tomato-SDS-MC-Urea-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522337">
+      <Name>111016-tomato-SDS-MC-Urea-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id=""/>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000190">
+          <title>Velos-Qualification</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform id="">(none)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522338">
+      <Name>111416-tomato-27-1-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522339">
+      <Name>111416-tomato-27-1-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522340">
+      <Name>111416-tomato-27-1-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522341">
+      <Name>111416-tomato-27-1-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522342">
+      <Name>111416-tomato-27-1-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522343">
+      <Name>111416-tomato-27-1-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522344">
+      <Name>011017-tomato-27-2-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522345">
+      <Name>011017-tomato-27-2-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522346">
+      <Name>011017-tomato-27-2-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522347">
+      <Name>011017-tomato-27-2-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522348">
+      <Name>011017-tomato-27-2-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522349">
+      <Name>011017-tomato-27-2-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522350">
+      <Name>012316-tomato-27-3-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522351">
+      <Name>012316-tomato-27-3-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522352">
+      <Name>012316-tomato-27-3-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522353">
+      <Name>012316-tomato-27-3-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522354">
+      <Name>012316-tomato-27-3-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522355">
+      <Name>012316-tomato-27-3-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000919">
+          <title>N135 Green Gage phosphoproteomics</title>
+          <species id="4081">Solanum lycopersicum</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522356">
+      <Name>111416-tomato-77-1-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522357">
+      <Name>111416-tomato-77-1-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522358">
+      <Name>111416-tomato-77-1-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522359">
+      <Name>111416-tomato-77-1-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522360">
+      <Name>111416-tomato-77-1-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522361">
+      <Name>111416-tomato-77-1-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="1">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522362">
+      <Name>011017-tomato-77-2-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522363">
+      <Name>011017-tomato-77-2-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522364">
+      <Name>011017-tomato-77-2-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522365">
+      <Name>011017-tomato-77-2-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522366">
+      <Name>011017-tomato-77-2-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522367">
+      <Name>011017-tomato-77-2-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="2">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522368">
+      <Name>012316-tomato-77-3-1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522369">
+      <Name>012316-tomato-77-3-2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522370">
+      <Name>012316-tomato-77-3-3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522371">
+      <Name>012316-tomato-77-3-4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522372">
+      <Name>012316-tomato-77-3-5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522373">
+      <Name>012316-tomato-77-3-6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000920">
+          <title>Atacames phosphoproteomics</title>
+          <species id="4084">Solanum pimpinellifolium</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000207">
+          <title>Basic pH Reverse Phase fraction</title>
+          <subcellular>Whole</subcellular>
+          <protein>phosphoproteomics</protein>
+          <peptide fraction="6" replicate="3">Reverse phase at basic pH</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000179">
+          <title>Lys-C + Trypsin</title>
+          <enzyme id="MS:1001310">Lys-C/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000191">
+          <title>Velos-dimethylation</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522374">
+      <Name>Tomato sample prep.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+      <Software_setting>
+        <Setting id="W0000000193">
+          <database>ITAG</database>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <quantification>None</quantification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <itol>0.6</itol>
+          <itol_unit>Da</itol_unit>
+          <tol>20</tol>
+          <tol_unit>ppm</tol_unit>
+          <fdr_psm>1</fdr_psm>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000522375">
+      <Name>Tomato-N135-Acatames-quantitation.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+      <Software_setting>
+        <Setting id="W0000000194">
+          <database>ITAG</database>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <quantification>Dimethylation [MD]</quantification>
+          <taxonomy id="4081">Solanum lycopersicum</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <itol>0.6</itol>
+          <itol_unit>Da</itol_unit>
+          <tol>20</tol>
+          <tol_unit>ppm</tol_unit>
+          <fdr_psm>1</fdr_psm>
+          <fdr_protein>1</fdr_protein>
+          <fdr_peptide>1</fdr_peptide>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

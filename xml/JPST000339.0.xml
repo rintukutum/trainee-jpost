@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000339" formatVersion="1.0">
+  <Project id="JPST000339" pxid="PXD008065" createdDate="2017-10-30" modifiedDate="2018-10-23" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Protein ID of ϕXacN1</Title>
+    <Description>ϕXacN1 is a novel jumbo myovirus infecting the causative agent of Asian citrus canker, Xanthomonas citri. Its linear 384,670 bp double-stranded DNA genome encodes 592 predicted protein coding genes and shows 65,875 bp direct terminal repeats (DTRs), so far the longest DTRs among sequence phage genomes. The DTRs harbor 56 tRNA genes, corresponding to all 20 amino acids. This is the highest number of tRNA genes reported in a phage genome. Codon usage analyses revealed a propensity that the phage encoded tRNAs target codons that are highly used by the phage but less frequently by its host. The existence of these tRNA genes, additional seven translation-related genes as well as a chaperonin gene found in the ϕXacN1 genome suggests an increased level of independence of phage replication on host molecular machinery and a wide host range. Consistently, ϕXacN1 showed a wider host range than other X. citri phages in an infection test against a panel of X. citri strains. Phylogenetic analyses revealed a clade of phages composed of ϕXacN1 and ten other jumbo phages showing an evolutionary stability in their large genome sizes.</Description>
+    <AnnouncementDate>2018-10-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="131567" value="cellular organisms"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="" ontologyName="unknown modification" value="Deamidated (N, Q)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Miyako Nakano</Name>
+    <Affiliation>Hiroshima University</Affiliation>
+    <PrincipalInvestigator>Takashi Yamada</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Xanthomonas citri, ϕXacN1, jumbo phage, </Keywords>
+    <PubMed>
+      <PubMedId>29540765</PubMedId>
+      <PubMedInfo>Yoshikawa G, Askora A, Blanc-Mathieu R, Kawasaki T, Li Y, Nakano M, Ogata H, Yamada T Xanthomonas citri jumbo phage XacN1 exhibits a wide host range and high complement of tRNA genes. Sci Rep. 2018 Mar 14;8(1):4486</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000509216">
+      <Name>160915_13_(25)_10kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509217">
+      <Name>150817_02_(1)_370kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509218">
+      <Name>150817_03_(2)_325kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509219">
+      <Name>150817_04_(3)_300kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509220">
+      <Name>150817_05_(4)_260kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509221">
+      <Name>150817_06_(5)_125kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509222">
+      <Name>150817_07_(6)_110kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509223">
+      <Name>150817_08_(7)_85kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509224">
+      <Name>150817_09_(8)_75kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509225">
+      <Name>150817_10_(9)_70kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509226">
+      <Name>150817_11_(10)_60kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509227">
+      <Name>150817_12_(11)_50kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509228">
+      <Name>150817_13_(12)_45kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509229">
+      <Name>150817_14_(13)_42kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509230">
+      <Name>160915_02_(14)_40kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509231">
+      <Name>160915_03_(15)_38kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509232">
+      <Name>160915_04_(16)_35kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509233">
+      <Name>160915_05_(17)_29kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509234">
+      <Name>160915_06_(18)_25kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509235">
+      <Name>160915_07_(19)_22kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509236">
+      <Name>160915_08_(20)_21kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509237">
+      <Name>160915_09_(21)_16kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509238">
+      <Name>160915_10_(22)_14.5kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509239">
+      <Name>160915_11_(23)_14kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509240">
+      <Name>160915_12_(24)_11kDa.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000834">
+          <title>virion proteins of ϕXacN1 on SDS-PAGE</title>
+          <species>phage</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000125">
+          <title>In-gel digestion with trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy>Phage</taxonomy>
+          <note/>
+          <variableModification id="Deamidated (N, Q)" name="">Deamidated (N, Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000125">
+          <title>NanoLC-ESI MS (OrbiTrap)-MSMS (IonTrap, CID)</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509266">
+      <Name>150817_08_(7)_85kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509267">
+      <Name>150817_09_(8)_75kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509268">
+      <Name>150817_10_(9)_70kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509269">
+      <Name>150817_11_(10)_60kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509270">
+      <Name>150817_12_(11)_50kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509271">
+      <Name>150817_13_(12)_45kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509272">
+      <Name>150817_14_(13)_42kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509273">
+      <Name>160915_02_(14)_40kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509274">
+      <Name>160915_03_(15)_38kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509275">
+      <Name>160915_04_(16)_35kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509276">
+      <Name>160915_05_(17)_29kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509277">
+      <Name>160915_06_(18)_25kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509278">
+      <Name>160915_07_(19)_22kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509279">
+      <Name>160915_08_(20)_21kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509280">
+      <Name>160915_09_(21)_16kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509281">
+      <Name>160915_10_(22)_14.5kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509282">
+      <Name>160915_11_(23)_14kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509283">
+      <Name>160915_12_(24)_11kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509284">
+      <Name>160915_13_(25)_10kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509285">
+      <Name>150817_02_(1)_370kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509286">
+      <Name>150817_03_(2)_325kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509287">
+      <Name>150817_04_(3)_300kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509288">
+      <Name>150817_05_(4)_260kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509289">
+      <Name>150817_06_(5)_125kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000509290">
+      <Name>150817_07_(6)_110kDa.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

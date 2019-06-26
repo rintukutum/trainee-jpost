@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000501" formatVersion="1.0">
+  <Project id="JPST000501" pxid="PXD012367" createdDate="2018-09-25" modifiedDate="2019-05-14" mode="partial" type="Mass spectrometry">
+    <Title>iPSC-HDF phosphoproteome</Title>
+    <Description>We analyzed iPSC (201B7) and HDF (HDF1388) by global whole phosphoproteome analysis. iTRAQ was used for relative quantification between the two cell types. We did biological triplicate analyses.</Description>
+    <AnnouncementDate>2019-05-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00684" ontologyName="deamidated L-asparagine" value="deamidated L-asparagine"/>
+      <PresetElement id="MOD:00685" ontologyName="deamidated L-glutamine" value="deamidated L-glutamine"/>
+      <PresetElement id="MOD:00420" ontologyName="2-pyrrolidone-5-carboxylic acid (Glu)" value="Glu-&#62;pyro-Glu (E)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+      <PresetElement id="MOD:00564" ontologyName="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry" value="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Iwasaki Mio</Name>
+    <Affiliation>Kyoto University</Affiliation>
+    <PrincipalInvestigator>Mio Iwasaki</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>iTRAQ</Keywords>
+    <PubMed>
+      <PubMedId>31039306</PubMedId>
+      <PubMedInfo>Iwasaki M, Tabata T, Kawahara Y, Ishihama Y, Nakagawa M Removal of Interference MS/MS Spectra for Accurate Quantification in Isobaric Tag-Based Proteomics. J Proteome Res. 2019 May 6;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000533005">
+      <Name>170713mi-10-201B7-HDF1388-W3-Phos-150ug-CiRA1-GL7.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533006">
+      <Name>171113mi-02-201B7-HDF1388-W9-150ug-Phos-CiRA1-GL7.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533007">
+      <Name>171113mi-02-201B7-HDF1388-W9-150ug-Phos-CiRA1-GL7.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533008">
+      <Name>170713mi-06-201B7-HDF1388-W2-Phos-150ug-CiRA1-GL7.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533009">
+      <Name>170713mi-06-201B7-HDF1388-W2-Phos-150ug-CiRA1-GL7.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533010">
+      <Name>170713mi-10-201B7-HDF1388-W3-Phos-150ug-CiRA1-GL7.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="iTRAQ 114">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="1">iTRAQ 114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="iTRAQ 117">
+        <Sample id="S0000001128">
+          <title>Human phosphoproteome</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000286">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note>Taxonomy: Human</note>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00684" name="deamidated L-asparagine">deamidated L-asparagine</variableModification>
+          <variableModification id="MOD:00685" name="deamidated L-glutamine">deamidated L-glutamine</variableModification>
+          <variableModification id="MOD:00420" name="2-pyrrolidone-5-carboxylic acid (Glu)">Glu-&#62;pyro-Glu (E)</variableModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+          <variableModification id="MOD:00564" name="Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry">Applied Biosystems iTRAQ(TM) multiplexed quantitation chemistry</variableModification>
+          <title>Human phosphoproteome</title>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000278">
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <title>Human proteome</title>
+          <label id="4">iTRAQ 117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533011">
+      <Name>170713mi-06-201B7-HDF1388-W2-Phos-150ug-CiRA1-GL7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000533012">
+      <Name>170713mi-10-201B7-HDF1388-W3-Phos-150ug-CiRA1-GL7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000533013">
+      <Name>171113mi-02-201B7-HDF1388-W9-150ug-Phos-CiRA1-GL7.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000533014">
+      <Name>171113mi-02-201B7-HDF1388-W9-150ug-Phos-CiRA1-GL7.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000533015">
+      <Name>170713mi-06-201B7-HDF1388-W2-Phos-150ug-CiRA1-GL7.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+    <File id="f_0000533016">
+      <Name>170713mi-10-201B7-HDF1388-W3-Phos-150ug-CiRA1-GL7.group</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProteinPilot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000407" formatVersion="1.0">
+  <Project id="JPST000407" pxid="PXD009460" createdDate="2018-04-28" modifiedDate="2018-04-28" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Characterization of disulfide linkages in proteins by 193 nm ultraviolet photodissociation (UVPD)</Title>
+    <Description>Inter-linked disulfide bonds connecting peptide chains are homolytically cleaved with 193 nm ultraviolet photodissociation (UVPD). Analysis of insulin demonstrates the ability for UVPD to cleave multiple disulfide bonds and provide sequence coverage of multiple peptide chains in the same MS/MS event. The information provided by UVPD of disulfide-bound peptides is comparable to information garnered from other high energy dissociation methods but requires an activation period an order of magnitude faster than these methods. This phenomenon was investigated, along with a partial reduction and alkylation sample preparation to determine disulfide connectivities of enzymatically digested proteins. The 4 disulfide bonds of lysozyme and the 19 disulfide bonds of serotransferrin were unambiguously characterized through non-reduced and partially reduced protein digestions. </Description>
+    <AnnouncementDate>2018-04-28</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+      <PresetElement id="9031" value="Gallus gallus"/>
+      <PresetElement id="9913" value="Bos taurus"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002732" value="Orbitrap Fusion Lumos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="none" value="none"/>
+      <PresetElement id="MOD:00483" ontologyName="N-ethylmaleimide derivatized cysteine" value="N-ethylmaleimide derivatized cysteine"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>M. Montana Quick</Name>
+    <Affiliation>University of Texas at Austin</Affiliation>
+    <PrincipalInvestigator>Jennifer S. Brodbelt</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Disulfide bond, Mass spectrometry, ultraviolet photodissociation, UVPD, HPLC</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000517165">
+      <Name>Transferrin_60min_3mJ_2p.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517166">
+      <Name>Transferrin_30min_3mJ_2p.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517167">
+      <Name>Transferrin_FR_NEM_3mJ_2p.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517168">
+      <Name>Transferrin_NR_3mJ_2p.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517169">
+      <Name>Lysozyme_2p2mJ_60minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517170">
+      <Name>Lysozyme_2p2mJ_1minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517171">
+      <Name>Lysozyme_2p2mJ_10minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517172">
+      <Name>Lysozyme_2p2mJ_20minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517173">
+      <Name>Lysozyme_2p2mJ_30minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517174">
+      <Name>Lysozyme_2p2mJ_40minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517175">
+      <Name>Lysozyme_2p2mJ_50minute.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000989">
+          <title>Lysozyme</title>
+          <species id="9031">Gallus gallus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517176">
+      <Name>EThcD Insulin.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517177">
+      <Name>UVPD 1p 3mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517178">
+      <Name>UVPD 2p 2mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517179">
+      <Name>UVPD 2p 2o5mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517180">
+      <Name>UVPD 2p 3mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517181">
+      <Name>UVPD 3p 2mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517182">
+      <Name>UVPD 1p 2mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517183">
+      <Name>UVPD 1p 2o5mJ LPT.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000988">
+          <title>Insulin</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517184">
+      <Name>Serotransferrin_60min_EThcD.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517185">
+      <Name>Serotransferrin_FR_EThcD.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517186">
+      <Name>Serotransferrin_NR_EThcD.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517187">
+      <Name>Serotransferrin_30min_EThcD.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000990">
+          <title>Serotransferrin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000217">
+          <title>Trypsin/NEM alkylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00483" name="N-ethylmaleimide derivatized cysteine">N-ethylmaleimide derivatized cysteine</variableModification>
+          <taxonomy/>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000218">
+          <title>HPLC-MS/MS</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000517188">
+      <Name>A-chain_HydrogenLoss.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517189">
+      <Name>A-chain_Intact1UVPD.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517190">
+      <Name>A-chain_Intact2UVPD.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517191">
+      <Name>B-chain_HydrogenLoss.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517192">
+      <Name>B-chain_Intact1UVPD.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517193">
+      <Name>B-chain_Intact2UVPD.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Prosight</Software>
+    </File>
+    <File id="f_0000517194">
+      <Name>UVPD 2p 2o5mJ LPT_PeakLIST.txt</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

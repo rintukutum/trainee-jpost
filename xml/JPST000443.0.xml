@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000443" formatVersion="1.0">
+  <Project id="JPST000443" pxid="PXD010204" createdDate="2018-06-20" modifiedDate="2018-06-21" mode="partial" type="Mass spectrometry">
+    <Title>Quantitative analysis of SHBG glycosylation in liver diseases by LC/MS-PRM</Title>
+    <Description> To explore the association of SHBG glycoforms with liver disease of different etiologies, SHBG was enriched by immunoaffinity approach from sera of patients and healthy controls. The enriched SHBG was digested by trypsin alone or with the combination of Neuraminidase A. Quantitative analysis of SHBG glycosylation microheterogeneity were performed by LC/MS-PRM method. </Description>
+    <AnnouncementDate>2019-06-23</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="instrument"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Wei Yuan</Name>
+    <Affiliation>georgetown university</Affiliation>
+    <PrincipalInvestigator>Radoslav Goldman</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Glycoproteomics, SHBG, Glycosylation, fucosylation, liver disease </Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000522004">
+      <Name>20170928-HCV1-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522005">
+      <Name>20170928-HCV2-3ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522006">
+      <Name>20170928-HCV2-3ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522007">
+      <Name>20170930-Alcohol1-4ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522008">
+      <Name>20170930-Alcohol1-4ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522009">
+      <Name>20170930-Alcohol2-3ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522010">
+      <Name>20170930-Alcohol2-3ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522011">
+      <Name>20170930-Fat1-4ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522012">
+      <Name>20170930-Fat1-4ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522013">
+      <Name>20170930-Fat2-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522014">
+      <Name>20170930-Fat2-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522015">
+      <Name>20170930-H1-10ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522016">
+      <Name>20170930-H1-10ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522017">
+      <Name>20170930-H2-6ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522018">
+      <Name>20170930-H2-6ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522019">
+      <Name>20170930-HBV1-6ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522020">
+      <Name>20170930-HBV1-6ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522021">
+      <Name>20170930-HBV2-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522022">
+      <Name>20170930-HBV2-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522023">
+      <Name>20170930-HCC1-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522024">
+      <Name>20170930-HCC1-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522025">
+      <Name>20170930-HCC1-5ulC.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522026">
+      <Name>20170930-HCC1-5ulC.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522027">
+      <Name>20170930-HCC2-4ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522028">
+      <Name>20170930-HCC2-4ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522029">
+      <Name>20170930-HCV1-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522030">
+      <Name>20170930-HCV1-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522031">
+      <Name>20171002-Alcohol2-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522032">
+      <Name>20171002-Alcohol2-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522033">
+      <Name>20171002-Fat2-10ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522034">
+      <Name>20171002-Fat2-10ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522035">
+      <Name>20171002-HCV2-10ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522036">
+      <Name>20171002-HCV2-10ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522037">
+      <Name>20170928-Alcohol1-4ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522038">
+      <Name>20170928-Alcohol1-4ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522039">
+      <Name>20170928-Fat1-3ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522040">
+      <Name>20170928-Fat1-3ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522041">
+      <Name>20170928-H1-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522042">
+      <Name>20170928-H1-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522043">
+      <Name>20170928-H2-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522044">
+      <Name>20170928-H2-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522045">
+      <Name>20170928-HBV1-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522046">
+      <Name>20170928-HBV1-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522047">
+      <Name>20170928-HBV2-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522048">
+      <Name>20170928-HBV2-5ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522049">
+      <Name>20170928-HCC2-3ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522050">
+      <Name>20170928-HCC2-3ul.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522051">
+      <Name>20170928-HCV1-5ul.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522052">
+      <Name>20171127-fat 2 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522053">
+      <Name>20171127-H1-neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522054">
+      <Name>20171127-H1-neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522055">
+      <Name>20171127-H1-neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522056">
+      <Name>20171127-H1-neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522057">
+      <Name>20171127-H2-neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522058">
+      <Name>20171127-H2-neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522059">
+      <Name>20171127-H2-neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522060">
+      <Name>20171127-H2-neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522061">
+      <Name>20171127-HBV 1 nueA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522062">
+      <Name>20171127-HBV 1 nueA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522063">
+      <Name>20171127-HBV 1 nueA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522064">
+      <Name>20171127-HBV 1 nueA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522065">
+      <Name>20171127-HBV 2 neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522066">
+      <Name>20171127-HBV 2 neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522067">
+      <Name>20171127-HBV 2 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522068">
+      <Name>20171127-HBV 2 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522069">
+      <Name>20171127-HCC 2 neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522070">
+      <Name>20171127-HCC 2 neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522071">
+      <Name>20171127-HCC 2 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522072">
+      <Name>20171127-HCC 2 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522073">
+      <Name>20171127-HCC1 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522074">
+      <Name>20171127-HCC1 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522075">
+      <Name>20171127-HCC1 neuA-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522076">
+      <Name>20171127-HCC1 neuA-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522077">
+      <Name>20171127-HCV 1 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522078">
+      <Name>20171127-HCV 1 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522079">
+      <Name>20171127-HCV 1 neuA-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522080">
+      <Name>20171127-HCV 1 neuA-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522081">
+      <Name>20171127-HCV 2 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522082">
+      <Name>20171127-HCV 2 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522083">
+      <Name>20171127-HCV 2 neuA-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522084">
+      <Name>20171127-HCV 2 neuA-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522085">
+      <Name>20171127-alco 1 neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522086">
+      <Name>20171127-alco 1 neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522087">
+      <Name>20171127-alco 1 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522088">
+      <Name>20171127-alco 1 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522089">
+      <Name>20171127-alco 2 neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522090">
+      <Name>20171127-alco 2 neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522091">
+      <Name>20171127-alco 2 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522092">
+      <Name>20171127-alco 2 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522093">
+      <Name>20171127-fat 1 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522094">
+      <Name>20171127-fat 1 neuA-b.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522095">
+      <Name>20171127-fat 1 neuA-C.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522096">
+      <Name>20171127-fat 1 neuA-C.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522097">
+      <Name>20171127-fat 2 neuA.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522098">
+      <Name>20171127-fat 2 neuA.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522099">
+      <Name>20171127-fat 2 neuA-b.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001054">
+          <title>serum  SHBG</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000133">blood serum</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000261">
+          <title>Immunoaffinity enriched serum SHBG</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000243">
+          <title>serum-SHBG</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme>Neuraminidase A</enzyme>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000239">
+          <title>serum-SHBG</title>
+          <instrument>Triple TOF 6600</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000522100">
+      <Name>results table -manuscript.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Multi Quant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

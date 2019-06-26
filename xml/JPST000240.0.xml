@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000240" formatVersion="1.0">
+  <Project id="JPST000240" pxid="PXD006059" createdDate="2017-03-08" modifiedDate="2017-03-08" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>The Interplay between K63-linked Polyubiquitinated DDX17 and m6A-modified miRNAs Regulates Hypoxia-induced Tumor Initiation</Title>
+    <Description>DEAD-box RNA-binding proteins (RBPs) play a significant role in RNA metabolism to achieve cellular homeostasis, including miRNA biogenesis and transcription. Hypoxia induces stemness cell-like characteristics in cancer cells and promotes malignant progression. Despite the fact that hypoxia can induce the changes in protein and RNA modification, thereby regulating downstream gene expressions, how modifications at different molecular layers interplay with each other are poorly understood. Here we show that hypoxia induces HectH9-mediated K63-linked polyubiquitination of the DEAD-box protein DDX17 as well as reduces N6-methyladenosine (m6A) marks in pri-miRNAs. While m6A potentiates DDX17 binding to pri-miRNAs, decreased m6A modifications of pri-miRNAs and increased polyubiquitination of DDX17 under hypoxia lead to decreased DDX17 binding to pri-miRNAs binding. These events enhance the association of DDX17 with the ubiquitin receptor p300 and lead to a decrease in miRNA biogenesis, especially for miRNAs regulating stemness and stemness-related genes. In addition, polyubiquitinated DDX17 together with p300 upregulates H3K56Ac levels on the stemness and stemness-related genes, resulting in enhancement of tumor initiating ability. Post-transcriptionally, decreased miRNA production, including those targeting stemness genes or stemness-related genes, also facilitates tumor initiation. Together, hypoxia triggers DDX17 poly-ubiquitination, which orchestrates dual mechanisms to increase tumor initiating ability and promote tumor progression.</Description>
+    <AnnouncementDate>2018-03-09</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yi-Ting Wang</Name>
+    <Affiliation>Center for genomic medicine, kyoto university</Affiliation>
+    <PrincipalInvestigator>Kou-Juey Wu</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>PPI, cancer tumor, Label-free</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000493015">
+      <Name>YJC_D_20141124_01ShZ-G.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493016">
+      <Name>YJC_C_20141124_01 ShH9-G.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493017">
+      <Name>YJC_B_20141124_01ShHZ-FLAG.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493018">
+      <Name>YJC_A_20141124_01ShH9-FLAG.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3"/>
+        </MS_mode>
+      </Profile>
+      <Profile plex="">
+        <Sample id="S0000000483">
+          <title>fusion</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000115">
+          <title>fusion</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493019">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493020">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493021">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493022">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493023">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493024">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493025">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493026">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493027">
+      <Name>Miao_Sh-c_Flag_mass3_141226_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493028">
+      <Name>Miao_Sh-c_Flag_mass3_141226_03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493029">
+      <Name>Miao_Sh-c_Flag_mass3_141226_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493030">
+      <Name>Miao_Sh-c_Flag_mass3_141226_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493031">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493032">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493033">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="">
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000119">
+          <title>Enzyme</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000116">
+          <title>TT5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1"/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493034">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000484">
+          <title>TT5600</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1324">lung cancer</disease>
+          <note/>
+        </Sample>
+      </Profile>
+    </File>
+    <File id="f_0000493035">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493036">
+      <Name>Miao_Sh-c_proteinG_mass3_141226_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493037">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493038">
+      <Name>Miao_Sh-H9_proteinG_mass3_141226_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493039">
+      <Name>Miao_Sh-c_Flag_mass3_141226_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493040">
+      <Name>Miao_Sh-c_Flag_mass3_141226_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493041">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493042">
+      <Name>Miao_Sh-H9_Flag_mass3_141226_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile/>
+    </File>
+    <File id="f_0000493043">
+      <Name>aifMsms.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493044">
+      <Name>allPeptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493045">
+      <Name>evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493046">
+      <Name>GlyGly (K)Sites.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493047">
+      <Name>libraryMatch.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493048">
+      <Name>matchedFeatures.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493049">
+      <Name>modificationSpecificPeptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493050">
+      <Name>ms3Scans.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493051">
+      <Name>msms.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493052">
+      <Name>msmsScans.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493053">
+      <Name>msScans.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493054">
+      <Name>mzRange.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493055">
+      <Name>Oxidation (M)Sites.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493056">
+      <Name>parameters.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493057">
+      <Name>peptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493058">
+      <Name>proteinGroups.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493059">
+      <Name>QQTGG (K)Sites.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493060">
+      <Name>summary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493061">
+      <Name>tables.pdf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493062">
+      <Name>aifMsms-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493063">
+      <Name>allPeptides-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493064">
+      <Name>evidence-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493065">
+      <Name>libraryMatch-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493066">
+      <Name>matchedFeatures-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493067">
+      <Name>modificationSpecificPeptides-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493068">
+      <Name>ms3Scans-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493069">
+      <Name>msms-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493070">
+      <Name>msmsScans-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493071">
+      <Name>msScans-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493072">
+      <Name>mzRange-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493073">
+      <Name>Oxidation (M)Sites-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493074">
+      <Name>parameters-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493075">
+      <Name>peptides-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493076">
+      <Name>proteinGroups-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000493077">
+      <Name>summary-Fusion.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

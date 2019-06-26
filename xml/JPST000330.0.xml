@@ -1,0 +1,3489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000330" formatVersion="1.0">
+  <Project id="JPST000330" pxid="PXD007892" createdDate="2017-10-03" modifiedDate="2018-05-12" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>A systematic and scalable approach for dissecting the molecular 2 mechanisms of transcriptional regulation in bacteria</Title>
+    <Description>Gene regulation is one of the most ubiquitous processes in biology. And yet, while the catalogue of 15 bacterial genomes continues to expand rapidly, we remain ignorant about how almost all of the genes in 16 these genomes are regulated. Characterizing the molecular mechanisms by which regulatory sequences 17 operate still requires focused efforts using low-throughput methods. Here we show how a combination of 18 massively parallel reporter assays, mass spectrometry, and information-theoretic modeling can be used 19 to dissect bacterial promoters in a systematic and scalable way. We demonstrate this method on both 20 well-studied and previously uncharacterized promoters in the enteric bacterium Escherichia coli. In all 21 cases we recover nucleotide-resolution models of promoter mechanism. For some promoters, including 22 previously unannotated ones, we can further extract quantitative biophysical models describing 23 input-output relationships. This method opens up the possibility of exhaustively dissecting the 24 mechanisms of promoter function in E. coli and a wide range of other bacteria.</Description>
+    <AnnouncementDate>2018-04-13</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="562" value="Escherichia coli"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="UNIMOD:259" ontologyName="Label:13C(6)15N(2)" value="Label:13C(6)15N(2) (K)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Michael Sweredoski</Name>
+    <Affiliation>California Institute of Technology</Affiliation>
+    <PrincipalInvestigator>Rob Phillips</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>e coli, SILAC, DNA affinity, transcription factors</Keywords>
+    <PubMed>
+      <PubMedId>29728462</PubMedId>
+      <PubMedInfo>Belliveau NM, Barnes SL, Ireland WT, Jones DL, Sweredoski MJ, Moradian A, Hess S, Kinney JB, Phillips R Systematic approach for dissecting the molecular mechanisms of transcriptional regulation in bacteria. Proc Natl Acad Sci U S A. 2018 May 4;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000504016">
+      <Name>nab_scr_trial3_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504017">
+      <Name>nab_scr_trial3_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504018">
+      <Name>nab_scr_trial3_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504019">
+      <Name>nab_scr_trial2_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504020">
+      <Name>nab_scr_trial2_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504021">
+      <Name>nab_scr_trial2_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504022">
+      <Name>nab_purT_trial3_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504023">
+      <Name>nab_purT_trial3_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504024">
+      <Name>nab_purT_trial3_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504025">
+      <Name>nab_purT_trial3_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504026">
+      <Name>nab_purT_trial2_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504027">
+      <Name>nab_purT_trial2_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504028">
+      <Name>nab_purT_trial2_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504029">
+      <Name>nab_purT_trial2_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504030">
+      <Name>nab_xylE_longDNA_trial3_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504031">
+      <Name>nab_xylE_longDNA_trial3_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504032">
+      <Name>nab_xylE_longDNA_trial3_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504033">
+      <Name>nab_xylE_longDNA_trial3_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504034">
+      <Name>nab_xylE_longDNA_trail2_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504035">
+      <Name>nab_xylE_longDNA_trail2_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504036">
+      <Name>nab_xylE_longDNA_trail2_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504037">
+      <Name>nab_xylE_longDNA_trial2_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504038">
+      <Name>nab_xylE_longDNA_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504039">
+      <Name>nab_xylE_longDNA_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504040">
+      <Name>nab_xylE_longDNA_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504041">
+      <Name>nab_xylE_longDNA_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504042">
+      <Name>nab_purT_SCR_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504043">
+      <Name>nab_purT_SCR_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504044">
+      <Name>nab_purT_SCR_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504045">
+      <Name>nab_purT_SCR_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504046">
+      <Name>nab_purT_WT_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504047">
+      <Name>nab_purT_WT_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504048">
+      <Name>nab_purT_WT_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504049">
+      <Name>nab_purT_WT_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504050">
+      <Name>nab_09Nov2016_dgoR3_frac5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504051">
+      <Name>nab_09Nov2016_dgoR3_frac4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504052">
+      <Name>nab_09Nov2016_dgoR3_frac3_161114110409.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504053">
+      <Name>nab_09Nov2016_dgoR3_frac2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504054">
+      <Name>nab_09Nov2016_dgoR3_frac1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504055">
+      <Name>nab_09Nov2016_dgoR1_frac5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504056">
+      <Name>nab_09Nov2016_dgoR1_frac4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504057">
+      <Name>nab_09Nov2016_dgoR1_frac3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504058">
+      <Name>nab_09Nov2016_dgoR1_frac2_161111142206.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504059">
+      <Name>nab_09Nov2016_dgoR1_frac1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504060">
+      <Name>nab_purT_26Oct16_05.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504061">
+      <Name>nab_purT_26Oct16_04.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504062">
+      <Name>nab_purT_26Oct16_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504063">
+      <Name>nab_purT_26Oct16_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504064">
+      <Name>nab_purT_26Oct16_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504065">
+      <Name>nab_dgoR_26Oct16_05.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504066">
+      <Name>nab_dgoR_26Oct16_04.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504067">
+      <Name>nab_dgoR_26Oct16_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504068">
+      <Name>nab_dgoR_26Oct16_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504069">
+      <Name>nab_dgoR_26Oct16_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504070">
+      <Name>nab_relBenh_frac4_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504071">
+      <Name>nab_relBenh_frac3_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504072">
+      <Name>nab_relBenh_frac2_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504073">
+      <Name>nab_relBenh_frac1_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504074">
+      <Name>nab_relB_frac4_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504075">
+      <Name>nab_relB_frac3_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504076">
+      <Name>nab_relB_frac2_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504077">
+      <Name>nab_relB_frac1_HEAVY_6Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504078">
+      <Name>nab_relBenh_frac4_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504079">
+      <Name>nab_relBenh_frac3_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504080">
+      <Name>nab_relBenh_frac2_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504081">
+      <Name>nab_relBenh_frac1_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504082">
+      <Name>nab_relB_frac4_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504083">
+      <Name>nab_relB_frac3_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504084">
+      <Name>nab_relB_frac2_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504085">
+      <Name>nab_relB_frac1_LIGHT_4Nov15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504086">
+      <Name>nab_OIDL_07August15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504087">
+      <Name>nab_OIDH_07August15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504088">
+      <Name>nab_03L_07August15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504089">
+      <Name>nab_03H_07August15.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504090">
+      <Name>nab_31July15_04.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504091">
+      <Name>nab_31July15_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504092">
+      <Name>nab_30July15_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504093">
+      <Name>nab_30July15_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504094">
+      <Name>nab_24July15_04.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504095">
+      <Name>nab_24July15_03.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504096">
+      <Name>nab_24July15_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504097">
+      <Name>nab_24July15_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504098">
+      <Name>nab_27May15_04.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504099">
+      <Name>nab_27May15_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504100">
+      <Name>nab_27May15_03_3ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504101">
+      <Name>nab_27May15_01_3ul.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000688">
+          <title>DNA affinity purification</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000166">
+          <title>GEL Fractionation</title>
+          <subcellular>Whole</subcellular>
+          <peptide/>
+          <note/>
+          <protein replicate="">Any kD Mini-PROTEAN® TGX Precast Protein Gels</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000163">
+          <title>Ecoli LysC Digestion</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</variableModification>
+          <taxonomy id="">(none)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000103">
+          <title>OrbiElite LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000504104">
+      <Name>txt.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000504105">
+      <Name>mqpar.xml</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

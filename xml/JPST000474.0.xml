@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000474" formatVersion="1.0">
+  <Project id="JPST000474" pxid="PXD010716" createdDate="2018-08-07" modifiedDate="2018-09-22" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Isolated peroxisome-division machinery </Title>
+    <Description>LC-MS/MS analysis was performed to determine enriched protein in the fraction of isolated peroxisome-division machinery. Fraction was acquired from uni-cellular red algae Cyanidioschyzon merolae during mitotic phase which contains dividing peroxisome.  </Description>
+    <AnnouncementDate>2018-09-21</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="280699" value="Cyanidioschyzon merolae strain 10D"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001742" value="LTQ Orbitrap Velos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yuta Imoto</Name>
+    <Affiliation>Johns Hopkins University school of medicine, department of cell biology</Affiliation>
+    <PrincipalInvestigator>Yuuta Imoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>peroxisome, dynamin, organelle division, Cyanidioschyzon merolae</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000527218">
+      <Name>orb_150825_PA-17_F070882.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527219">
+      <Name>orb_150825_PA-20_F070885.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527220">
+      <Name>orb_150825_PA-22_F070887.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527221">
+      <Name>orb_150825_PA-01_F070866.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527222">
+      <Name>orb_150825_PA-04_F070869.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527223">
+      <Name>orb_150825_PA-15_F070880.mzid</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001100">
+          <title>POD-1</title>
+          <species id="280699">Cyanidioschyzon merolae strain 10D</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000314">
+          <title>POD-1</title>
+          <subcellular replicate="">Other organelle</subcellular>
+          <protein fraction="0" replicate="">SDS-PAGE (5-12.5 %)</protein>
+          <peptide>-</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000266">
+          <title>POD-1</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="280699">Cyanidioschyzon merolae strain 10D</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000261">
+          <title>POD-1</title>
+          <instrument id="MS:1001742">LTQ Orbitrap Velos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000527224">
+      <Name>orb_150825_PA-04_F070869.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000527225">
+      <Name>orb_150825_PA-15_F070880.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000527226">
+      <Name>orb_150825_PA-17_F070882.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000527227">
+      <Name>orb_150825_PA-20_F070885.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000527228">
+      <Name>orb_150825_PA-22_F070887.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000527229">
+      <Name>orb_150825_PA-01_F070866.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

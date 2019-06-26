@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000388" formatVersion="1.0">
+  <Project id="JPST000388" pxid="PXD008921" createdDate="2018-07-23" modifiedDate="2018-09-21" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>A new tool to reveal bacterial signaling mechanisms in antibiotic treatment and resistance</Title>
+    <Description>Antimicrobial resistance is widespread across the globe. Here we presented a dynamic view of protein phosphoregulations during resistance development. Specific phosphorylation motifs and highly conserved phosphorylated residues on transcription factors were identified involving in regulating resistance for the first time implying the extent of phosphorylation regulation is far more important than we thought. Much effort need to be done in understanding the contribution of each signaling pathway to the development of resistance. Therefore, the dataset presented here could be a valuable resource for future works to decipher signaling mechanisms involved in AMR.</Description>
+    <AnnouncementDate>2018-09-21</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="562" value="Escherichia coli"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (Protein N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00890" ontologyName="phosphorylated L-histidine" value="Phospho (H)"/>
+      <PresetElement id="MOD:00042" ontologyName="L-aspartic 4-phosphoric anhydride" value="Phospho (D)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Miao-Hsia Lin</Name>
+    <Affiliation>Institute of Chemistry, Academia Sinica</Affiliation>
+    <PrincipalInvestigator>Simone Lemeer</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>antimicrobial resistance, phosphoproteomics, colistin, ciporlfoxacin</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000526919">
+      <Name>colistin_cipro_proteome_raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000948">
+          <title>E. coli proteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000203">
+          <title>E. coli_proteome</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526920">
+      <Name>colistin_cipro_phosphoproteome_raw.zip</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000196">
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <title>pDHSTY</title>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00042" name="L-aspartic 4-phosphoric anhydride">Phospho (D)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (Protein N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526921">
+      <Name>colistin_cipro_proteome_search_result.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000526922">
+      <Name>colistin_cipro_phosphoproteome_search_result.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000526924">
+      <Name>Maxquant_1.6.0.1.rar</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

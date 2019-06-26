@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000263" formatVersion="1.0">
+  <Project id="JPST000263" pxid="PXD006399" createdDate="2017-04-20" modifiedDate="2017-04-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>APP phosphorylation by LRRK2              </Title>
+    <Description>To investigate the global phosphorylation sites of Amyloid precursor protein (APP) by Leucine-rich repeat kinase 2 (LRRK2) protein kinase activities and explore the potential substrates involving neural loss in Parkinson’s Disease (PD), we performed a phosphoproteomic analysis of APP by LC-MS/MS method. LRRK2 wide-type full length protein and recombinant Human APP751 were mixed with kinase assay buffer, followed by incubation. Laemmmli buffer was added to stop the reaction and loaded to a 4-12% SDS-PAGE gel. In-gel digestion was performed according to standard protocol. The LC-MS/MS analysis was carried out on an Orbitrap Fusion. The MS and MS/MS spectra from the raw data were sent to the Mascot database search engine against the Uniport Human protein database. The quantification of phosphorylation was based on the extracted ion chromatograph of the triply charged non-phosphorylated and phosphorylated peptide containing T724. </Description>
+    <AnnouncementDate>2018-04-28</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002416" value="Orbitrap Fusion"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Zhongcan Chen</Name>
+    <Affiliation>National Neuroscience Institute</Affiliation>
+    <PrincipalInvestigator>Eng King Tan; Li Zeng</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Human, Substrate, Phosphorylation, PD</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000493862">
+      <Name>zengli_20160316_1_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000496">
+          <title>LRRK2-APP IVK</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease id="DOID:14330">Parkinson's disease</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000124">
+          <title>In Gel Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000124">
+          <title>MS profile</title>
+          <instrument id="MS:1002416">Orbitrap Fusion</instrument>
+          <instrumentMode>DIA</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Fragment ion (label-free)</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493863">
+      <Name>zengli_20160316_1_2.msm</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000493864">
+      <Name>A4_HUMAN_1.html</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000493865">
+      <Name>A4_HUMAN_2.html</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000493866">
+      <Name>F001290.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000493867">
+      <Name>SwissProt_2014_07.fasta</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

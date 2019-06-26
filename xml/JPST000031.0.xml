@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000031" formatVersion="1.0">
+  <Project id="JPST000031" pxid="" createdDate="2016-05-23" modifiedDate="2016-05-23" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TiO2-enriched phosphopeptides from thymocytes</Title>
+    <Description>Changes in phosphorylation of specific sites were examined by TiO2-based phosphopeptide enrichment from wild-type and PKD2/3-deficient thymocytes followed by LC-MS/MS analysis.</Description>
+    <AnnouncementDate>2016-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Q Exactive Plus"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>TiO2, thymocyte, PKD2/3, TCR</Keywords>
+    <PubMed>
+      <PubMedId>27670070</PubMedId>
+      <PubMedInfo>Ishikawa E, Kosako H, Yasuda T, Ohmuraya M, Araki K, Kurosaki T, Saito T, Yamasaki S Protein kinase D regulates positive selection of CD4&#60;sup&#62;+&#60;/sup&#62; thymocytes through phosphorylation of SHP-1. Nat Commun. 2016 Sep 27;7:12756</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000437731">
+      <Name>160411_04_3_dko_plus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000020">
+          <title>PKD2/3-double-KO-plus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000016">
+          <title>TiO2 fraction</title>
+          <subcellular/>
+          <protein/>
+          <peptide fraction="1" replicate="1">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000013">
+          <title>Trypsin-Gold-in-solution</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000022">
+          <title>QEplus-110min</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437732">
+      <Name>160411_08_2_wt_plus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000019">
+          <title>wild-type-plus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000016">
+          <title>TiO2 fraction</title>
+          <subcellular/>
+          <protein/>
+          <peptide fraction="1" replicate="1">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000013">
+          <title>Trypsin-Gold-in-solution</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000022">
+          <title>QEplus-110min</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437733">
+      <Name>160411_06_1_wt_minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000018">
+          <title>wild-type-minus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>thymus</tissue>
+          <celltype id="CL:0000084">T cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000016">
+          <title>TiO2 fraction</title>
+          <subcellular/>
+          <protein/>
+          <peptide fraction="1" replicate="1">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000013">
+          <title>Trypsin-Gold-in-solution</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000022">
+          <title>QEplus-110min</title>
+          <instrument>Q Exactive Plus</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

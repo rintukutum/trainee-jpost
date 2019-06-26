@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000338" formatVersion="1.0">
+  <Project id="JPST000338" pxid="PXD008066" createdDate="2017-10-25" modifiedDate="2017-10-30" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Inomata et al. npp1 proteome</Title>
+    <Description>The proteome of carbohydrate metabolism and protein synthesizing system in npp1 leaves was significantly up-regulated by elevated temperature and CO2. </Description>
+    <AnnouncementDate>2018-10-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="4530" value="Oryza sativa"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="UNIMOD:35" ontologyName="Oxidation" value="Oxidation (H)"/>
+      <PresetElement id="MOD:01622" ontologyName="monohydroxylated tryptophan" value="Oxidation (W)"/>
+      <PresetElement id="MOD:01713" ontologyName="iTRAQ4plex reporter+balance reagent O-acylated residue" value="iTRAQ4plex (Y)"/>
+      <PresetElement id="MOD:01709" ontologyName="iTRAQ4plex reporter+balance reagent N-acylated residue" value="iTRAQ4plex (K)"/>
+      <PresetElement id="MOD:01711" ontologyName="iTRAQ4plex reporter+balance reagent acylated N-terminal" value="iTRAQ4plex (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Toshiaki Mitsui</Name>
+    <Affiliation>Niigata University</Affiliation>
+    <PrincipalInvestigator>Toshiaki Mitsui</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>ATP・CO2・Heat stress・NPP・Oryza sativa・Plastid・Starch・Sucrose</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000509200">
+      <Name>npp_itraq_fr1-2.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509201">
+      <Name>npp_itraq_fr1-3.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509202">
+      <Name>npp_itraq_fr1-4.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509203">
+      <Name>npp_itraq_fr1-5.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509204">
+      <Name>npp_itraq_fr1-6.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509205">
+      <Name>npp_itraq_fr1-7.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509206">
+      <Name>npp_itraq_fr1-8.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509207">
+      <Name>npp_itraq_fr2-1.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509208">
+      <Name>npp_itraq_fr2-2.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509209">
+      <Name>npp_itraq_fr2-3.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509210">
+      <Name>npp_itraq_fr2-4.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509211">
+      <Name>npp_itraq_fr2-5.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509212">
+      <Name>npp_itraq_fr2-6.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509213">
+      <Name>npp_itraq_fr2-7.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509214">
+      <Name>npp_itraq_fr2-8.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509215">
+      <Name>npp_itraq_fr1-1.raw</Name>
+      <Type>raw</Type>
+      <Profile plex="114">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="1">114</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="115">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="2">115</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="116">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="3">116</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="117">
+        <Sample id="S0000000835">
+          <title>NPP CO2 reaction </title>
+          <species id="4530">Oryza sativa</species>
+          <tissue id="BTO:0000713">leaf</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000169">
+          <title>iTRAQ labeling</title>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="4530">Oryza sativa</taxonomy>
+          <note/>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="UNIMOD:35" name="Oxidation">Oxidation (H)</variableModification>
+          <variableModification id="MOD:01622" name="monohydroxylated tryptophan">Oxidation (W)</variableModification>
+          <variableModification id="MOD:01713" name="iTRAQ4plex reporter+balance reagent O-acylated residue">iTRAQ4plex (Y)</variableModification>
+          <variableModification id="MOD:01709" name="iTRAQ4plex reporter+balance reagent N-acylated residue">iTRAQ4plex (K)</variableModification>
+          <variableModification id="MOD:01711" name="iTRAQ4plex reporter+balance reagent acylated N-terminal">iTRAQ4plex (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000174">
+          <title>iTRAQ</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Product ion (reporter quantification)</quantificationPlatform>
+          <plex>4</plex>
+          <note/>
+          <label id="4">117</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000509291">
+      <Name>high co2 high temp  2-1-2 inomata.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509292">
+      <Name>high co2 high temp  2-1-3 inomata.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509293">
+      <Name>high co2 high temp 1-1-2 inomata.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509294">
+      <Name>inomataE-1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509295">
+      <Name>inomataE-2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509296">
+      <Name>inomataE-3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509297">
+      <Name>20160215 e1.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509298">
+      <Name>20160215 e2.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509299">
+      <Name>20160215 e3.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000509300">
+      <Name>high co2 high temp  2-1-1 inomata.msf</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

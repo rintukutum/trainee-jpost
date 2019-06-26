@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000549" formatVersion="1.0">
+  <Project id="JPST000549" pxid="PXD012456" createdDate="2019-01-21" modifiedDate="2019-05-17" mode="partial" type="Mass spectrometry">
+    <Title>Mice kidney cortex proteome</Title>
+    <Description>O-GlcNAcylation is a global post translational modification. The purpose of this study is to investigate the role of O-GlcNAcylation in mice kidney proximal tubules. We used drug-inducible proximal tubular cells specific O-GlcNAc transferase (Ogt) KO mice (PTEC-Ogt KO). In this proteomic analysis, we compared kidney cortex from fasted PTEC-Ogt KO and Control mice.</Description>
+    <AnnouncementDate>2019-05-17</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Kouhei Nishino</Name>
+    <Affiliation>Medical ProteoScope Co., Ltd.</Affiliation>
+    <PrincipalInvestigator>Sho Sugahara</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Mice kidney cortex, Proximal tubule, O-GlcNAcylation</Keywords>
+    <PubMed>
+      <PubMedId>31043434</PubMedId>
+      <PubMedInfo>Sugahara S, Kume S, Chin-Kanasaki M, Tomita I, Yasuda-Yamahara M, Yamahara K, Takeda N, Osawa N, Yanagita M, Araki SI, Maegawa H Protein O-GlcNAcylation Is Essential for the Maintenance of Renal Energy Homeostasis and Function &#60;i&#62;via&#60;/i&#62; Lipolysis during Fasting and Diabetes. J Am Soc Nephrol. 2019 May 1;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000542312">
+      <Name>180307_02_SGU_168KO_500ng_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001257">
+          <title>Kidney cortex from fasted PTEC-Ogt KO and Control mice</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>Kidney cortex</tissue>
+          <celltype>Proximal tubular cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000373">
+          <title>Whole proteome analysis</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000319">
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <title>SemiTrypsin whole</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542313">
+      <Name>180307_01_SGU_146Cont_500ng_QE.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001257">
+          <title>Kidney cortex from fasted PTEC-Ogt KO and Control mice</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>Kidney cortex</tissue>
+          <celltype>Proximal tubular cell</celltype>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000373">
+          <title>Whole proteome analysis</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000319">
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <title>SemiTrypsin whole</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000290">
+          <title>Orbitrap LFQ</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000542314">
+      <Name>180308_P2017040_MouseKidney.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format/>
+    </File>
+    <File id="f_0000542317">
+      <Name>180309_P2017040_PTEC Ogt KO and Control mice Kidney Proteomics_Peptide.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Progenesis QI for proteomics</Software>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000542318">
+      <Name>180309_P2017040_PTEC Ogt KO and Control mice Kidney Proteomics_Protein.csv</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Progenesis QI for proteomics</Software>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

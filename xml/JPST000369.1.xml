@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000369" formatVersion="1.0">
+  <Project id="JPST000369" pxid="PXD008369" createdDate="2017-12-07" modifiedDate="2018-02-08" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Widespread protein histidine phosphorylation in bacteria</Title>
+    <Description>For decades, extreme difficulties in analyzing histidine phosphorylation have limited the study of phosphohistidine signaling. Here we report a method revealing widespread and abundant protein histidine phosphorylation in E. coli. Our new approach generated the largest E. coli phosphoproteome dataset to date, of which a remarkable high percentage (~10%) are phosphohistidine sites. This resource enables a major step forward towards a better understanding of the biological function of histidine phosphorylation.</Description>
+    <AnnouncementDate>2017-12-07</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="562" value="Escherichia coli"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00890" ontologyName="phosphorylated L-histidine" value="Phospho (H)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Miao-Hsia Lin</Name>
+    <Affiliation>Institute of Chemistry, Academia Sinica</Affiliation>
+    <PrincipalInvestigator>Albert J.R. Heck</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>histidine phosphorylation, E. coli, phosphoproteome</Keywords>
+    <PubMed>
+      <PubMedId>29377012</PubMedId>
+      <PubMedInfo>Potel CM, Lin MH, Heck AJR, Lemeer S Widespread bacterial protein histidine phosphorylation revealed by mass spectrometry-based proteomics. Nat Methods. 2018 Jan 29;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000512052">
+      <Name>OR13_20160922_CMP_Ecoli_glucose_stat_2mg_IMAC_R1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512053">
+      <Name>OR13_20160922_CMP_Ecoli_glucose_stat_2mg_IMAC_R2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512054">
+      <Name>OR13_20160922_CMP_Ecoli_glucose_stat_2mg_IMAC_R3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512055">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512056">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512057">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512058">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glucose_exp_2mg_IMAC_R1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512059">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glucose_exp_2mg_IMAC_R2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512060">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glucose_exp_2mg_IMAC_R3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512061">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glycerol_exp_2mg_IMAC_R1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512062">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glycerol_exp_2mg_IMAC_R2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512063">
+      <Name>OR13_A2_20161014_CMP_Ecoli_glycerol_exp_2mg_IMAC_R3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512064">
+      <Name>OR10_20160316_CMP_Ecoli_glucose_exp_4mg_IMAC_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512065">
+      <Name>OR10_20160316_CMP_Ecoli_glucose_stat_4mg_IMAC_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512066">
+      <Name>OR10_20160316_CMP_Ecoli_glyc_stat_4mg_IMAC_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512067">
+      <Name>OR11_20160131_CMP_Ecoli_1mg_IMAC_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512068">
+      <Name>OR11_20160209_CMP_Ecoli_PT_1mg_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512069">
+      <Name>OR11_20160412_CMP_Ecoli_glucose_exp_1mg_smallC_80pc.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000607">
+          <title>E. coli phosphoproteome</title>
+          <species id="562">Escherichia coli</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000154">
+          <title>phosphoHSTY</title>
+          <enzyme id="MS:1001313">Trypsin/P</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="562">Escherichia coli</taxonomy>
+          <note/>
+          <variableModification id="MOD:00890" name="phosphorylated L-histidine">Phospho (H)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000153">
+          <title>E. coli phosphoproteome</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512070">
+      <Name>Ecoli_phospho_txt_glycerol_glucose_optimized.zip</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512071">
+      <Name>mqpar.xml</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512072">
+      <Name>OR11_20160131_CMP_Ecoli_1mg_IMAC_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512073">
+      <Name>OR11_20160209_CMP_Ecoli_PT_1mg_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512074">
+      <Name>OR11_20160412_CMP_Ecoli_glucose_exp_1mg_smallC_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512075">
+      <Name>OR10_20160316_CMP_Ecoli_glucose_exp_4mg_IMAC_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512076">
+      <Name>OR10_20160316_CMP_Ecoli_glucose_stat_4mg_IMAC_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512077">
+      <Name>OR10_20160316_CMP_Ecoli_glyc_stat_4mg_IMAC_80pc_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512078">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R1_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512079">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R2_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000512080">
+      <Name>OR13_20160922_CMP_Ecoli_glycerol_stat_2mg_IMAC_R3_evidence.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

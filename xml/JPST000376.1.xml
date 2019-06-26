@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000376" formatVersion="1.0">
+  <Project id="JPST000376" pxid="PXD008670" createdDate="2018-01-15" modifiedDate="2018-01-15" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>TD Histone</Title>
+    <Description>Comparison of activation methods for unfractionated bovine thymus histones</Description>
+    <AnnouncementDate>2018-03-15</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9913" value="Bos taurus"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002732" value="Orbitrap Fusion Lumos"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00076" ontologyName="symmetric dimethyl-L-arginine" value="symmetric dimethyl-L-arginine"/>
+      <PresetElement id="MOD:00658" ontologyName="methylated arginine" value="methylated arginine"/>
+      <PresetElement id="MOD:01669" ontologyName="trimethyl-L-arginine" value="Trimethyl (R)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Sylvester Greer</Name>
+    <Affiliation>UT Austin</Affiliation>
+    <PrincipalInvestigator>Brodbelt</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>UVPD HCD ETHCD</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000512838">
+      <Name>CalfHistone_HCD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512839">
+      <Name>CalfHistone_HCD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512840">
+      <Name>CalfHistone_HCD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512841">
+      <Name>CalfHistone_UVPD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512842">
+      <Name>CalfHistone_UVPD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512843">
+      <Name>CalfHistone_UVPD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512844">
+      <Name>CalfHistone_EThcD_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512845">
+      <Name>CalfHistone_EThcD_1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512846">
+      <Name>CalfHistone_EThcD_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000936">
+          <title>Calf Thymus</title>
+          <species id="9913">Bos taurus</species>
+          <tissue id="BTO:0001374">thymus</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000223">
+          <title>none</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000189">
+          <title>Top Down</title>
+          <enzyme/>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00658" name="methylated arginine">methylated arginine</variableModification>
+          <variableModification id="MOD:01669" name="trimethyl-L-arginine">Trimethyl (R)</variableModification>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000199">
+          <title>Lumos</title>
+          <instrument id="MS:1002732">Orbitrap Fusion Lumos</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000512847">
+      <Name>Supplemental Material.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>TD Portal</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

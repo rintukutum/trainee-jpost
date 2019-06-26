@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000115" formatVersion="1.0">
+  <Project id="JPST000115" pxid="" createdDate="2016-06-24" modifiedDate="2016-06-24" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Identification of ubiquitylation sites by K0-Ub</Title>
+    <Description>We have now developed a method for the efficient identification of ubiquitylation sites in target proteins with the use of an engineered form of ubiquitin (K0-Ub), in which all seven lysine residues are replaced with arginine. K0-Ub is covalently attached to lysine residues of target proteins via an isopeptide bond, but further formation of a polyubiquitin chain does not occur on K0-Ub. We identified a total of 1392 ubiquitylation sites of 794 proteins from HEK293T cells.</Description>
+    <AnnouncementDate>2016-12-03</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="" ontologyName="GlyGly(K)" value="GlyGly(K)"/>
+      <PresetElement id="" ontologyName="GlyGly(N-term)" value="GlyGly(N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaki Matsumoto</Name>
+    <Affiliation>Div. Proteomics, Med. Inst. Bioreg., Kyushu Univ.</Affiliation>
+    <PrincipalInvestigator>Masaki Matsumoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Lysine-less ubiquitin</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000463427">
+      <Name>20100825MM_01 Fr. 9.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463428">
+      <Name>20100825MM_02 Fr. 7.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463429">
+      <Name>20100825MM_03 Fr. 8.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463430">
+      <Name>20100825MM_04 Fr. 10.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463431">
+      <Name>20100904MM_01 Fr. 1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463432">
+      <Name>20100904MM_02 Fr. 2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463433">
+      <Name>20100904MM_03 Fr. 3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463434">
+      <Name>20100904MM_04 Fr. 4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463435">
+      <Name>20100904MM_05 Fr. 5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463436">
+      <Name>20100904MM_06 Fr. 6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463437">
+      <Name>20100904MM_07 Fr. 11.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463438">
+      <Name>20100904MM_08 Fr. 12.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463439">
+      <Name>20100825MM_01 Fr. 9.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463440">
+      <Name>20100825MM_02 Fr. 7.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463441">
+      <Name>20100825MM_03 Fr. 8.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463442">
+      <Name>20100825MM_04 Fr. 10.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463443">
+      <Name>20100904MM_01 Fr. 1.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463444">
+      <Name>20100904MM_02 Fr. 2.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463445">
+      <Name>20100904MM_03 Fr. 3.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463446">
+      <Name>20100904MM_04 Fr. 4.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463447">
+      <Name>20100904MM_05 Fr. 5.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463448">
+      <Name>20100904MM_06 Fr. 6.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463449">
+      <Name>20100904MM_07 Fr. 11.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463450">
+      <Name>20100904MM_08 Fr. 12.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463451">
+      <Name>20101110MM_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="2">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463452">
+      <Name>20101110MM_Fr.7.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="2">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463453">
+      <Name>20101110MM_Fr.8.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="2">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463454">
+      <Name>20101110MM_Fr.9.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="2">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463455">
+      <Name>20101110MM_Fr.10.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="2">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463456">
+      <Name>20101110MM_02.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000463457">
+      <Name>20101110MM_Fr.7.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000463458">
+      <Name>20101110MM_Fr.8.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000463459">
+      <Name>20101110MM_Fr.9.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000463460">
+      <Name>20101110MM_Fr.10.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000463461">
+      <Name>20110219MM_01 Fr.7.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463462">
+      <Name>20110219MM_02 Fr.8.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463463">
+      <Name>20110219MM_03 Fr.9.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463464">
+      <Name>20110219MM_04 Fr.10.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463465">
+      <Name>20110305_MM_01 Fr.6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463466">
+      <Name>20110305_MM_02 Fr.5.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463467">
+      <Name>20110305_MM_03 Fr.4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463468">
+      <Name>20110305_MM_04 Fr.3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463469">
+      <Name>20110305_MM_05 Fr.2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463470">
+      <Name>20110305_MM_06 Fr.1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463471">
+      <Name>20110305_MM_07 Fr.11.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463472">
+      <Name>20110305_MM_08 Fr.12.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000223">
+          <title>Identification of ubiquitylation sites by K0-Ub</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000046">
+          <title>K0-Ub fraction</title>
+          <subcellular replicate="3">Whole</subcellular>
+          <protein fraction="1" replicate="1">Anti-FLAG-IP</protein>
+          <peptide/>
+          <note/>
+          <protein fraction="1" replicate="1">Ni-IMAC</protein>
+          <protein fraction="12" replicate="">SDS-PAGE</protein>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000055">
+          <title>K0-Ub digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="GlyGly(K)" name="">GlyGly(K)</variableModification>
+          <variableModification id="GlyGly(N-term)" name="">GlyGly(N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000052">
+          <title>K0-Ub identification</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463473">
+      <Name>20110219MM_01 Fr.7.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463474">
+      <Name>20110219MM_02 Fr.8.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463475">
+      <Name>20110219MM_03 Fr.9.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463476">
+      <Name>20110219MM_04 Fr.10.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463477">
+      <Name>20110305_MM_01 Fr.6.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463478">
+      <Name>20110305_MM_02 Fr.5.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463479">
+      <Name>20110305_MM_03 Fr.4.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463480">
+      <Name>20110305_MM_04 Fr.3.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463481">
+      <Name>20110305_MM_05 Fr.2.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463482">
+      <Name>20110305_MM_06 Fr.1.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463483">
+      <Name>20110305_MM_07 Fr.11.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463484">
+      <Name>20110305_MM_08 Fr.12.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

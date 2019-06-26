@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000467" formatVersion="1.0">
+  <Project id="JPST000467" pxid="PXD010830" createdDate="2018-07-31" modifiedDate="2019-01-30" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Proteome of Medusavirus</Title>
+    <Description>Medusavirus particles was resuspended in PBS containing 0.5% SDS and protease inhibitor cocktail (Nacalai Tesque, Japan) and incubated for 1 h at 65°C. Samples were subjected to trichloroacetic acid (TCA) precipitation, followed by protein quantification using the BCA method. Proteins were reduced for 2 h at 37°C, and subsequently alkylated using iodoacetamide for 30 min at 20 to 25°C (room temperature), followed by treatment with trypsin for 20 h at 37°C. After desalination and concentration, the treated proteins were subjected to LC–MS/MS analysis using EASY-nLC 1200 (Thermo Fisher Scientific Inc., USA) and Q Exactive Plus (Thermo Fisher Scientific Inc., USA).</Description>
+    <AnnouncementDate>2019-01-30</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="131567" value="cellular organisms"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1002634" value="Q Exactive Plus"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="unknown modification" value="None"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Genki Yoshikawa</Name>
+    <Affiliation>Kyoto University</Affiliation>
+    <PrincipalInvestigator>Masaharu Takemura</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Medusavirus, purified particles,  LC-MS/MS</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000526961">
+      <Name>Medusavirus whole proteins.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001083">
+          <title>Medusavirus</title>
+          <species>Acanthamoeba castellanii medusavirus</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000310">
+          <title>White-colored virus fraction</title>
+          <subcellular replicate=""/>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000261">
+          <title>Trypsin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000258">
+          <title>Q Exactive Plus</title>
+          <instrument id="MS:1002634">Q Exactive Plus</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526967">
+      <Name>Medusavirus whole proteins.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000530307">
+      <Name>Medusavirus whole proteins PD2.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

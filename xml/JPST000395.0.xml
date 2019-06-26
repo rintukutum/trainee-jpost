@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000395" formatVersion="1.0">
+  <Project id="JPST000395" pxid="PXD009116" createdDate="2018-02-20" modifiedDate="2018-09-20" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Proteomic study of the transition to stationary phase in halorchaea Natrialba magadii and Haloferax volcanii</Title>
+    <Description>A high throughput proteomics approach was used to analyze and compare the proteome of two halophilic archaea (Haloferax volcanii and Natrialba magadii) during exponential and stationary growth. </Description>
+    <AnnouncementDate>2018-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="547559" value="Natrialba magadii ATCC 43099"/>
+      <PresetElement id="309800" value="Haloferax volcanii DS2"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="unknown modification" value="no fixed modification"/>
+      <PresetElement id="MOD:00040" ontologyName="2-pyrrolidone-5-carboxylic acid (Gln)" value="Gln-&#62;pyro-Glu (Q)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00400" ontologyName="deamidated residue" value="deamidated residue"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Micaela Cerletti</Name>
+    <Affiliation>IIB-UNMdP</Affiliation>
+    <PrincipalInvestigator>Rosana De Castro</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>label-free shotgun proteomics, Natrialba magadii, Haloferax volcanii, stationary phase, Archaea</Keywords>
+    <PubMed>
+      <PubMedId>29888524</PubMedId>
+      <PubMedInfo>Cerletti M, Giménez MI, Tröetschel C, D' Alessandro C, Poetsch A, De Castro RE, Paggi RA Proteomic Study of the Exponential-Stationary Growth Phase Transition in the Haloarchaea Natrialba magadii and Haloferax volcanii. Proteomics. 2018 Jul;18(14):e1800116</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000513996">
+      <Name>CJ_T1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000959">
+          <title>EXP_1</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513997">
+      <Name>CJ_T1_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000959">
+          <title>EXP_1</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513998">
+      <Name>CJ_T3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000967">
+          <title>ST_1</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513999">
+      <Name>CJ_T3_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000967">
+          <title>ST_1</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514000">
+      <Name>CJ1_T1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000965">
+          <title>EXP_2</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514001">
+      <Name>CJ1_T1_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000965">
+          <title>EXP_2</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514002">
+      <Name>CJ1_T3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000968">
+          <title>ST_2</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514003">
+      <Name>CJ1_T3_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000968">
+          <title>ST_2</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514004">
+      <Name>CJ2_T1.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000966">
+          <title>EXP_3</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514005">
+      <Name>CJ2_T1_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000966">
+          <title>EXP_3</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514006">
+      <Name>CJ2_T3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000969">
+          <title>ST_3</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514007">
+      <Name>CJ2_T3_Bottom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000969">
+          <title>ST_3</title>
+          <species id="547559">Natrialba magadii ATCC 43099</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000230">
+          <title>Whole cell</title>
+          <subcellular>Whole</subcellular>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000141">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="no fixed modification" name="">no fixed modification</fixedModification>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00400" name="deamidated residue">deamidated residue</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514140">
+      <Name>WT_L-1C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000958">
+          <title>EXP_1</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514141">
+      <Name>WT_L-1M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000958">
+          <title>EXP_1</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514142">
+      <Name>WT_L-2C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000960">
+          <title>EXP_2</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514143">
+      <Name>WT_L-2M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000960">
+          <title>EXP_2</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514144">
+      <Name>WT_L-3C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000961">
+          <title>EXP_3</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514145">
+      <Name>WT_L-3M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000961">
+          <title>EXP_3</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514146">
+      <Name>WT_S-1C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000962">
+          <title>ST_1</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514147">
+      <Name>WT_S-1M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000962">
+          <title>ST_1</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514148">
+      <Name>WT_S-2C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000963">
+          <title>ST_2</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514149">
+      <Name>WT_S-2M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000963">
+          <title>ST_2</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514150">
+      <Name>WT_S-3C.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000964">
+          <title>ST_3</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000141">
+          <title>Cytoplasm fraction</title>
+          <subcellular replicate="">Cytosol</subcellular>
+          <protein replicate=""/>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514151">
+      <Name>WT_S-3M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000964">
+          <title>ST_3</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514152">
+      <Name>WT_EXP1_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000971">
+          <title>EXP_4</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514153">
+      <Name>WT_EXP1_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000971">
+          <title>EXP_4</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514154">
+      <Name>WT_EXP2_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000972">
+          <title>EXP_5</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514155">
+      <Name>WT_EXP2_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000972">
+          <title>EXP_5</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514156">
+      <Name>WT_EXP3_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000970">
+          <title>EXP_6</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514157">
+      <Name>WT_EXP3_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000970">
+          <title>EXP_6</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514158">
+      <Name>WT_ST1_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000973">
+          <title>ST_4</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514159">
+      <Name>WT_ST1_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000973">
+          <title>ST_4</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514160">
+      <Name>WT_ST2_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000974">
+          <title>ST_5</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514161">
+      <Name>WT_ST2_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000974">
+          <title>ST_5</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514162">
+      <Name>WT_ST3_botttom20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000975">
+          <title>ST_6</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514163">
+      <Name>WT_ST3_top20.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000975">
+          <title>ST_6</title>
+          <species id="309800">Haloferax volcanii DS2</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000142">
+          <title>Membrane fraction</title>
+          <subcellular>Membrane</subcellular>
+          <protein fraction="0"/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000140">
+          <title>Trypsin Digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="309800">Haloferax volcanii DS2</taxonomy>
+          <note/>
+          <variableModification id="MOD:00040" name="2-pyrrolidone-5-carboxylic acid (Gln)">Gln-&#62;pyro-Glu (Q)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000143">
+          <title>LC-MS/MS LFQ</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA, High res. MS - Low res. MS/MS</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000514172">
+      <Name>evidence_HvMemb.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514173">
+      <Name>proteinGroups_HvMemb.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514174">
+      <Name>evidence_HvCyt.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514175">
+      <Name>proteinGroups_HvCyt.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514176">
+      <Name>evidence_HvMemb2.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514177">
+      <Name>proteinGroups_HvMemb2.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514178">
+      <Name>evidence_Nm.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000514179">
+      <Name>proteinGroups_Nm.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

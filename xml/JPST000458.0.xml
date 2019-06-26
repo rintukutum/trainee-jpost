@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000458" formatVersion="1.0">
+  <Project id="JPST000458" pxid="PXD010502" createdDate="2018-07-18" modifiedDate="2018-10-29" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Digestion of mother’s milk and fortifier proteins in the infant stomach</Title>
+    <Description>This study applied peptidomics to investigate the peptides released in gastric digestion of mother’s milk proteins and supplemental bovine milk proteins in premature infants. </Description>
+    <AnnouncementDate>2018-11-04</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Søren</Name>
+    <Affiliation>Department of Food Science, Aarhus University</Affiliation>
+    <PrincipalInvestigator>David Dallas</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>preterm infant; peptidomics; functional peptide; gastric digestion; bovine; human</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000525999">
+      <Name>7002B_G.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526000">
+      <Name>7002B_M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526010">
+      <Name>Human milk fortifier.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526011">
+      <Name>7003C_G.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526019">
+      <Name>7003C_M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526020">
+      <Name>7005A_G.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526026">
+      <Name>7008B_M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526031">
+      <Name>7005A_M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526032">
+      <Name>7007B_G.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526033">
+      <Name>7007B_M.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526034">
+      <Name>7008B_G.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001076">
+          <title>Human milk fortifier</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="PRIDE:0000442">Tissue not applicable to dataset</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000303">
+          <title>gastric digest</title>
+          <subcellular/>
+          <protein/>
+          <peptide>Reverse phase LC MS/MS</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000255">
+          <title>Gastric enzymes</title>
+          <enzyme/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000250">
+          <title>LC ESI MS/MS</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000526035">
+      <Name>RESULTS.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software>SEQUEST</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,3585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000260" formatVersion="1.0">
+  <Project id="JPST000260" pxid="PXD006307" doi="10.6019/PXD006307" createdDate="2017-04-18" modifiedDate="2017-04-18" mode="complete" type="Mass spectrometry" announced="true">
+    <Title>Dose-dependent phosphoproteomic profiling of Panc-1 cells upon treatment with gefitinib</Title>
+    <Description>Panc-1 cells were treated with 6 different concentration of gefitinib (0, 0.1, 1, 10, 100, 1000 nM) and analyzed by phosphoproteomics using a highly selective phosphopeptide enrichment method based on aliphatic hydroxy acid-modified metal oxide chromatography (HAMMOC) coupled with nanoLC-MS/MS.</Description>
+    <AnnouncementDate>2018-04-18</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000556" value="LTQ Orbitrap XL"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="UNIMOD:481" ontologyName="Label:2H(4)" value="Label:2H(4) (K)"/>
+      <PresetElement id="UNIMOD:897" ontologyName="Label:15N(4)" value="Label:15N(4) (R)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Kosuke Ogata</Name>
+    <Affiliation>Kyoto university</Affiliation>
+    <PrincipalInvestigator>Yasushi Ishihama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>SILAC, panc-1, gefitinib, phosphoproteomics</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000493640">
+      <Name>o090228_001_0.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493641">
+      <Name>o090228_002_0.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493642">
+      <Name>o090228_003_0.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493643">
+      <Name>o090228_004_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000491">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 0.1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493644">
+      <Name>o090228_005_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000491">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 0.1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493645">
+      <Name>o090228_006_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000491">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 0.1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493646">
+      <Name>o090228_007_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000492">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493647">
+      <Name>o090228_008_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000492">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493648">
+      <Name>o090228_009_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000492">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493649">
+      <Name>o090228_010_10.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000493">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 10 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493650">
+      <Name>o090228_011_10.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000493">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 10 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493651">
+      <Name>o090228_012_10.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000493">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 10 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493652">
+      <Name>o090228_013_100.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000494">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 100 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493653">
+      <Name>o090228_014_100.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000494">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 100 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493654">
+      <Name>o090228_015_100.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000494">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 100 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493655">
+      <Name>o090228_016_1000.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000495">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1000 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493656">
+      <Name>o090228_017_1000.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000495">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1000 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493657">
+      <Name>o090228_018_1000.RAW</Name>
+      <Type>raw</Type>
+      <Profile plex="SILAC Light">
+        <Sample id="S0000000495">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+          <title>Panc-1, gefitinib 1000 nM</title>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">SILAC Light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="SILAC Heavy">
+        <Sample id="S0000000490">
+          <title>Panc-1, gefitinib 0 nM (control)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease>pancreas cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000123">
+          <title>TiO2 </title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate=""/>
+          <peptide fraction="1" replicate="">TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000122">
+          <title>Trypsin_Lys-C</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="UNIMOD:481" name="Label:2H(4)">Label:2H(4) (K)</variableModification>
+          <variableModification id="UNIMOD:897" name="Label:15N(4)">Label:15N(4) (R)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000123">
+          <title>LTQ Orbitrap XL</title>
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">SILAC Heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493676">
+      <Name>o090228_012_10.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493677">
+      <Name>o090228_012_10.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493678">
+      <Name>o090228_012_10.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493679">
+      <Name>o090228_013_100.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493680">
+      <Name>o090228_013_100.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493681">
+      <Name>o090228_013_100.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493682">
+      <Name>o090228_014_100.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493683">
+      <Name>o090228_014_100.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493684">
+      <Name>o090228_014_100.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493685">
+      <Name>o090228_015_100.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493686">
+      <Name>o090228_015_100.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493687">
+      <Name>o090228_015_100.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493688">
+      <Name>o090228_016_1000.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493689">
+      <Name>o090228_016_1000.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493690">
+      <Name>o090228_016_1000.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493691">
+      <Name>o090228_017_1000.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493692">
+      <Name>o090228_017_1000.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493693">
+      <Name>o090228_017_1000.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493694">
+      <Name>o090228_018_1000.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493695">
+      <Name>o090228_018_1000.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493696">
+      <Name>o090228_018_1000.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493697">
+      <Name>o090228_001_0.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493698">
+      <Name>o090228_001_0.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493699">
+      <Name>o090228_001_0.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493700">
+      <Name>o090228_002_0.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493701">
+      <Name>o090228_002_0.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493702">
+      <Name>o090228_002_0.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493703">
+      <Name>o090228_003_0.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493704">
+      <Name>o090228_003_0.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493705">
+      <Name>o090228_003_0.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493706">
+      <Name>o090228_004_01.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493707">
+      <Name>o090228_004_01.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493708">
+      <Name>o090228_004_01.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493709">
+      <Name>o090228_005_01.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493710">
+      <Name>o090228_005_01.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493711">
+      <Name>o090228_005_01.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493712">
+      <Name>o090228_006_01.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493713">
+      <Name>o090228_006_01.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493714">
+      <Name>o090228_006_01.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493715">
+      <Name>o090228_007_1.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493716">
+      <Name>o090228_007_1.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493717">
+      <Name>o090228_007_1.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493718">
+      <Name>o090228_008_1.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493719">
+      <Name>o090228_008_1.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493720">
+      <Name>o090228_008_1.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493721">
+      <Name>o090228_009_1.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493722">
+      <Name>o090228_009_1.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493723">
+      <Name>o090228_009_1.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493724">
+      <Name>o090228_010_10.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493725">
+      <Name>o090228_010_10.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493726">
+      <Name>o090228_010_10.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493727">
+      <Name>o090228_011_10.dsco.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493728">
+      <Name>o090228_011_10.maxq.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493729">
+      <Name>o090228_011_10.wizd.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000493730">
+      <Name>o090228_013_100.dsco_F002224.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493731">
+      <Name>o090228_013_100.maxq_F002225.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493732">
+      <Name>o090228_013_100.wizd_F002223.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493733">
+      <Name>o090228_014_100.dsco_F002227.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493734">
+      <Name>o090228_014_100.maxq_F002228.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493735">
+      <Name>o090228_014_100.wizd_F002226.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493736">
+      <Name>o090228_015_100.dsco_F002230.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493737">
+      <Name>o090228_015_100.maxq_F002231.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493738">
+      <Name>o090228_015_100.wizd_F002229.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493739">
+      <Name>o090228_016_1000.dsco_F002233.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493740">
+      <Name>o090228_016_1000.maxq_F002234.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493741">
+      <Name>o090228_016_1000.wizd_F002232.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493742">
+      <Name>o090228_017_1000.dsco_F002236.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493743">
+      <Name>o090228_017_1000.maxq_F002237.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493744">
+      <Name>o090228_017_1000.wizd_F002235.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493745">
+      <Name>o090228_018_1000.dsco_F002239.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493746">
+      <Name>o090228_018_1000.maxq_F002240.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493747">
+      <Name>o090228_018_1000.wizd_F002238.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493748">
+      <Name>o090228_001_0.dsco_F002190.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493749">
+      <Name>o090228_001_0.maxq_F002191.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493750">
+      <Name>o090228_001_0.wizd_F002189.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493751">
+      <Name>o090228_002_0.dsco_F002193.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493752">
+      <Name>o090228_002_0.maxq_F002194.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493753">
+      <Name>o090228_002_0.wizd_F002192.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493754">
+      <Name>o090228_003_0.dsco_F002195.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493755">
+      <Name>o090228_003_0.maxq_F002196.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493756">
+      <Name>o090228_003_0.wizd_F002188.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493757">
+      <Name>o090228_004_01.dsco_F002197.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493758">
+      <Name>o090228_004_01.maxq_F002198.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493759">
+      <Name>o090228_004_01.wizd_F002187.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493760">
+      <Name>o090228_005_01.dsco_F002200.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493761">
+      <Name>o090228_005_01.maxq_F002201.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493762">
+      <Name>o090228_005_01.wizd_F002199.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493763">
+      <Name>o090228_006_01.dsco_F002203.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493764">
+      <Name>o090228_006_01.maxq_F002204.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493765">
+      <Name>o090228_006_01.wizd_F002202.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493766">
+      <Name>o090228_007_1.dsco_F002206.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493767">
+      <Name>o090228_007_1.maxq_F002207.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493768">
+      <Name>o090228_007_1.wizd_F002205.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493769">
+      <Name>o090228_008_1.dsco_F002209.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493770">
+      <Name>o090228_008_1.maxq_F002210.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493771">
+      <Name>o090228_008_1.wizd_F002208.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493772">
+      <Name>o090228_009_1.dsco_F002212.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493773">
+      <Name>o090228_009_1.maxq_F002213.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493774">
+      <Name>o090228_009_1.wizd_F002211.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493775">
+      <Name>o090228_010_10.dsco_F002215.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493776">
+      <Name>o090228_010_10.maxq_F002216.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493777">
+      <Name>o090228_010_10.wizd_F002214.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493778">
+      <Name>o090228_011_10.dsco_F002218.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493779">
+      <Name>o090228_011_10.maxq_F002219.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493780">
+      <Name>o090228_011_10.wizd_F002217.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493781">
+      <Name>o090228_012_10.dsco_F002221.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493782">
+      <Name>o090228_012_10.maxq_F002222.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000493783">
+      <Name>o090228_012_10.wizdF002220.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000070">
+          <database>SwissProt</database>
+          <enzyme>Trypsin_LysC</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>SILAC R+4 K+4</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="Label: 15N(4) (R)" name="">Label: 15N(4) (R)</variableModification>
+          <variableModification id="Label: 2H(4) (K)" name="">Label: 2H(4) (K)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>3</tol>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="8789914613">
+      <File id="f_0000493640" name="o090228_001_0.RAW" type="raw"/>
+      <File id="f_0000493697" name="o090228_001_0.dsco.mgf" type="peak"/>
+      <File id="f_0000493698" name="o090228_001_0.maxq.mgf" type="peak"/>
+      <File id="f_0000493699" name="o090228_001_0.wizd.mgf" type="peak"/>
+      <File id="f_0000493748" name="o090228_001_0.dsco_F002190.mzid" type="result"/>
+      <File id="f_0000493749" name="o090228_001_0.maxq_F002191.mzid" type="result"/>
+      <File id="f_0000493750" name="o090228_001_0.wizd_F002189.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3647136365">
+      <File id="f_0000493641" name="o090228_002_0.RAW" type="raw"/>
+      <File id="f_0000493700" name="o090228_002_0.dsco.mgf" type="peak"/>
+      <File id="f_0000493701" name="o090228_002_0.maxq.mgf" type="peak"/>
+      <File id="f_0000493702" name="o090228_002_0.wizd.mgf" type="peak"/>
+      <File id="f_0000493751" name="o090228_002_0.dsco_F002193.mzid" type="result"/>
+      <File id="f_0000493752" name="o090228_002_0.maxq_F002194.mzid" type="result"/>
+      <File id="f_0000493753" name="o090228_002_0.wizd_F002192.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2750149248">
+      <File id="f_0000493642" name="o090228_003_0.RAW" type="raw"/>
+      <File id="f_0000493703" name="o090228_003_0.dsco.mgf" type="peak"/>
+      <File id="f_0000493704" name="o090228_003_0.maxq.mgf" type="peak"/>
+      <File id="f_0000493705" name="o090228_003_0.wizd.mgf" type="peak"/>
+      <File id="f_0000493754" name="o090228_003_0.dsco_F002195.mzid" type="result"/>
+      <File id="f_0000493755" name="o090228_003_0.maxq_F002196.mzid" type="result"/>
+      <File id="f_0000493756" name="o090228_003_0.wizd_F002188.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3236960616">
+      <File id="f_0000493643" name="o090228_004_01.RAW" type="raw"/>
+      <File id="f_0000493706" name="o090228_004_01.dsco.mgf" type="peak"/>
+      <File id="f_0000493707" name="o090228_004_01.maxq.mgf" type="peak"/>
+      <File id="f_0000493708" name="o090228_004_01.wizd.mgf" type="peak"/>
+      <File id="f_0000493757" name="o090228_004_01.dsco_F002197.mzid" type="result"/>
+      <File id="f_0000493758" name="o090228_004_01.maxq_F002198.mzid" type="result"/>
+      <File id="f_0000493759" name="o090228_004_01.wizd_F002187.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7629277728">
+      <File id="f_0000493644" name="o090228_005_01.RAW" type="raw"/>
+      <File id="f_0000493709" name="o090228_005_01.dsco.mgf" type="peak"/>
+      <File id="f_0000493710" name="o090228_005_01.maxq.mgf" type="peak"/>
+      <File id="f_0000493711" name="o090228_005_01.wizd.mgf" type="peak"/>
+      <File id="f_0000493760" name="o090228_005_01.dsco_F002200.mzid" type="result"/>
+      <File id="f_0000493761" name="o090228_005_01.maxq_F002201.mzid" type="result"/>
+      <File id="f_0000493762" name="o090228_005_01.wizd_F002199.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="6873000469">
+      <File id="f_0000493645" name="o090228_006_01.RAW" type="raw"/>
+      <File id="f_0000493712" name="o090228_006_01.dsco.mgf" type="peak"/>
+      <File id="f_0000493713" name="o090228_006_01.maxq.mgf" type="peak"/>
+      <File id="f_0000493714" name="o090228_006_01.wizd.mgf" type="peak"/>
+      <File id="f_0000493763" name="o090228_006_01.dsco_F002203.mzid" type="result"/>
+      <File id="f_0000493764" name="o090228_006_01.maxq_F002204.mzid" type="result"/>
+      <File id="f_0000493765" name="o090228_006_01.wizd_F002202.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4835529529">
+      <File id="f_0000493646" name="o090228_007_1.RAW" type="raw"/>
+      <File id="f_0000493715" name="o090228_007_1.dsco.mgf" type="peak"/>
+      <File id="f_0000493716" name="o090228_007_1.maxq.mgf" type="peak"/>
+      <File id="f_0000493717" name="o090228_007_1.wizd.mgf" type="peak"/>
+      <File id="f_0000493766" name="o090228_007_1.dsco_F002206.mzid" type="result"/>
+      <File id="f_0000493767" name="o090228_007_1.maxq_F002207.mzid" type="result"/>
+      <File id="f_0000493768" name="o090228_007_1.wizd_F002205.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3578313066">
+      <File id="f_0000493647" name="o090228_008_1.RAW" type="raw"/>
+      <File id="f_0000493718" name="o090228_008_1.dsco.mgf" type="peak"/>
+      <File id="f_0000493719" name="o090228_008_1.maxq.mgf" type="peak"/>
+      <File id="f_0000493720" name="o090228_008_1.wizd.mgf" type="peak"/>
+      <File id="f_0000493769" name="o090228_008_1.dsco_F002209.mzid" type="result"/>
+      <File id="f_0000493770" name="o090228_008_1.maxq_F002210.mzid" type="result"/>
+      <File id="f_0000493771" name="o090228_008_1.wizd_F002208.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4754440911">
+      <File id="f_0000493648" name="o090228_009_1.RAW" type="raw"/>
+      <File id="f_0000493721" name="o090228_009_1.dsco.mgf" type="peak"/>
+      <File id="f_0000493722" name="o090228_009_1.maxq.mgf" type="peak"/>
+      <File id="f_0000493723" name="o090228_009_1.wizd.mgf" type="peak"/>
+      <File id="f_0000493772" name="o090228_009_1.dsco_F002212.mzid" type="result"/>
+      <File id="f_0000493773" name="o090228_009_1.maxq_F002213.mzid" type="result"/>
+      <File id="f_0000493774" name="o090228_009_1.wizd_F002211.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2256709752">
+      <File id="f_0000493649" name="o090228_010_10.RAW" type="raw"/>
+      <File id="f_0000493724" name="o090228_010_10.dsco.mgf" type="peak"/>
+      <File id="f_0000493725" name="o090228_010_10.maxq.mgf" type="peak"/>
+      <File id="f_0000493726" name="o090228_010_10.wizd.mgf" type="peak"/>
+      <File id="f_0000493775" name="o090228_010_10.dsco_F002215.mzid" type="result"/>
+      <File id="f_0000493776" name="o090228_010_10.maxq_F002216.mzid" type="result"/>
+      <File id="f_0000493777" name="o090228_010_10.wizd_F002214.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="6995595966">
+      <File id="f_0000493650" name="o090228_011_10.RAW" type="raw"/>
+      <File id="f_0000493727" name="o090228_011_10.dsco.mgf" type="peak"/>
+      <File id="f_0000493728" name="o090228_011_10.maxq.mgf" type="peak"/>
+      <File id="f_0000493729" name="o090228_011_10.wizd.mgf" type="peak"/>
+      <File id="f_0000493778" name="o090228_011_10.dsco_F002218.mzid" type="result"/>
+      <File id="f_0000493779" name="o090228_011_10.maxq_F002219.mzid" type="result"/>
+      <File id="f_0000493780" name="o090228_011_10.wizd_F002217.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7223440465">
+      <File id="f_0000493651" name="o090228_012_10.RAW" type="raw"/>
+      <File id="f_0000493676" name="o090228_012_10.dsco.mgf" type="peak"/>
+      <File id="f_0000493677" name="o090228_012_10.maxq.mgf" type="peak"/>
+      <File id="f_0000493678" name="o090228_012_10.wizd.mgf" type="peak"/>
+      <File id="f_0000493781" name="o090228_012_10.dsco_F002221.mzid" type="result"/>
+      <File id="f_0000493782" name="o090228_012_10.maxq_F002222.mzid" type="result"/>
+      <File id="f_0000493783" name="o090228_012_10.wizdF002220.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3613010054">
+      <File id="f_0000493652" name="o090228_013_100.RAW" type="raw"/>
+      <File id="f_0000493679" name="o090228_013_100.dsco.mgf" type="peak"/>
+      <File id="f_0000493680" name="o090228_013_100.maxq.mgf" type="peak"/>
+      <File id="f_0000493681" name="o090228_013_100.wizd.mgf" type="peak"/>
+      <File id="f_0000493730" name="o090228_013_100.dsco_F002224.mzid" type="result"/>
+      <File id="f_0000493731" name="o090228_013_100.maxq_F002225.mzid" type="result"/>
+      <File id="f_0000493732" name="o090228_013_100.wizd_F002223.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3940689797">
+      <File id="f_0000493653" name="o090228_014_100.RAW" type="raw"/>
+      <File id="f_0000493682" name="o090228_014_100.dsco.mgf" type="peak"/>
+      <File id="f_0000493683" name="o090228_014_100.maxq.mgf" type="peak"/>
+      <File id="f_0000493684" name="o090228_014_100.wizd.mgf" type="peak"/>
+      <File id="f_0000493733" name="o090228_014_100.dsco_F002227.mzid" type="result"/>
+      <File id="f_0000493734" name="o090228_014_100.maxq_F002228.mzid" type="result"/>
+      <File id="f_0000493735" name="o090228_014_100.wizd_F002226.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7403451642">
+      <File id="f_0000493654" name="o090228_015_100.RAW" type="raw"/>
+      <File id="f_0000493685" name="o090228_015_100.dsco.mgf" type="peak"/>
+      <File id="f_0000493686" name="o090228_015_100.maxq.mgf" type="peak"/>
+      <File id="f_0000493687" name="o090228_015_100.wizd.mgf" type="peak"/>
+      <File id="f_0000493736" name="o090228_015_100.dsco_F002230.mzid" type="result"/>
+      <File id="f_0000493737" name="o090228_015_100.maxq_F002231.mzid" type="result"/>
+      <File id="f_0000493738" name="o090228_015_100.wizd_F002229.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="1278937764">
+      <File id="f_0000493655" name="o090228_016_1000.RAW" type="raw"/>
+      <File id="f_0000493688" name="o090228_016_1000.dsco.mgf" type="peak"/>
+      <File id="f_0000493689" name="o090228_016_1000.maxq.mgf" type="peak"/>
+      <File id="f_0000493690" name="o090228_016_1000.wizd.mgf" type="peak"/>
+      <File id="f_0000493739" name="o090228_016_1000.dsco_F002233.mzid" type="result"/>
+      <File id="f_0000493740" name="o090228_016_1000.maxq_F002234.mzid" type="result"/>
+      <File id="f_0000493741" name="o090228_016_1000.wizd_F002232.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4542761034">
+      <File id="f_0000493656" name="o090228_017_1000.RAW" type="raw"/>
+      <File id="f_0000493691" name="o090228_017_1000.dsco.mgf" type="peak"/>
+      <File id="f_0000493692" name="o090228_017_1000.maxq.mgf" type="peak"/>
+      <File id="f_0000493693" name="o090228_017_1000.wizd.mgf" type="peak"/>
+      <File id="f_0000493742" name="o090228_017_1000.dsco_F002236.mzid" type="result"/>
+      <File id="f_0000493743" name="o090228_017_1000.maxq_F002237.mzid" type="result"/>
+      <File id="f_0000493744" name="o090228_017_1000.wizd_F002235.mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="5920823586">
+      <File id="f_0000493657" name="o090228_018_1000.RAW" type="raw"/>
+      <File id="f_0000493694" name="o090228_018_1000.dsco.mgf" type="peak"/>
+      <File id="f_0000493695" name="o090228_018_1000.maxq.mgf" type="peak"/>
+      <File id="f_0000493696" name="o090228_018_1000.wizd.mgf" type="peak"/>
+      <File id="f_0000493745" name="o090228_018_1000.dsco_F002239.mzid" type="result"/>
+      <File id="f_0000493746" name="o090228_018_1000.maxq_F002240.mzid" type="result"/>
+      <File id="f_0000493747" name="o090228_018_1000.wizd_F002238.mzid" type="result"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>

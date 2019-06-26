@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000315" formatVersion="1.0">
+  <Project id="JPST000315" pxid="PXD007617" createdDate="2017-09-01" modifiedDate="2018-09-01" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>FLAG-IP-UBL3</Title>
+    <Description>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</Description>
+    <AnnouncementDate>2018-09-03</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hiroshi Ageta</Name>
+    <Affiliation>Fujita Health University</Affiliation>
+    <PrincipalInvestigator>Kunihiro Tsuchida</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>LFQ, MDA-MB-231</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000502470">
+      <Name>3Flag_only_CLIP_2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502471">
+      <Name>3Flag_only_CLIP_3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502472">
+      <Name>3Flag_only_CLIP_4.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502473">
+      <Name>3Flag_UBL3_CLIP_6.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502474">
+      <Name>3Flag_UBL3_CLIP_7.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502475">
+      <Name>3Flag_UBL3_CLIP_8.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502476">
+      <Name>3Flag_UBL3C113114A_CLIP_11.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502477">
+      <Name>3Flag_UBL3C113114A_CLIP_12.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502478">
+      <Name>3Flag_UBL3C113114A_CLIP_13.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000673">
+          <title>FLAG-IP-UBL3</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000815">MDA-MB-231 cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:1612">breast cancer</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000161">
+          <title>FLAG-IP-UBL3</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate=""> on-beads digestion</protein>
+          <peptide replicate=""/>
+          <note>MDA-MB-231 cells were transfected with plasmids using Lipofectamine 2000. After 24 hr, cells were washed and collected by scraping into ice-cold PBS, pelleted by centrifugation at 400 × g for 1 min at 4°C, and lysed with 1% Triton buffer for 20 min at 4°C. Crude nuclei and unbroken cells were excluded by centrifugation at 20,000 × g for 5 min at 4°C. As a preclean process, the supernatants were incubated twice with 40 μL Protein G-sepharose beads (GE Health care, 50% slurry in lysis buffer) for 1 hr at 4°C. The supernatants were incubated with 50 μl anti-FLAG M2 affinity gel (Sigma, 50% slurry in lysis buffer) for 16hr at 4°C. The beads were washed with 1% Triton buffer and then three times with wash buffer (50mM Tris-HCl [pH7.5]) to remove detergent, and resuspended in 200 μL digestion buffer (2M urea, 50mM Tris-HCl [pH 7.4], 1mM DTT, 5mM iodoacetamide, 1 μg of trypsin [Promega, V5280]), and incubated by shaking at 1,200 rpm for 16hr at 37°C. The samples were acidified with 22 μL of 10% trifluoroacetic acid (TFA). The supernatant containing peptides were then taken by centrifugation at 4,400 × g for 30 sec. The peptides were desalted by C18Tip (Thermo, StageTips), dried by speedvac, and then resuspended in mass spectrometry buffer (2% acetonitrile, 0.2% TFA).</note>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000156">
+          <title>FLAG-IP-UBL3</title>
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose id="MS:1002020">label-free peptide level quantitation</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000502479">
+      <Name>parameters.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000502480">
+      <Name>peptides.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000502481">
+      <Name>proteinGroups.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000502482">
+      <Name>summary.txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000032" formatVersion="1.0">
+  <Project id="JPST000032" pxid="" createdDate="2016-05-23" modifiedDate="2016-05-23" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>GST-fusion proteins phosphorylated by PKD2 or PKD3 in vitro</Title>
+    <Description>Bacterially expressed GST-fusion proteins were phosphorylated by PKD2 or PKD3 in vitro and then subjected to SDS-PAGE followed by CBB staining. Bands were excised and digested with Trypsin to identify phosphorylation sites by LC-MS/MS analysis.</Description>
+    <AnnouncementDate>2016-09-20</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Orbitrap Fusion"/>
+      <PresetElement id="" value="Orbitrap Velos Pro"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Hidetaka Kosako</Name>
+    <Affiliation>Tokushima University</Affiliation>
+    <PrincipalInvestigator>Hidetaka Kosako</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>GST-fusion proteins, in vitro phosphorylation sites, PKD2, PKD3</Keywords>
+    <PubMed>
+      <PubMedId>27670070</PubMedId>
+      <PubMedInfo>Ishikawa E, Kosako H, Yasuda T, Ohmuraya M, Araki K, Kurosaki T, Saito T, Yamasaki S Protein kinase D regulates positive selection of CD4&#60;sup&#62;+&#60;/sup&#62; thymocytes through phosphorylation of SHP-1. Nat Commun. 2016 Sep 27;7:12756</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000437743">
+      <Name>K03_Tip30min_FT_008-SHP1-minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000021">
+          <title>GST-SHP-1-minus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000023">
+          <title>OT Fusion</title>
+          <instrument>Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437744">
+      <Name>K04_Tip30min_FT_010-SHP1-PKD2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000022">
+          <title>GST-SHP-1-PKD2</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000023">
+          <title>OT Fusion</title>
+          <instrument>Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437745">
+      <Name>K05_Tip30min_FT_012-SHP1-PKD3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000023">
+          <title>GST-SHP-1-PKD3</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000023">
+          <title>OT Fusion</title>
+          <instrument>Orbitrap Fusion</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437746">
+      <Name>orb_140128_W01-EI-Gads-minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000024">
+          <title>GST-Gads-minus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437747">
+      <Name>orb_140128_W02-EI-Gads-PKD2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000025">
+          <title>GST-Gads-PKD2</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437748">
+      <Name>orb_140128_W03-EI-Gads-PKD3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000026">
+          <title>GST-Gads-PKD3</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437749">
+      <Name>orb_140128_W04-EI-NCK1-minus.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000027">
+          <title>GST-NCK1-minus</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437750">
+      <Name>orb_140128_W05-EI-NCK1-PKD2.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000028">
+          <title>GST-NCK1-PKD2</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000437751">
+      <Name>orb_140128_W06-EI-NCK1-PKD3.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000029">
+          <title>GST-NCK1-PKD3</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue>bacterially expressed</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000017">
+          <title>SDS-PAGE</title>
+          <subcellular/>
+          <protein fraction="1" replicate="1">SDS-PAGE</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000014">
+          <title>Trypsin-in-gel-phosphorylation</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000024">
+          <title>OT Velos Pro</title>
+          <instrument>Orbitrap Velos Pro</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

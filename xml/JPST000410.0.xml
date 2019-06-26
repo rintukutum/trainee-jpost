@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000410" formatVersion="1.0">
+  <Project id="JPST000410" pxid="PXD009447" createdDate="2018-04-10" modifiedDate="2018-04-10" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Multi-Stage Native UVPD-MS to Characterize Single Amino Acid Variants of Human Mitochondrial BCAT2</Title>
+    <Description>We report a multi-stage approach combining collisional activation and 193 nm ultraviolet photodissociation (UVPD) to characterize single amino acid variants of the human mitochondrial enzyme branched-chain amino acid transferase 2 (BCAT2), a protein implicated in chemotherapeutic resistance in glioblastoma tumors.</Description>
+    <AnnouncementDate>2018-05-31</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="" value="Q Exactive UHMR"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="None" value="None"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Megan Mehaffey</Name>
+    <Affiliation>The University of Texas at Austin</Affiliation>
+    <PrincipalInvestigator>Jennifer S. Brodbelt</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>protein complexes, UVPD</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000516587">
+      <Name>WT_Dimer_17+_HCDMS_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516588">
+      <Name>WT_Dimer_17+_HCDMS_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516589">
+      <Name>WT_Dimer_17+_HCDMS_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516590">
+      <Name>WT_Dimer_17+_UVPDMS_1p_3mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516591">
+      <Name>WT_Dimer_17+_UVPDMS_1p_3mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516592">
+      <Name>WT_Dimer_17+_UVPDMS_1p_3mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516593">
+      <Name>WT_FullMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516594">
+      <Name>WT_ISTMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516595">
+      <Name>WT_Monomer_12+_HCDMS_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516596">
+      <Name>WT_Monomer_12+_HCDMS_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516597">
+      <Name>WT_Monomer_12+_HCDMS_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516598">
+      <Name>WT_Monomer_12+_UVPDMS_1p_1mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516599">
+      <Name>WT_Monomer_12+_UVPDMS_1p_1mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516600">
+      <Name>WT_Monomer_12+_UVPDMS_1p_1mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516601">
+      <Name>WT_Monomer_12+_UVPDMS_1p_3mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516602">
+      <Name>WT_Monomer_12+_UVPDMS_1p_3mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516603">
+      <Name>WT_Monomer_12+_UVPDMS_1p_3mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001002">
+          <title>BCAT2_WT</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516604">
+      <Name>T186R_Dimer_17+_HCDMS_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516605">
+      <Name>T186R_Dimer_17+_HCDMS_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516606">
+      <Name>T186R_Dimer_17+_HCDMS_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516607">
+      <Name>T186R_Dimer_17+_UVPDMS_1p_3mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516608">
+      <Name>T186R_Dimer_17+_UVPDMS_1p_3mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516609">
+      <Name>T186R_Dimer_17+_UVPDMS_1p_3mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516610">
+      <Name>T186R_FullMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516611">
+      <Name>T186R_ISTMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516612">
+      <Name>T186R_Monomer_12+_HCDMS_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516613">
+      <Name>T186R_Monomer_12+_HCDMS_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516614">
+      <Name>T186R_Monomer_12+_HCDMS_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516615">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_1mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516616">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_1mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516617">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_1mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516618">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_3mJ_1.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516619">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_3mJ_2.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516620">
+      <Name>T186R_Monomer_12+_UVPDMS_1p_3mJ_3.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001003">
+          <title>BCAT2_T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516621">
+      <Name>WT+T186R_FullMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001004">
+          <title>BCAT2_WT+T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516622">
+      <Name>WT+T186R_ISTMS.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001004">
+          <title>BCAT2_WT+T186R</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000216">
+          <title>BCAT2</title>
+          <enzyme/>
+          <fixedModification id="None" name="">None</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000220">
+          <title>Multi-Stage MS</title>
+          <instrument>Q Exactive UHMR</instrument>
+          <instrumentMode/>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000516623">
+      <Name>Table of Results.docx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>ProSite</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

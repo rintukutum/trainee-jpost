@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000439" formatVersion="1.0">
+  <Project id="JPST000439" pxid="PXD010048" createdDate="2018-06-07" modifiedDate="2018-07-26" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>ULK1 phosphorylates and regulates mineralocorticoid receptor</Title>
+    <Description>To evaluate whether ULK1 phosphorylates mineralocorticoid receptor, we performed in vitro phosphatase assay and determined phosphorylation sites by mass spectrometry.</Description>
+    <AnnouncementDate>2018-07-17</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="" value="none"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000449" value="LTQ Orbitrap"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="none" value="none"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Yoshio Takahata</Name>
+    <Affiliation>Medical ProteoScope Co., Ltd.</Affiliation>
+    <PrincipalInvestigator>Shigeru Shibata</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>ULK1, mineralocorticoid receptor, angiotensin II, mTOR</Keywords>
+    <PubMed>
+      <PubMedId>30021155</PubMedId>
+      <PubMedInfo>Shibata S, Ishizawa K, Wang Q, Xu N, Fujita T, Uchida S, Lifton RP ULK1 Phosphorylates and Regulates Mineralocorticoid Receptor. Cell Rep. 2018 Jul 17;24(3):569-576</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000521851">
+      <Name>171110_TEI_MRpeptide_Con_1_5pmol_XL.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001050">
+          <title>control</title>
+          <species>none</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note>We synthesized a peptide KKDLVFNEEKMHQSAMYEL (this peptide comprises amino acids 832-848 of human MR with KK added to the amino terminus for greater solubility). The peptide was then incubated in the presence or absence of recombinant ULK1 in kinase buffer.</note>
+        </Sample>
+        <Fractionation id="F0000000259">
+          <title>MR</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000241">
+          <title>MR</title>
+          <enzyme/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000238">
+          <title>MR</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521852">
+      <Name>171110_TEI_MRpeptide_Ulk_2_5pmol_XL.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001051">
+          <title>ULK1</title>
+          <species>none</species>
+          <tissue/>
+          <celltype/>
+          <disease/>
+          <note>We synthesized a peptide KKDLVFNEEKMHQSAMYEL (this peptide comprises amino acids 832-848 of human MR with KK added to the amino terminus for greater solubility). The peptide was then incubated in the presence or absence of recombinant ULK1 in kinase buffer.</note>
+        </Sample>
+        <Fractionation id="F0000000259">
+          <title>MR</title>
+          <subcellular/>
+          <protein/>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000241">
+          <title>MR</title>
+          <enzyme/>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <taxonomy/>
+          <note/>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000238">
+          <title>MR</title>
+          <instrument id="MS:1000449">LTQ Orbitrap</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose/>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000521853">
+      <Name>Control_F014114.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000521854">
+      <Name>ULK1_F014117.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

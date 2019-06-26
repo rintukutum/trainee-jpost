@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000332" formatVersion="1.0">
+  <Project id="JPST000332" pxid="PXD008697" createdDate="2017-10-06" modifiedDate="2018-01-15" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>MD test 171006</Title>
+    <Description>HeLa S3 cell cycle Histone Middle Down ELITE FTLT set1</Description>
+    <AnnouncementDate>2019-01-17</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="Acetyl (K)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+      <PresetElement id="MOD:00076" ontologyName="symmetric dimethyl-L-arginine" value="symmetric dimethyl-L-arginine"/>
+      <PresetElement id="MOD:00077" ontologyName="asymmetric dimethyl-L-arginine" value="asymmetric dimethyl-L-arginine"/>
+      <PresetElement id="" ontologyName="unknown modification" value="monomethylated L-arginine"/>
+      <PresetElement id="MOD:00064" ontologyName="N6-acetyl-L-lysine" value="N6-acetyl-L-lysine"/>
+      <PresetElement id="MOD:00085" ontologyName="N6-methyl-L-lysine" value="N6-methyl-L-lysine"/>
+      <PresetElement id="MOD:00084" ontologyName="N6,N6-dimethyl-L-lysine" value="N6,N6-dimethyl-L-lysine"/>
+      <PresetElement id="MOD:00083" ontologyName="N6,N6,N6-trimethyl-L-lysine" value="N6,N6,N6-trimethyl-L-lysine"/>
+      <PresetElement id="" ontologyName="unknown modification" value="Deamidated L-arginine"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Takeshi Kawamura</Name>
+    <Affiliation>Tokyo University</Affiliation>
+    <PrincipalInvestigator>Takeshi Kawamura</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>MD test</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000513063">
+      <Name>1_10hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513064">
+      <Name>1_12hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513065">
+      <Name>1_14hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513066">
+      <Name>1_0hrl.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513067">
+      <Name>1_2hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513068">
+      <Name>1_4hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513069">
+      <Name>1_6hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513073">
+      <Name>1_8hr.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000857">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000214">cell culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>HeLa S3</note>
+          <title>Middle down set1</title>
+        </Sample>
+        <Fractionation id="F0000000168">
+          <title>Cell Cycle</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="1" replicate="">Histone purification</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000165">
+          <title>MD</title>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="monomethylated L-arginine" name="">monomethylated L-arginine</variableModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">N6-acetyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="Deamidated L-arginine" name="">Deamidated L-arginine</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000165">
+          <title>Orbitrap ELITE</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion label free</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000513130">
+      <Name>F036050.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513131">
+      <Name>F036056.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513132">
+      <Name>F036057.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513133">
+      <Name>F036058.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513134">
+      <Name>F036059.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513135">
+      <Name>F036060.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513136">
+      <Name>F036061.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000513137">
+      <Name>F036062.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+      <Software_setting>
+        <Setting id="W0000000151">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001305">Asp-N_ambic</enzyme>
+          <allowUpTo>3</allowUpTo>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00064" name="N6-acetyl-L-lysine">Acetyl (K)</variableModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+          <tol_unit>ppm</tol_unit>
+          <tol>5</tol>
+          <itol>0.8</itol>
+          <variableModification id="MOD:00076" name="symmetric dimethyl-L-arginine">symmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00077" name="asymmetric dimethyl-L-arginine">asymmetric dimethyl-L-arginine</variableModification>
+          <variableModification id="MOD:00078" name="omega-N-methyl-L-arginine">omega-N-methyl-L-arginine</variableModification>
+          <variableModification id="MOD:00083" name="N6,N6,N6-trimethyl-L-lysine">N6,N6,N6-trimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00084" name="N6,N6-dimethyl-L-lysine">N6,N6-dimethyl-L-lysine</variableModification>
+          <variableModification id="MOD:00085" name="N6-methyl-L-lysine">N6-methyl-L-lysine</variableModification>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

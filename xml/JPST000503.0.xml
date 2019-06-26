@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000503" formatVersion="1.0">
+  <Project id="JPST000503" pxid="PXD011317" createdDate="2018-10-08" modifiedDate="2018-10-09" mode="partial" type="Mass spectrometry">
+    <Title>Proteomic identification of Drp1 binding proteins</Title>
+    <Description>Proteomic dentification of FLAG-Drp1 binding protein that is increased after exposure to hypoxic stress in HeLa cells.</Description>
+    <AnnouncementDate>2018-10-09</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001910" value="LTQ Orbitrap Elite"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Akiyuki Nishimura</Name>
+    <Affiliation>Kyushu University</Affiliation>
+    <PrincipalInvestigator>Motohiro Nishida</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Drp1</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000535732">
+      <Name>160209_2gatsu2_nishimura_7.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001130">
+          <title>hypoxic HeLa cells expressing FLAG-Drp1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000338">
+          <title>FLAG immunoprecipitation</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="2" replicate="">FLAG immunoprecititation</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000287">
+          <title>In gel trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000279">
+          <title>FLAG-Drp1 Mass</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode/>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000535733">
+      <Name>160209_2gatsu2_nishimura_10.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001130">
+          <title>hypoxic HeLa cells expressing FLAG-Drp1</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000338">
+          <title>FLAG immunoprecipitation</title>
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="2" replicate="">FLAG immunoprecititation</protein>
+          <peptide replicate=""/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000287">
+          <title>In gel trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000279">
+          <title>FLAG-Drp1 Mass</title>
+          <instrument id="MS:1001910">LTQ Orbitrap Elite</instrument>
+          <instrumentMode/>
+          <purpose id="">(none)</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000535734">
+      <Name>160209_2gatsu2_nishimura_7_F018099.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000535735">
+      <Name>160209_2gatsu2_nishimura_10_F018091.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000535736">
+      <Name>160209_2gatsu2_nishimura_7_F018099.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000229">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>10</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+    <File id="f_0000535737">
+      <Name>160209_2gatsu2_nishimura_10_F018091.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+      <Software_setting>
+        <Setting id="W0000000229">
+          <database>SwissProt</database>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <allowUpTo>2</allowUpTo>
+          <quantification>None</quantification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <tol>10</tol>
+          <tol_unit>ppm</tol_unit>
+          <pepIsotopeError>0</pepIsotopeError>
+          <itol>0.8</itol>
+          <itol_unit>Da</itol_unit>
+        </Setting>
+      </Software_setting>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

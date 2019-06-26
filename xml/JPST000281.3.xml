@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000281" formatVersion="1.0">
+  <Project id="JPST000281" pxid="PXD008696" createdDate="2018-09-29" modifiedDate="2018-10-03" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>BAZ1A/B proteomics</Title>
+    <Description>SILAC analysis to comparing mitotic chromosome between Wild type and BAZ1B KO (or BAZ1A/B double KO)</Description>
+    <AnnouncementDate>2018-10-07</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001911" value="Q Exactive"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:01458" ontologyName="alpha-amino acetylated residue" value="Acetyl (N-term)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Shinya Ohta</Name>
+    <Affiliation>Kochi university</Affiliation>
+    <PrincipalInvestigator>Shinya Ohta</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>BAZ1B mitosis chromosome</Keywords>
+    <PubMed>
+      <PubMedId>30266865</PubMedId>
+      <PubMedInfo>Ohta S, Taniguchi T, Sato N, Hamada M, Taniguchi H, Rappsilber J Quantitative proteomics of the mitotic chromosome scaffold reveals the association of BAZ1B with chromosomal axes. Mol Cell Proteomics. 2018 Sep 28;</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000533017">
+      <Name>20160926_phospho_BAZ1BKO.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Fractionation id="F0000000224">
+          <title>HAMMOC</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide>HAMMOC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533018">
+      <Name>20160926_s_whple_BAZ1BKO_ms2IT_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533019">
+      <Name>20160926_s_whple_BAZ1BKO_ms2IT_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533020">
+      <Name>20160926_s_whple_BAZ1BKO_ms2Orbi_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Fractionation id="F0000000224">
+          <title>HAMMOC</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide>HAMMOC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533021">
+      <Name>20160926_s_whple_BAZ1BKO_ms2Orbi_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533022">
+      <Name>20170518_phospho_BAZ1ABKO.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Fractionation id="F0000000224">
+          <title>HAMMOC</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide>HAMMOC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533023">
+      <Name>20170518_Xs_whole_BAZ1ABKO_01.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533024">
+      <Name>20170518_Xs_whole_BAZ1ABKO_02.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533025">
+      <Name>20171017_BAZ1AB_KO_whole_2nd.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533026">
+      <Name>20171017_BAZ1AB_KO_whole_1st.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533027">
+      <Name>20171017_BAZ1B_KO_phospho.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Fractionation id="F0000000224">
+          <title>HAMMOC</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide>HAMMOC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533028">
+      <Name>20171017_Phospho_BAZ1ABKO.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000938">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1ABKO, WT</note>
+          <title>BAZ1AB KO</title>
+        </Sample>
+        <Fractionation id="F0000000224">
+          <title>HAMMOC</title>
+          <subcellular>Other organelle</subcellular>
+          <protein/>
+          <peptide>HAMMOC</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533029">
+      <Name>Fu_Oota_ProteomeSample_B_No3_2nd.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533030">
+      <Name>Fu_Oota_ProteomeSample_B_No3_1st.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000929">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000221">cell suspension culture</tissue>
+          <celltype id="CL:0000066">epithelial cell</celltype>
+          <disease id="DOID:2893">cervix carcinoma</disease>
+          <note>BAZ1BKO, WT</note>
+          <title>BAZ1B KO</title>
+        </Sample>
+        <Fractionation id=""/>
+        <Enzyme_Mod id="E0000000184">
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:01458" name="alpha-amino acetylated residue">Acetyl (N-term)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <title>Human</title>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000195">
+          <instrument id="MS:1001911">Q Exactive</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>-</plex>
+          <note>Analyzed by Orbitrap Fusion or Q-exactive</note>
+          <title>Fusion or Q-exactive</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000533031">
+      <Name>proteinGroups(BAZ1BKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533032">
+      <Name>evidence(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533033">
+      <Name>evidence(BAZ1ABKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533034">
+      <Name>evidence(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533035">
+      <Name>evidence(BAZ1BKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533036">
+      <Name>msms(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533037">
+      <Name>msms(BAZ1ABKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533038">
+      <Name>msms(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533039">
+      <Name>msms(BAZ1BKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533040">
+      <Name>parameters(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533041">
+      <Name>parameters(BAZ1ABKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533042">
+      <Name>parameters(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533043">
+      <Name>parameters(BAZ1BKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533044">
+      <Name>peptides(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533045">
+      <Name>peptides(BAZ1ABKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533046">
+      <Name>peptides(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533047">
+      <Name>peptides(BAZ1BKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533048">
+      <Name>Phospho (STY)Sites(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533049">
+      <Name>Phospho (STY)Sites(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533050">
+      <Name>proteinGroups(BAZ1ABKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533051">
+      <Name>proteinGroups(BAZ1ABKO whole).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533052">
+      <Name>proteinGroups(BAZ1BKO phospho).txt</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>MaxQuant</Software>
+    </File>
+    <File id="f_0000533053">
+      <Name>BAZ1ABDKOwhole.zip</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533054">
+      <Name>BAZ1BKO whole.zip</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533055">
+      <Name>BAZ1BKO_phospho.zip</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533056">
+      <Name>BAZ1ABDKO_phospho.zip</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>other</Format>
+    </File>
+    <File id="f_0000533057">
+      <Name>MaxQuant1583.zip</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

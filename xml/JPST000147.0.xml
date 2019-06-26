@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000147" formatVersion="1.0">
+  <Project id="JPST000147" pxid="" createdDate="2016-06-25" modifiedDate="2016-06-27" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Selection of MRM transition for metabolic enzymes expressed in mouse liver</Title>
+    <Description>To make a library of MRM transitions for proteins expressed in mouse liver, data dependent acquisition (DDA) was performed by using mouse liver samples. Peptides were fractionated into 6 fractions with reverse phase chromatography at high pH.</Description>
+    <AnnouncementDate>2017-12-23</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="10090" value="Mus musculus (Mouse)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01866" ontologyName="mTRAQ light reporter+balance reagent N6-acylated lysine" value="mTRAQ (K)"/>
+      <PresetElement id="MOD:01865" ontologyName="mTRAQ light reporter+balance reagent acylated N-terminal" value="mTRAQ (N-term)"/>
+      <PresetElement id="MOD:01867" ontologyName="mTRAQ light reporter+balance reagent O4'-acylated tyrosine" value="mTRAQ (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Masaki Matsumoto</Name>
+    <Affiliation>Div. Proteomics, Med. Inst. Bioreg., Kyushu Univ.</Affiliation>
+    <PrincipalInvestigator>Masaki Matsumoto</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>Mouse, liver, MRM transition</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000463158">
+      <Name>20140521_IDA_Liver_Stage_fr6_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463159">
+      <Name>20140521_IDA_Liver_Stage_fr6_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463160">
+      <Name>20140521_IDA_Liver_Stage_fr6_03.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463161">
+      <Name>20140521_IDA_Liver_Stage_fr6_04.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463162">
+      <Name>20140521_IDA_Liver_Stage_fr6_05.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463163">
+      <Name>20140521_IDA_Liver_Stage_fr6_06.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463165">
+      <Name>20140521_IDA_Liver_Stage_fr6_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463166">
+      <Name>20140521_IDA_Liver_Stage_fr6_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463167">
+      <Name>20140521_IDA_Liver_Stage_fr6_03.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463168">
+      <Name>20140521_IDA_Liver_Stage_fr6_04.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463169">
+      <Name>20140521_IDA_Liver_Stage_fr6_05.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463170">
+      <Name>20140521_IDA_Liver_Stage_fr6_06.wiff</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000251">
+          <title>Mouse liver MRM transition</title>
+          <species id="10090">Mus musculus (Mouse)</species>
+          <tissue id="BTO:0000759">liver</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000056">
+          <title> Reverse phase at bacid pH 6 fractions</title>
+          <subcellular replicate="1">Whole</subcellular>
+          <protein/>
+          <peptide fraction="6" replicate="1"> Reverse phase at bacid pH</peptide>
+          <note/>
+          <peptide replicate=""/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000066">
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="10090">Mus musculus (Mouse)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01866" name="mTRAQ light reporter+balance reagent N6-acylated lysine">mTRAQ (K)</fixedModification>
+          <fixedModification id="MOD:01865" name="mTRAQ light reporter+balance reagent acylated N-terminal">mTRAQ (N-term)</fixedModification>
+          <variableModification id="MOD:01867" name="mTRAQ light reporter+balance reagent O4'-acylated tyrosine">mTRAQ (Y)</variableModification>
+          <title>Trypsin digestion and mTRAQdelta0 labeling mouse</title>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000060">
+          <title>TripleTOF5600</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Qualification</purpose>
+          <quantificationPlatform/>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000463172">
+      <Name>20140521_IDA_Liver_Stage_fr6_01.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463173">
+      <Name>20140521_IDA_Liver_Stage_fr6_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463174">
+      <Name>20140521_IDA_Liver_Stage_fr6_03.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463175">
+      <Name>20140521_IDA_Liver_Stage_fr6_04.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463176">
+      <Name>20140521_IDA_Liver_Stage_fr6_05.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463177">
+      <Name>20140521_IDA_Liver_Stage_fr6_06.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463178">
+      <Name>20140522_IDA_Liver_Stage_fr6_01_.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000463179">
+      <Name>F010496.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463180">
+      <Name>F010479.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463181">
+      <Name>F010481.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463182">
+      <Name>F010482.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463183">
+      <Name>F010483.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000463184">
+      <Name>F010486.dat</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Mascot</Software>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

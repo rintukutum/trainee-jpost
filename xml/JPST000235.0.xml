@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000235" formatVersion="1.0">
+  <Project id="JPST000235" pxid="PXD005922" doi="10.6019/PXD005922" createdDate="2017-02-11" modifiedDate="2017-02-13" mode="complete" type="Mass spectrometry" announced="true">
+    <Title>Identifications of protein kinase A substrates with quantitative phosphoproteomics and primary-sequence based scoring.(forskolin)</Title>
+    <Description>Protein kinase A (PKA) is a serine/threonine kinase who plays essential roles in the complex signalling pathways. To better understand the functionalities, it is necessary to elucidate direct interplays between PKA and their substrates in living system. In order to screen them in a high-throughput manner, we firstly quantified the change of phosphoproteome in the cells of which PKA activity was perturbed by drag stimulations. LC-MS/MS analysis identified 2,755 and 3,191 phosphopeptides from either experiments with activator or inhibitor of PKA. To exclude indirect targets of PKA, we built the simple model to characterize the kinase sequential specificity to its substrate recognitions based on the known kinase-substrate relationships. Finally, by applying the metric to the sites of which phosphorylation were changed due to the drug stimulations, we identified 29 reliable candidates of PKA targeting residues in living cells including 8 known substrates. Moreover, 18 sites out of them were confirmed to be site-specifically phosphorylated in vitro. Altogether this study proposed confident list of PKA substrate and expanded the knowledge of PKA signalling network.</Description>
+    <AnnouncementDate>2018-02-14</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000932" value="TripleTOF 5600"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+      <PresetElement id="UNIMOD:259" ontologyName="Label:13C(6)15N(2)" value="Label:13C(6)15N(2) (K)"/>
+      <PresetElement id="UNIMOD:267" ontologyName="Label:13C(6)15N(4)" value="Label:13C(6)15N(4) (R)"/>
+      <PresetElement id="MOD:00046" ontologyName="O-phospho-L-serine" value="Phospho (S)"/>
+      <PresetElement id="MOD:00047" ontologyName="O-phospho-L-threonine" value="Phospho (T)"/>
+      <PresetElement id="MOD:00048" ontologyName="O4'-phospho-L-tyrosine" value="Phospho (Y)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Tomoya Niinae</Name>
+    <Affiliation>Kyoto university</Affiliation>
+    <PrincipalInvestigator>Yasushi Ishihama</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>forskolin, SILAC, HeLa,PKA</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000492903">
+      <Name>131116hi_02_a1.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492904">
+      <Name>131116hi_03_a2.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492905">
+      <Name>131019hi_02_01.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492906">
+      <Name>131019hi_03_02.wiff</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000492907">
+      <Name>131019hi_02_01.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492908">
+      <Name>131019hi_03_02.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492909">
+      <Name>131116hi_02_a1.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492910">
+      <Name>131116hi_03_a2.mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000492911">
+      <Name>F073169.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000492912">
+      <Name>F073170.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000492913">
+      <Name>F073776.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000492914">
+      <Name>F073777.mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software/>
+    </File>
+    <File id="f_0000531193">
+      <Name>131019hi_02_01.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000531194">
+      <Name>131019hi_03_02.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000531195">
+      <Name>131116hi_02_a1.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000531196">
+      <Name>131116hi_03_a2.wiff.scan</Name>
+      <Type>raw</Type>
+      <Profile plex="light">
+        <Sample id="S0000000479">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+          <title>HeLa cell_control</title>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="1">light</label>
+        </MS_mode>
+      </Profile>
+      <Profile plex="heavy">
+        <Sample id="S0000000478">
+          <title>HeLa cell_forskolin</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000567">HeLa cell</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000112">
+          <title>TiO2-phosphopeptide enrichment</title>
+          <subcellular/>
+          <protein/>
+          <peptide>TiO2</peptide>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000115">
+          <title>PSP score_forskolin</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <enzyme id="MS:1001309">Lys-C</enzyme>
+          <fixedModification id="UNIMOD:259" name="Label:13C(6)15N(2)">Label:13C(6)15N(2) (K)</fixedModification>
+          <fixedModification id="UNIMOD:267" name="Label:13C(6)15N(4)">Label:13C(6)15N(4) (R)</fixedModification>
+          <variableModification id="MOD:00046" name="O-phospho-L-serine">Phospho (S)</variableModification>
+          <variableModification id="MOD:00047" name="O-phospho-L-threonine">Phospho (T)</variableModification>
+          <variableModification id="MOD:00048" name="O4'-phospho-L-tyrosine">Phospho (Y)</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000111">
+          <title>PSP score_forskolin</title>
+          <instrument id="MS:1000932">TripleTOF 5600</instrument>
+          <instrumentMode>DDA-high res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Precursor ion stable isotope labeling</quantificationPlatform>
+          <plex>2</plex>
+          <note/>
+          <label id="2">heavy</label>
+        </MS_mode>
+      </Profile>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="1304333015">
+      <File id="f_0000492903" name="131116hi_02_a1.wiff" type="raw"/>
+      <File id="f_0000492909" name="131116hi_02_a1.mgf" type="peak"/>
+      <File id="f_0000492913" name="F073776.mzid" type="result"/>
+      <File id="f_0000531195" name="131116hi_02_a1.wiff.scan" type="raw"/>
+    </FileLinkage>
+    <FileLinkage id="1199925284">
+      <File id="f_0000492904" name="131116hi_03_a2.wiff" type="raw"/>
+      <File id="f_0000492910" name="131116hi_03_a2.mgf" type="peak"/>
+      <File id="f_0000492914" name="F073777.mzid" type="result"/>
+      <File id="f_0000531196" name="131116hi_03_a2.wiff.scan" type="raw"/>
+    </FileLinkage>
+    <FileLinkage id="3456234351">
+      <File id="f_0000492905" name="131019hi_02_01.wiff" type="raw"/>
+      <File id="f_0000492907" name="131019hi_02_01.mgf" type="peak"/>
+      <File id="f_0000492911" name="F073169.mzid" type="result"/>
+      <File id="f_0000531193" name="131019hi_02_01.wiff.scan" type="raw"/>
+    </FileLinkage>
+    <FileLinkage id="6719770922">
+      <File id="f_0000492906" name="131019hi_03_02.wiff" type="raw"/>
+      <File id="f_0000492908" name="131019hi_03_02.mgf" type="peak"/>
+      <File id="f_0000492912" name="F073170.mzid" type="result"/>
+      <File id="f_0000531194" name="131019hi_03_02.wiff.scan" type="raw"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>

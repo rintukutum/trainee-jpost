@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000352" formatVersion="1.0">
+  <Project id="JPST000352" pxid="" createdDate="2017-11-24" modifiedDate="2018-07-16" mode="partial" type="Gel electrophoresis" announced="true">
+    <Title>In-Depth Proteomic Profiling of the Normal Human Kidney Glomerulus</Title>
+    <Description>The kidney glomerulus plays a pivotal role in ultrafiltration of plasma into urine and also is the locus of kidney disease progressing to chronic renal failure. We have focused proteomic analysis on the glomerulus that is most proximal to the disease locus. In the present study, we aimed to provide a confident, in-depth profiling of the glomerulus proteome. The glomeruli were highly purified from the kidney cortex from a male, 68-year-old patient who underwent nephroureterectomy due to ureter carcinoma. The patient was normal in clinical examinations including serum creatinine and urea levels and liver function, and did not receive any chemotherapy and radiotherapy. The cortical tissue was histologically normal, and no significant deposition of immunoglobulins and complement C3 was observed. We employed a novel strategy of protein separation using 1D (SDS-PAGE) and 2D (solution-phase IEF in combination with SDS-PAGE) prefractionation prior to the shotgun analysis with LC-MS/MS. The protein prefractionation produced 90 fractions, and eventually provided a confident set of identified proteins consisting of 6686 unique proteins (3679 proteins with two or more peptide matches and 3007 proteins with one peptide match), representing 2966 distinct genes. All the identified proteins were annotated and classified in terms of molecular function and biological process, compiled into 1D and 2D protein arrays, consisting of 15 and 75 sections, corresponding to the protein fractions which were defined by MW and pI range, and deposited on a Web-based database (http://www.hkupp.org). The most remarkable feature of the glomerulus proteome was a high incidence of identification of cytoskeleton-related proteins, presumably reflecting the well-developed, cytoskeletal organization of glomerular cells related to their physiological functions.</Description>
+    <AnnouncementDate>2018-07-16</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument/>
+    <Modification/>
+  </presetSummary>
+  <Contact>
+    <Name>Daiki Kobayashi</Name>
+    <Affiliation>Kumamoto University</Affiliation>
+    <PrincipalInvestigator>Yamamoto Tadashi</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>human kidney, glomerulus, 2D protein prefractionation, solution-phase IEF, database</Keywords>
+    <PubMed>
+      <PubMedId>17711322</PubMedId>
+      <PubMedInfo>Miyamoto M, Yoshida Y, Taguchi I, Nagasaka Y, Tasaki M, Zhang Y, Xu B, Nameta M, Sezaki H, Cuellar LM, Osawa T, Morishita H, Sekiyama S, Yaoita E, Kimura K, Yamamoto T In-depth proteomic profiling of the normal human kidney glomerulus using two-dimensional protein prefractionation in combination with liquid chromatography-tandem mass spectrometry. J Proteome Res. 2007 Sep;6(9):3680-90</PubMedInfo>
+    </PubMed>
+  </Relation>
+  <FileList>
+    <File id="f_0000511355">
+      <Name>pr070203nsi20070410_050420.xls</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format/>
+      <Software/>
+    </File>
+    <File id="f_0000511356">
+      <Name>Yamamoto JPR 2007.tif</Name>
+      <Type>image</Type>
+      <Profile>
+        <Sample id="S0000000893">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000671">kidney</tissue>
+          <celltype/>
+          <disease/>
+          <note>Glomeruli were purified to apparent homogeneity as examined under a phase-contrast microscope. Kidney cortices with no apparent pathologic manifestations.</note>
+          <title>Kidney tissue</title>
+        </Sample>
+        <Fractionation id="F0000000202">
+          <subcellular replicate="">Whole</subcellular>
+          <protein fraction="5" replicate="">Solution-phase isoelectric focusing</protein>
+          <peptide replicate=""/>
+          <note> SDS-PAGE profiles of 1D and 2D protein prefractionation were shown with assigned sections, each of which corresponds to protein fractions separated by 1D and 2D prefractionation of glomerular proteins, and are defined with MW and pI range. The unfractionated total proteins (1D, fraction O) and the five fractions (2D, fractions A−E or F1−F5) separated by solution-phase IEF were loaded on 10% SDS-PAGE gels, electrophoresed for a distance of 6 cm, and stained with Coomassie Brilliant blue. It should be noted that some high-abundance proteins were confined to particular sections, which brought about a considerable reduction of complexity of protein mixture in other sections and would lead to efficient identification of low-abundance proteins.</note>
+          <protein fraction="15" replicate="">SDS-PAGE</protein>
+          <title>2D-fractionation of protein by IEF and SDS-PAGE</title>
+        </Fractionation>
+      </Profile>
+    </File>
+    <File id="f_0000511408">
+      <Name>Yamamoto JPR 2007_2.tif</Name>
+      <Type>image</Type>
+      <Profile>
+        <Sample id="S0000000893">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000671">kidney</tissue>
+          <celltype/>
+          <disease/>
+          <note>Glomeruli were purified to apparent homogeneity as examined under a phase-contrast microscope. Kidney cortices with no apparent pathologic manifestations.</note>
+          <title>Kidney tissue</title>
+        </Sample>
+        <Fractionation id="F0000000201">
+          <subcellular replicate="">Whole</subcellular>
+          <protein replicate="">Two dimensional gel electrophoresis</protein>
+          <peptide replicate=""/>
+          <note>Evaluation of sample fractionation with solution-phase IEF by two-dimensional gel electrophoresis (2-DE). A representative result is shown. After fractionation of glomerular proteins using solution-phase IEF to five fractions:  B, fraction 1 (pH 3−4.6); C, fraction 2 (pH 4.6−5.4); D, fraction 3 (pH 5.4−6.2); E, fraction 4 (pH 6.2−7.0); F, fraction 5 (pH 7.0−10.0), each of the fractionated sample (3 μg) was separated on 2-DE gels using IPG strips of pH 3−10 in the first dimensional IEF and 4−12% gradient gel in the second dimensional SDS-PAGE and stained with silver nitrate. Additionally, total protein sample without fractionation by solution-phase IEF was run as a reference (A, unfractionated).</note>
+          <title>Two dimensional gel electrophoresis</title>
+        </Fractionation>
+      </Profile>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

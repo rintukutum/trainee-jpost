@@ -1,0 +1,4162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000241" formatVersion="1.0">
+  <Project id="JPST000241" pxid="PXD006163" createdDate="2017-03-17" modifiedDate="2017-03-24" mode="partial" type="Mass spectrometry" announced="true">
+    <Title>Novel isozyme-specific quantitation method for alpha-amylases in human plasma revealed possible AMY2B induction by alpha amylase inhibitor, CS-1036</Title>
+    <Description> Quantitation of α-amylase isozymes in human plasma by combination of this starch affinity adsorption and MRM.</Description>
+    <AnnouncementDate>2018-03-24</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1001510" value="TSQ Vantage"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="MOD:01060" ontologyName="S-carboxamidomethyl-L-cysteine" value="Carbamidomethyl (C)"/>
+      <PresetElement id="" ontologyName="None" value="None"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Mayumi Hayashi</Name>
+    <Affiliation>Daiichi Sankyo RD Novare Co., Ltd.</Affiliation>
+    <PrincipalInvestigator>Kazuishi Kubota</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>MRM, Human plasma, alpha-amylases</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000493078">
+      <Name>V1111534.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493079">
+      <Name>V1111537.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493080">
+      <Name>V1110711.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493081">
+      <Name>V1110714.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493082">
+      <Name>V1110717.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493083">
+      <Name>V1110723.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493084">
+      <Name>V1110729.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493085">
+      <Name>V1110732.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493086">
+      <Name>V1110738.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493087">
+      <Name>V1110741.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493088">
+      <Name>V1110744.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493089">
+      <Name>V1110753.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493090">
+      <Name>V1110756.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493091">
+      <Name>V1110759.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493092">
+      <Name>V1110762.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493093">
+      <Name>V1110765.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493094">
+      <Name>V1110768.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493095">
+      <Name>V1110771.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493096">
+      <Name>V1110774.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493097">
+      <Name>V1110777.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493098">
+      <Name>V1110780.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493099">
+      <Name>V1110783.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493100">
+      <Name>V1110906.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493101">
+      <Name>V1111510.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493102">
+      <Name>V1110909.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493103">
+      <Name>V1111513.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493104">
+      <Name>V1110912.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493105">
+      <Name>V1111516.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493106">
+      <Name>V1110915.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493107">
+      <Name>V1111519.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493108">
+      <Name>V1110921.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493109">
+      <Name>V1111522.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493110">
+      <Name>V1110924.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493111">
+      <Name>V1111525.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493112">
+      <Name>V1110927.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493113">
+      <Name>V1111528.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493114">
+      <Name>V1110930.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493115">
+      <Name>V1111531.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493116">
+      <Name>V1110933.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493117">
+      <Name>V1110936.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493118">
+      <Name>V1110939.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493119">
+      <Name>V1110942.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493120">
+      <Name>V1110945.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493121">
+      <Name>V1110948.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493122">
+      <Name>V1110951.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493123">
+      <Name>V1110954.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493124">
+      <Name>V1110963.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493125">
+      <Name>V1110969.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493126">
+      <Name>V1110972.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493127">
+      <Name>V1110975.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493128">
+      <Name>V1110978.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493129">
+      <Name>V1111106.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493130">
+      <Name>V1111109.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493131">
+      <Name>V1111112.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493132">
+      <Name>V1111115.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493133">
+      <Name>V1111118.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493134">
+      <Name>V1111121.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493135">
+      <Name>V1111124.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493136">
+      <Name>V1111127.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493137">
+      <Name>V1111130.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493138">
+      <Name>V1111133.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493139">
+      <Name>V1111136.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493140">
+      <Name>V1111139.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493141">
+      <Name>V1111142.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493142">
+      <Name>V1111201.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493143">
+      <Name>V1111204.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493144">
+      <Name>V1111207.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493145">
+      <Name>V1111210.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493146">
+      <Name>V1111213.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493147">
+      <Name>V1111216.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493148">
+      <Name>V1111222.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493149">
+      <Name>V1111225.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493150">
+      <Name>V1111228.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493151">
+      <Name>V1111231.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493152">
+      <Name>V1111301.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493153">
+      <Name>V1111304.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493154">
+      <Name>V1111307.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493155">
+      <Name>V1111310.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493156">
+      <Name>V1111313.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493157">
+      <Name>V1111316.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493158">
+      <Name>V1111319.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493159">
+      <Name>V1111322.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493160">
+      <Name>V1111328.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493161">
+      <Name>V1111331.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493162">
+      <Name>V1111334.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493163">
+      <Name>V1111337.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493164">
+      <Name>V1111340.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493165">
+      <Name>V1111343.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493166">
+      <Name>V1111406.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493167">
+      <Name>V1111409.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493168">
+      <Name>V1111412.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493169">
+      <Name>V1111415.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493170">
+      <Name>V1111418.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493171">
+      <Name>V1111421.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493172">
+      <Name>V1111427.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493173">
+      <Name>V1111430.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493174">
+      <Name>V1111433.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493175">
+      <Name>V1111436.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493176">
+      <Name>V1111439.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493177">
+      <Name>V1111442.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493178">
+      <Name>V1111445.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493179">
+      <Name>V1111448.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493180">
+      <Name>V1111451.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493181">
+      <Name>V1111454.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493182">
+      <Name>V1111457.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493183">
+      <Name>V1111460.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493184">
+      <Name>V1111504.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493185">
+      <Name>V1111507.raw</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000000486">
+          <title>alpha-amylases in human plasma in a clinical trial of an alpha-amylase inhibitor (CS-1036)</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000131">blood plasma</tissue>
+          <celltype/>
+          <disease/>
+          <note/>
+        </Sample>
+        <Fractionation id="F0000000117">
+          <title>Starch affinity adsorption</title>
+          <subcellular>Whole</subcellular>
+          <protein>Starch affinity adsorption method</protein>
+          <peptide/>
+          <note/>
+        </Fractionation>
+        <Enzyme_Mod id="E0000000120">
+          <title>Trypsin digestion</title>
+          <enzyme id="MS:1001251">Trypsin</enzyme>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+          <fixedModification id="MOD:01060" name="S-carboxamidomethyl-L-cysteine">Carbamidomethyl (C)</fixedModification>
+          <variableModification id="None" name="">None</variableModification>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000118">
+          <title>TSQ Vantage</title>
+          <instrument id="MS:1001510">TSQ Vantage</instrument>
+          <instrumentMode>Target</instrumentMode>
+          <purpose>Absolute quantification</purpose>
+          <quantificationPlatform id="MS:1002007">target SRM transition</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000493186">
+      <Name>170324_AMY1A_result_all.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Quan Browser</Software>
+    </File>
+    <File id="f_0000493187">
+      <Name>170324_AMY2A_result_all.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Quan Browser</Software>
+    </File>
+    <File id="f_0000493188">
+      <Name>170324_AMY2B_result_all.xlsx</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>other</Format>
+      <Software>Quan Browser</Software>
+    </File>
+    <File id="f_0000493189">
+      <Name>170324_AMY_list.xlsx</Name>
+      <Type>other</Type>
+      <Profile/>
+    </File>
+  </FileList>
+  <AdditionalInformation/>
+</jPostDataset>

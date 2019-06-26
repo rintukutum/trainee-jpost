@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jPostDataset id="JPST000423" formatVersion="1.0">
+  <Project id="JPST000423" pxid="PXD009941" doi="10.6019/PXD009941" createdDate="2018-05-21" modifiedDate="2018-05-29" mode="complete" type="Mass spectrometry">
+    <Title>HumanLungCancer180521</Title>
+    <Description>Kato et al. Clinical and Translational Medicine (2015)4:24</Description>
+    <AnnouncementDate>2019-05-29</AnnouncementDate>
+  </Project>
+  <presetSummary>
+    <Species>
+      <PresetElement id="9606" value="Homo sapiens (Human)"/>
+    </Species>
+    <Instrument>
+      <PresetElement id="MS:1000556" value="LTQ Orbitrap XL"/>
+    </Instrument>
+    <Modification>
+      <PresetElement id="" ontologyName="unknown modification" value="none"/>
+      <PresetElement id="MOD:00719" ontologyName="L-methionine sulfoxide" value="Oxidation (M)"/>
+    </Modification>
+  </presetSummary>
+  <Contact>
+    <Name>Takeshi Kawamura</Name>
+    <Affiliation>Tokyo University</Affiliation>
+    <PrincipalInvestigator>Hiromasa Tojo</PrincipalInvestigator>
+  </Contact>
+  <Relation>
+    <Keywords>LungCancer</Keywords>
+    <PubMed/>
+  </Relation>
+  <FileList>
+    <File id="f_0000519548">
+      <Name>Sample01_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519549">
+      <Name>Sample01_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519550">
+      <Name>Sample01_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519551">
+      <Name>Sample02_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519552">
+      <Name>Sample02_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519553">
+      <Name>Sample02_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519554">
+      <Name>Sample03_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519555">
+      <Name>Sample03_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519556">
+      <Name>Sample03_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519557">
+      <Name>Sample04_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519558">
+      <Name>Sample04_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519559">
+      <Name>Sample04_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519560">
+      <Name>Sample05_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519566">
+      <Name>Sample08_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519567">
+      <Name>Sample08_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519568">
+      <Name>Sample08_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519569">
+      <Name>Sample09_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519570">
+      <Name>Sample09_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519571">
+      <Name>Sample09_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519572">
+      <Name>Sample07_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519573">
+      <Name>Sample07_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519574">
+      <Name>Sample07_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519580">
+      <Name>Sample05_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519581">
+      <Name>Sample05_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519582">
+      <Name>Sample06_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519583">
+      <Name>Sample06_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519584">
+      <Name>Sample06_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001030">
+          <title>Tumor</title>
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519585">
+      <Name>N02_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519586">
+      <Name>N02_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519587">
+      <Name>N03_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519588">
+      <Name>N03_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519589">
+      <Name>N03_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519590">
+      <Name>N01_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519591">
+      <Name>N01_02.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519592">
+      <Name>N01_03.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519593">
+      <Name>N02_01.RAW</Name>
+      <Type>raw</Type>
+      <Profile>
+        <Sample id="S0000001031">
+          <species id="9606">Homo sapiens (Human)</species>
+          <tissue id="BTO:0000763">lung</tissue>
+          <celltype/>
+          <disease>lung cancer</disease>
+          <note/>
+          <title>pseudo-Normal</title>
+        </Sample>
+        <Enzyme_Mod id="E0000000228">
+          <title>FFPE trypsin 180521</title>
+          <enzyme>semiTrypsin</enzyme>
+          <fixedModification id="none" name="">none</fixedModification>
+          <variableModification id="MOD:00719" name="L-methionine sulfoxide">Oxidation (M)</variableModification>
+          <taxonomy id="9606">Homo sapiens (Human)</taxonomy>
+          <note/>
+        </Enzyme_Mod>
+        <MS_mode id="M0000000228">
+          <instrument id="MS:1000556">LTQ Orbitrap XL</instrument>
+          <instrumentMode>DDA-low res.</instrumentMode>
+          <purpose>Relative quantification</purpose>
+          <quantificationPlatform>Spectra count</quantificationPlatform>
+          <plex>-</plex>
+          <note/>
+          <title>Orbitrap XL</title>
+        </MS_mode>
+      </Profile>
+    </File>
+    <File id="f_0000519594">
+      <Name>N01_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519595">
+      <Name>N01_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519596">
+      <Name>N01_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519597">
+      <Name>N02_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519598">
+      <Name>N02_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519599">
+      <Name>N02_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519600">
+      <Name>N03_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519601">
+      <Name>N03_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000519602">
+      <Name>N03_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520107">
+      <Name>Sample01_02_CID_[Node_03] (F036908).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520108">
+      <Name>Sample01_01_CID_[Node_03] (F036907).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520109">
+      <Name>Sample01_03_CID_[Node_03] (F036909).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520110">
+      <Name>Sample02_02_CID_[Node_03] (F036911).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520111">
+      <Name>Sample02_03_CID_[Node_03] (F036912).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520112">
+      <Name>Sample02_01_CID_[Node_03] (F036910).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520113">
+      <Name>Sample03_03_CID_[Node_03] (F036915).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520114">
+      <Name>Sample03_01_CID_[Node_03] (F036913).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520115">
+      <Name>Sample03_02_CID_[Node_03] (F036914).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520116">
+      <Name>Sample04_02_CID_[Node_03] (F036917).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520117">
+      <Name>Sample04_03_CID_[Node_03] (F036918).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520118">
+      <Name>Sample04_01_CID_[Node_03] (F036916).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520119">
+      <Name>Sample05_03_CID_[Node_03] (F036921).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520120">
+      <Name>Sample05_01_CID_[Node_03] (F036919).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520121">
+      <Name>Sample05_02_CID_[Node_03] (F036920).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520122">
+      <Name>Sample06_03_CID_[Node_03] (F036924).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520123">
+      <Name>Sample06_01_CID_[Node_03] (F036922).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520124">
+      <Name>Sample06_02_CID_[Node_03] (F036923).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520125">
+      <Name>Sample07_03_CID_[Node_03] (F036927).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520126">
+      <Name>Sample07_01_CID_[Node_03] (F036925).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520127">
+      <Name>Sample07_02_CID_[Node_03] (F036926).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520128">
+      <Name>Sample08_03_CID_[Node_03] (F036930).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520129">
+      <Name>Sample08_01_CID_[Node_03] (F036928).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520130">
+      <Name>Sample08_02_CID_[Node_03] (F036929).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520131">
+      <Name>Sample09_03_CID_[Node_03] (F036933).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520132">
+      <Name>Sample09_01_CID_[Node_03] (F036931).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520133">
+      <Name>Sample09_02_CID_[Node_03] (F036932).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520134">
+      <Name>N01_03_CID_[Node_03] (F036900).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520135">
+      <Name>N01_01_CID_[Node_03] (F036898).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520136">
+      <Name>N01_02_CID_[Node_03] (F036899).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520137">
+      <Name>N02_03_CID_[Node_03] (F036903).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520138">
+      <Name>N02_01_CID_[Node_03] (F036901).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520139">
+      <Name>N02_02_CID_[Node_03] (F036902).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520140">
+      <Name>N03_03_CID_[Node_03] (F036906).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520141">
+      <Name>N03_01_CID_[Node_03] (F036904).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520142">
+      <Name>N03_02_CID_[Node_03] (F036905).mzid</Name>
+      <Type>result</Type>
+      <Profile/>
+      <Format>mzIdentML</Format>
+      <Software>Mascot</Software>
+    </File>
+    <File id="f_0000520199">
+      <Name>Sample01_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520200">
+      <Name>Sample01_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520201">
+      <Name>Sample01_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520202">
+      <Name>Sample02_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520203">
+      <Name>Sample02_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520204">
+      <Name>Sample02_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520205">
+      <Name>Sample03_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520206">
+      <Name>Sample03_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520207">
+      <Name>Sample03_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520208">
+      <Name>Sample04_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520209">
+      <Name>Sample04_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520210">
+      <Name>Sample04_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520211">
+      <Name>Sample05_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520212">
+      <Name>Sample05_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520213">
+      <Name>Sample05_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520214">
+      <Name>Sample06_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520215">
+      <Name>Sample06_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520216">
+      <Name>Sample06_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520217">
+      <Name>Sample07_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520218">
+      <Name>Sample07_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520219">
+      <Name>Sample07_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520220">
+      <Name>Sample08_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520221">
+      <Name>Sample08_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520222">
+      <Name>Sample08_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520223">
+      <Name>Sample09_01_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520224">
+      <Name>Sample09_02_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+    <File id="f_0000520225">
+      <Name>Sample09_03_CID_[Node_03].mgf</Name>
+      <Type>peak</Type>
+      <Profile/>
+      <Format>MGF</Format>
+    </File>
+  </FileList>
+  <FileLinkageList>
+    <FileLinkage id="9818969126">
+      <File id="f_0000519548" name="Sample01_01.RAW" type="raw"/>
+      <File id="f_0000520108" name="Sample01_01_CID_[Node_03] (F036907).mzid" type="result"/>
+      <File id="f_0000520199" name="Sample01_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="4727094742">
+      <File id="f_0000519549" name="Sample01_02.RAW" type="raw"/>
+      <File id="f_0000520107" name="Sample01_02_CID_[Node_03] (F036908).mzid" type="result"/>
+      <File id="f_0000520200" name="Sample01_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="1138847265">
+      <File id="f_0000519550" name="Sample01_03.RAW" type="raw"/>
+      <File id="f_0000520109" name="Sample01_03_CID_[Node_03] (F036909).mzid" type="result"/>
+      <File id="f_0000520201" name="Sample01_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="6069596295">
+      <File id="f_0000519551" name="Sample02_01.RAW" type="raw"/>
+      <File id="f_0000520112" name="Sample02_01_CID_[Node_03] (F036910).mzid" type="result"/>
+      <File id="f_0000520202" name="Sample02_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="4871203332">
+      <File id="f_0000519552" name="Sample02_02.RAW" type="raw"/>
+      <File id="f_0000520110" name="Sample02_02_CID_[Node_03] (F036911).mzid" type="result"/>
+      <File id="f_0000520203" name="Sample02_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="9938391595">
+      <File id="f_0000519553" name="Sample02_03.RAW" type="raw"/>
+      <File id="f_0000520111" name="Sample02_03_CID_[Node_03] (F036912).mzid" type="result"/>
+      <File id="f_0000520204" name="Sample02_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="4247188386">
+      <File id="f_0000519554" name="Sample03_01.RAW" type="raw"/>
+      <File id="f_0000520114" name="Sample03_01_CID_[Node_03] (F036913).mzid" type="result"/>
+      <File id="f_0000520205" name="Sample03_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5527856643">
+      <File id="f_0000519555" name="Sample03_02.RAW" type="raw"/>
+      <File id="f_0000520115" name="Sample03_02_CID_[Node_03] (F036914).mzid" type="result"/>
+      <File id="f_0000520206" name="Sample03_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="9031965767">
+      <File id="f_0000519556" name="Sample03_03.RAW" type="raw"/>
+      <File id="f_0000520113" name="Sample03_03_CID_[Node_03] (F036915).mzid" type="result"/>
+      <File id="f_0000520207" name="Sample03_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5048651965">
+      <File id="f_0000519557" name="Sample04_01.RAW" type="raw"/>
+      <File id="f_0000520118" name="Sample04_01_CID_[Node_03] (F036916).mzid" type="result"/>
+      <File id="f_0000520208" name="Sample04_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="8293927031">
+      <File id="f_0000519558" name="Sample04_02.RAW" type="raw"/>
+      <File id="f_0000520116" name="Sample04_02_CID_[Node_03] (F036917).mzid" type="result"/>
+      <File id="f_0000520209" name="Sample04_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="7955205761">
+      <File id="f_0000519559" name="Sample04_03.RAW" type="raw"/>
+      <File id="f_0000520117" name="Sample04_03_CID_[Node_03] (F036918).mzid" type="result"/>
+      <File id="f_0000520210" name="Sample04_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5667129491">
+      <File id="f_0000519560" name="Sample05_01.RAW" type="raw"/>
+      <File id="f_0000520120" name="Sample05_01_CID_[Node_03] (F036919).mzid" type="result"/>
+      <File id="f_0000520211" name="Sample05_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="6703181179">
+      <File id="f_0000519566" name="Sample08_01.RAW" type="raw"/>
+      <File id="f_0000520129" name="Sample08_01_CID_[Node_03] (F036928).mzid" type="result"/>
+      <File id="f_0000520220" name="Sample08_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3831363976">
+      <File id="f_0000519567" name="Sample08_02.RAW" type="raw"/>
+      <File id="f_0000520130" name="Sample08_02_CID_[Node_03] (F036929).mzid" type="result"/>
+      <File id="f_0000520221" name="Sample08_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5885931840">
+      <File id="f_0000519568" name="Sample08_03.RAW" type="raw"/>
+      <File id="f_0000520128" name="Sample08_03_CID_[Node_03] (F036930).mzid" type="result"/>
+      <File id="f_0000520222" name="Sample08_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="8452084998">
+      <File id="f_0000519569" name="Sample09_01.RAW" type="raw"/>
+      <File id="f_0000520132" name="Sample09_01_CID_[Node_03] (F036931).mzid" type="result"/>
+      <File id="f_0000520223" name="Sample09_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5092789977">
+      <File id="f_0000519570" name="Sample09_02.RAW" type="raw"/>
+      <File id="f_0000520133" name="Sample09_02_CID_[Node_03] (F036932).mzid" type="result"/>
+      <File id="f_0000520224" name="Sample09_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3239876551">
+      <File id="f_0000519571" name="Sample09_03.RAW" type="raw"/>
+      <File id="f_0000520131" name="Sample09_03_CID_[Node_03] (F036933).mzid" type="result"/>
+      <File id="f_0000520225" name="Sample09_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="2906089779">
+      <File id="f_0000519572" name="Sample07_01.RAW" type="raw"/>
+      <File id="f_0000520126" name="Sample07_01_CID_[Node_03] (F036925).mzid" type="result"/>
+      <File id="f_0000520217" name="Sample07_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="9703639046">
+      <File id="f_0000519573" name="Sample07_02.RAW" type="raw"/>
+      <File id="f_0000520127" name="Sample07_02_CID_[Node_03] (F036926).mzid" type="result"/>
+      <File id="f_0000520218" name="Sample07_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="9674644526">
+      <File id="f_0000519574" name="Sample07_03.RAW" type="raw"/>
+      <File id="f_0000520125" name="Sample07_03_CID_[Node_03] (F036927).mzid" type="result"/>
+      <File id="f_0000520219" name="Sample07_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3976569329">
+      <File id="f_0000519580" name="Sample05_02.RAW" type="raw"/>
+      <File id="f_0000520121" name="Sample05_02_CID_[Node_03] (F036920).mzid" type="result"/>
+      <File id="f_0000520212" name="Sample05_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="3731580046">
+      <File id="f_0000519581" name="Sample05_03.RAW" type="raw"/>
+      <File id="f_0000520119" name="Sample05_03_CID_[Node_03] (F036921).mzid" type="result"/>
+      <File id="f_0000520213" name="Sample05_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="5201584109">
+      <File id="f_0000519582" name="Sample06_01.RAW" type="raw"/>
+      <File id="f_0000520123" name="Sample06_01_CID_[Node_03] (F036922).mzid" type="result"/>
+      <File id="f_0000520214" name="Sample06_01_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="2954795924">
+      <File id="f_0000519583" name="Sample06_02.RAW" type="raw"/>
+      <File id="f_0000520124" name="Sample06_02_CID_[Node_03] (F036923).mzid" type="result"/>
+      <File id="f_0000520215" name="Sample06_02_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="4684118491">
+      <File id="f_0000519584" name="Sample06_03.RAW" type="raw"/>
+      <File id="f_0000520122" name="Sample06_03_CID_[Node_03] (F036924).mzid" type="result"/>
+      <File id="f_0000520216" name="Sample06_03_CID_[Node_03].mgf" type="peak"/>
+    </FileLinkage>
+    <FileLinkage id="6413901181">
+      <File id="f_0000519585" name="N02_02.RAW" type="raw"/>
+      <File id="f_0000519598" name="N02_02_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520139" name="N02_02_CID_[Node_03] (F036902).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9040744507">
+      <File id="f_0000519586" name="N02_03.RAW" type="raw"/>
+      <File id="f_0000519599" name="N02_03_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520137" name="N02_03_CID_[Node_03] (F036903).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="8503936029">
+      <File id="f_0000519587" name="N03_01.RAW" type="raw"/>
+      <File id="f_0000519600" name="N03_01_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520141" name="N03_01_CID_[Node_03] (F036904).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="4940261288">
+      <File id="f_0000519588" name="N03_02.RAW" type="raw"/>
+      <File id="f_0000519601" name="N03_02_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520142" name="N03_02_CID_[Node_03] (F036905).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9711143083">
+      <File id="f_0000519589" name="N03_03.RAW" type="raw"/>
+      <File id="f_0000519602" name="N03_03_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520140" name="N03_03_CID_[Node_03] (F036906).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="9605183417">
+      <File id="f_0000519590" name="N01_01.RAW" type="raw"/>
+      <File id="f_0000519594" name="N01_01_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520135" name="N01_01_CID_[Node_03] (F036898).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="7612489120">
+      <File id="f_0000519591" name="N01_02.RAW" type="raw"/>
+      <File id="f_0000519595" name="N01_02_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520136" name="N01_02_CID_[Node_03] (F036899).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="3181774266">
+      <File id="f_0000519592" name="N01_03.RAW" type="raw"/>
+      <File id="f_0000519596" name="N01_03_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520134" name="N01_03_CID_[Node_03] (F036900).mzid" type="result"/>
+    </FileLinkage>
+    <FileLinkage id="2480902561">
+      <File id="f_0000519593" name="N02_01.RAW" type="raw"/>
+      <File id="f_0000519597" name="N02_01_CID_[Node_03].mgf" type="peak"/>
+      <File id="f_0000520138" name="N02_01_CID_[Node_03] (F036901).mzid" type="result"/>
+    </FileLinkage>
+  </FileLinkageList>
+  <AdditionalInformation/>
+</jPostDataset>
