@@ -24,17 +24,9 @@ for (dirpath, dirname, filenames) in os.walk("./xml"):
 
 doc = minidom.parse(xml_files[1])
 
-def extract_id_value_with_tagName(tagName,doc):
-    # tagName = 'Species'
-    x = doc.getElementsByTagName(tagName)[0].childNodes    
-    tagName_id = x.attributes.get('id').value
-    tagName_val = x.attributes.get('value').value
-    tagName_out = {'id': tagName_id, 'value': tagName_val}
-    return tagName_out
-
-def extract_id_value_with_Species(tagName,doc):
+def extract_id_value_with_Species(doc):
      tagName = 'Species'
-     y= doc.getElementsByTagName(tagName)[0].childNodes[1].childNodes
+     y = doc.getElementsByTagName(tagName)[0].childNodes[1]
      tagName_id=y.attributes.get('id').value
      tagName_val=y.attributes.get('value').value
      tagName_out={'id': tagName_id, 'value': tagName_val}
@@ -45,7 +37,7 @@ def extract_id_value_with_Species(tagName,doc):
 # not working for other tags 
 # fix it
 def extract_id_value_with_Instrument(tagName,doc):
-    tagName = 'Instrument'
+    #tagName = 'Instrument'
     y=doc.getElementsByTagName(tagName)[0].childNodes[1].childNodes
     tagName_id=y.attributes.get('id').value
     tagName_val=y.attributes.get('value').value
@@ -63,6 +55,8 @@ def extract_id_value_with_Modification(tagName,doc):
             tagName_out={'id': tagName_id, 'value': tagName_val}
     return tagName_out
 """            
+
+"""
 def extract_id_value_with_FileList(tagName,doc):
     tagName= 'FileList'
     el=[]
@@ -72,8 +66,20 @@ def extract_id_value_with_FileList(tagName,doc):
             tagName_id=el.attributes.get('id').value
             tagName_out={'id': tagName_id}
     return tagName_out
-    
-    
+"""    
+species = []
+for xml in xml_files:
+    doc = minidom.parse(xml)    
+    species.append(extract_id_value_with_Species(doc))
 
+
+# os.mkdir('./data')
+output = []
+output.append("ID,Species Name")    
+for entry in species:
+    output.append(entry['id'].encode('utf8') + ',' + entry['value'].encode('utf8'))
+
+fileout = open('./data/jPOST-species-info.csv','w')
+fileout.write('\n'.join(output))
+fileout.close()
 # Modification
-# FileList
